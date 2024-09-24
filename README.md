@@ -1,24 +1,46 @@
-# Draft Cardano Constitution Files
+# Cardano Constitution: Community Edition
 
-This repository holds copies of the Draft Cardano constitution, converted to different file formats.
+The goal of this fork of the Draft Cardano Constitution is to encourage and
+promote community contribution and feedback into the Constitution drafting
+process.
 
-This repository **should not** be considered the source of truth for the draft constitution.
+This forked version of the Draft Cardano Constitution was published by Intersect
+on July 29th, 2024 in alignment with the beginning of a large series of
+in-person workshops held around the world for the purpose of garnering feedback
+and discussion on various topics.
 
-For the latest version of the Draft Cardano Constitution please see
-- [Draft Cardano Constitution.pdf](https://844111662-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fo50OuflyxfUMOt8hHPn2%2Fuploads%2FSzoxtfkn8HdFCl2qp2qX%2FCardano%20Draft%20Constitution.pdf?alt=media&token=1ad5695f-8dd6-4907-aed4-c6610dff3d18)
+However, given:
 
-For further information please see:
- - [Draft Cardano Constitution on Intersect knowledge base](https://docs.intersectmbo.org/cardano/cardano-governance/cardano-constitution/draft-cardano-constitution)
- - [Constitution Workshops on Intersect knowledge base](https://intersect.gitbook.io/constitution)
+1. The workshops, being only single-day affairs, were necessarily scoped and
+   moderated rather heavily in order to generate constructive outputs.
+2. Even with 60+ workshops in 50+ countries, it's unlikely that every community
+   member who is interested in participating was able to attend an in-person
+   workshop
 
-### Navigation
+We feel that it is imperative to conduct a "virtual first" and asynchronous
+Constitutional Convention process in order to highlight and emphasize
+contributions from the rest of the community who may or may not have attended
+the in-person workshops.
 
-- [2024-07-29 Draft Markdown](./2024-07-29/2024-07-29-draft-consitution-converted.md)
-- [2024-07-29 Draft HTML](./2024-07-29/2024-07-29-draft-consitution-converted.html)
+## How to Participate
 
-### 🚨 **Disclaimer** 
+Please see the [Contribution Guide](CONTRIBUTING.md) for instructions in how to
+get involved!
 
-Please do not create pull requests with feedback on the draft constitution
+## License
 
-To provide feedback on the draft constitution please visit:
-- todo: add something here
+Given that the Cardano Constitution should be a long-lived and ever evolving
+document to help guide and govern the Community in the era of decentralized
+governance, no individual author attribution nor copyright should ever be placed
+within the body of the document. It is expected that all contributions of
+language to the document are being submitted into the Public Domain (PD) under
+the
+[Creative Commons CC0 1.0 International](https://creativecommons.org/publicdomain/zero/1.0/)
+license.
+
+## Original Sources
+
+Please refer to the original
+[Intersect Draft Constitution repository](https://github.com/IntersectMBO/draft-constitution)
+for the latest updates and information to the draft constitution based on the
+outputs of the Community Workshops.
