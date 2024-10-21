@@ -21,4 +21,4 @@ For further information please see:
 Please do not create pull requests with feedback on the draft constitution
 
 To provide feedback on the draft constitution please visit:
-- todo: add something here
+- [The Cardano Forum's Constitution Page](https://forum.cardano.org/c/governance/constitution/212)
