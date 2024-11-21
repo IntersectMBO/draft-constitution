@@ -16,10 +16,10 @@ For further information please see:
 - [2024-07-29](./2024-07-29/)
   - [Markdown](./2024-07-29/2024-07-29-draft-consitution-converted.md)
   - [HTML](./2024-07-29/2024-07-29-draft-consitution-converted.html)
-- [2024-11-21](./2024-11-21/)
-  - [Markdown](./2024-11-21/2024-11-21-draft-consitution-converted.md)
+- [2024-11-20](./2024-11-20/)
+  - [Markdown](./2024-11-20/2024-11-20-draft-consitution-converted.md)
 
-### 🚨 **Disclaimer** 
+### 🚨 **Disclaimer**
 
 Please do not create pull requests with feedback on the draft constitution.
 
