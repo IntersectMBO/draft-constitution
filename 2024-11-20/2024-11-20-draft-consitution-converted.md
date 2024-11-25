@@ -1,6 +1,6 @@
 `Draft 2024-11-20`
 
-## **FRAMING NOTES**
+## FRAMING NOTES
 
 These Framing Notes Are Not Considered To Be A Part Of This Constitution
 
@@ -12,7 +12,7 @@ By necessity, this Constitution recognizes the role of and empowers the Constitu
 
 The Constitution also recognizes the necessity of safeguarding access to and the use of funds of the Cardano treasury through the inclusion of the Cardano Guardrails in this Constitution.
 
-## **PREAMBLE**
+## PREAMBLE
 
 Cardano is a decentralized ecosystem of blockchain technology, smart contracts, and community governance, committed to improving economic, political, and social systems for everyone,everywhere. By offering this foundational infrastructure, Cardano empowers individuals and communities to manage their identity, value and governance, by fostering the emergence of decentralized applications, businesses and network states.
 
@@ -24,9 +24,9 @@ Recognizing the need for a more robust and dynamic governance framework, that ne
 
 With these purposes in mind, we the Cardano Community affirm our intention to abide by this Constitution in order to participate in the governance of the Cardano Blockchain ecosystem.We invite all who share our values to join us but stand not in the way of any who wish to take another path.
 
-## **ARTICLE I. CARDANO BLOCKCHAIN TENETS AND GUARDRAILS**
+## ARTICLE I. CARDANO BLOCKCHAIN TENETS AND GUARDRAILS
 
-### **Section 1**
+### Section 1
 
 These below Tenets shall guide all participants of he Cardano Community, including the Constitutional Committee, and proposed governance actions shall be evaluated in accordance with these Tenets.The order in which the below Tenets appear is not intended to represent a priority among Tenets.
 
@@ -52,57 +52,57 @@ TENET 9 All users of the Cardano Blockchain shall be treated equally, taking int
 
 TENET 10 Financial stability shall be maintained and the total supply of ada shall not exceed 45,000,000,000 (45,000,000,000,000,000 lovelace).
 
-### **Section 2**
+### Section 2
 
 The Cardano Blockchain shall operate in accordance with the Cardano Blockchain Guardrails as set forth in the Guardrails Appendix to this Constitution. The Cardano community may from time to time digitally codify certain Cardano Blockchain Guardrails such that such Cardano Blockchain Guardrails are directly programmed and implemented on the Cardano Blockchain using on-chain scripts or built-in ledger rules.
 
 In the event there are inconsistencies between a Cardano Blockchain Guardrail as set forth in the Guardrails Appendix and any such Cardano Blockchain Guardrail that has been programmed and implemented on the Cardano Blockchain, the version of such Cardano Blockchain Guardrail that has been deployed directly on the Cardano Blockchain shall prevail and the Constitutional Committee shall seek to reconcile such inconsistencies through the encouragement of an appropriate on-chain governance action.
 
-## **ARTICLE II. THE CARDANO BLOCKCHAIN COMMUNITY**
+## ARTICLE II. THE CARDANO BLOCKCHAIN COMMUNITY
 
-### **Section 1**
+### Section 1
 
 No formal membership shall be required to use, participate in and benefit from the Cardano Blockchain. Instead,all owners of ada, all developers of, all those building on, and all those otherwise supporting, maintaining or using the Cardano Blockchain are considered to be participants in the Cardano Community and are therefore recognized as beneficiaries of the Cardano Blockchain ecosystem. All participants in the Cardano Community are accordingly beneficiaries of this Constitution, entitled to its rights, privileges and protections and,as such,are expected to support and uphold this Constitution.
 
-### **Section 2**
+### Section 2
 
 Participants in the Cardano Community who own ada are entitled to access and participate in the on-chain decision-making processes of the Cardano Blockchain ecosystem,including
 
 voting and taking part in on-chain governance actions regarding the Cardano Blockchain.
 
-### **Section 3**
+### Section 3
 
 The Cardano Community has a responsibility to maintain the integrity of the Cardano Blockchain ecosystem by following this Constitution,operating the Cardano Blockchain,participating in Cardano Blockchain governance activities, and resolving disputes in a fair and transparent manner.
 
-### **Section 4**
+### Section 4
 
 The Cardano Community is entitled and encouraged through the provisions of this Constitution to collaborate in developing, maintaining and building applications for the Cardano Blockchain,and to form temporary and permanent organizations, associations and other entities as the Cardano Community deems desirable or appropriate in support of the Cardano Blockchain ecosystem.
 
-## **ARTICLE III. PARTICIPATORY AND DECENTRALIZED GOVERNANCE**
+## ARTICLE III. PARTICIPATORY AND DECENTRALIZED GOVERNANCE
 
-### **Section 1**
+### Section 1
 
 The Cardano Blockchain shall be governed by a decentralized, on-chain governance model,utilizing, to the extent possible and beneficial, smart contracts and other blockchain based tools to facilitate decision-making and ensure transparency. On-chain voting for governance actions shall follow the process outlined in the Cardano Blockchain Guardrails.
 
-### **Section 2**
+### Section 2
 
 Three independent governance bodies shall participate in voting for on-chain governance actions to provide checks and balances for the Cardano Blockchain consisting of Delegated Representatives (DReps), Stake Pool Operators (SPOs) and the Constitutional Committee (CC).
 
-### **Section 3**
+### Section 3
 
 On-chain governance decisions shall be made through a collective decision-making process, with specific consensus threshold requirements as required by the Cardano Blockchain Guardrails. All on-chain governance actions shall be voted upon in accordance with the Cardano Blockchain Guardrails.
 
-### **Section 4**
+### Section 4
 
 All owners of ada shall have the right to vote in on-chain governance action decision-making processes, subject to any restrictions or requirements provided for in this Constitution and the Cardano Blockchain Guardrails. All owners of ada shall have the right to propose changes to the governance structure of the Cardano Blockchain ecosystem in accordance with the Cardano Blockchain Guardrails. Owners of ada who use third-party custodians or other designees to hold
 
 their ada, may authorize, or may withhold authorization for, such third-parties to vote on their behalf.
 
-### **Section 5**
+### Section 5
 
 A special form of on-chain governance action, an “Info” action, exists to allow community sentiment to be gauged without committing to any on-chain change of the Cardano Blockchain."Info" actions have no on-chain effect other than to record the outcome of such a vote on the Cardano Blockchain.
 
-### **Section 6**
+### Section 6
 
 In order to promote transparency in the process of on-chain governance, prior to being recorded or enacted on-chain, all proposed governance actions are expected to follow a standardized and legible format including a URL and hash linked to documented off-chain content. Sufficient rationale shall be provided to justify the requested change to the Cardano Blockchain. The rationale shall include, at a minimum, a title, abstract, reason for the proposal, and relevant supporting materials.
 
@@ -112,11 +112,11 @@ The content of every on-chain governance action must be identical to the final o
 
 All owners of ada shall have the right to ensure that the process for participating in, submitting and voting on on-chain governance actions is open and transparent and is protected from undue influence and manipulation.
 
-### **Section 7**
+### Section 7
 
 The Cardano Community is expected to support the creation,maintenance and ongoing administration of off-chain governance processes as may be necessary to give effect to this Constitution and to ensure that there is awareness of and an opportunity to debate and shape all future governance actions for the Cardano Blockchain.
 
-### **Section 8**
+### Section 8
 
 The Cardano Community is expected to propose, not less than on an annual basis, a budget for the ongoing maintenance and future development of the Cardano Blockchain. All owners of ada are expected to periodically approve the Cardano Blockchain budget through an on-chain “Info action.”No withdrawals from the Cardano Blockchain treasury shall be permitted unless such withdrawals have been authorized and are being made pursuant to a budget for the
 
@@ -124,69 +124,69 @@ Cardano Blockchain that i then in effect as required by the Cardano Blockchain G
 
 Any governance action requesting ada from the Cardano Blockchain treasury shall require an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada. Contractual obligations governing the use of ada received from the Cardano Blockchain treasury pursuant to a Cardano budget shall include dispute resolution provisions.
 
-## **ARTICLE IV.DELEGATED REPRESENTATIVES**
+## ARTICLE IV.DELEGATED REPRESENTATIVES
 
-### **Section 1**
+### Section 1
 
 In order to participate in governance actions, owners of ada may register as DReps and directly vote on such governance actions or may delegate their voting rights to other registered DReps who shall vote on their behalf.
 
-### **Section 2**
+### Section 2
 
 Any owner of ada shall have the option to register as a DRep. Owners of ada shall be allowed to delegate their voting stake to one or more registered DReps, including themselves. DReps may be individuals or coordinated groups. Owners of ada who use third-party custodians or other designees to hold their ada, may authorize, or may withhold authorization for, such third-parties to delegate the voting rights of the ada owner to registered DReps on the owner's behalf. DReps are entitled to cast votes directly for on-chain governance actions and represent those ada owners delegating their voting rights to them.
 
 This voting system shall enshrine a liquid democracy model where owners of ada can seamlessly select among DReps,register as a DRep, and withdraw or change their delegation at any time.
 
-### **Section 3**
+### Section 3
 
 DReps acting on behalf of other ada owners are expected to periodically adopt, and update as they deem appropriate, codes of conduct governing their activities as DReps and make such codes of conduct publicly available. DReps are encouraged to include ethical guidelines in their codes of conduct.
 
-### **Section 4**
+### Section 4
 
 The Cardano Community is expected to support the creation, maintenance and ongoing administration of tools to enable owners of ada to explore and evaluate DRep candidates,
 
 access and evaluate DRep codes of conduct and select DReps on such criteria as they deem relevant.
 
-### **Section 5**
+### Section 5
 
 DReps acting on behalf of other ada owners may be compensated for their efforts. DReps shall ensure that any compensation received in connection with their activities as a DRep is disclosed.DReps may not pay compensation to an ada owner or to an owner's designee in exchange for being appointed a DRep by such ada owner or by its designee or for voting on behalf of such ada owner or its designee.
 
-## **ARTICLE V.STAKE POOL OPERATORS**
+## ARTICLE V.STAKE POOL OPERATORS
 
-### **Section 1**
+### Section 1
 
 SPOs shall have a specific role in approving critical on-chain governance actions which require additional oversight and independence, voting separately and independently from DReps as set forth in the Cardano Blockchain Guardrails. SPOs shall participate in hard fork initiation processes as the operators of the nodes that participate in Cardano Blockchain's consensus mechanism.
 
-### **Section 2**
+### Section 2
 
 SPOs shall act as a check on the power of the Constitutional Committee under exceptional circumstances by separately voting on "Motion of no-confidence" and "Update committee/threshold" governance actions, and on “Parameter Update” governance actions that affect security-critical parameters.
 
-### **Section 3**
+### Section 3
 
 SPOs are encouraged to periodically adopt, and update as they deem appropriate, codes of conduct governing their activities as SPOs and make such codes of conduct publicly available.SPOs are encouraged to include ethical guidelines in their codes of conduct.
 
-### **Section 4**
+### Section 4
 
 Owners of ada who are both SPOs and acting as DReps shall publicly disclose that they are participating in on-chain governance actions in both such capacities prior to exercising any on-chain governance rights.
 
-## **ARTICLE VI.CONSTITUTIONAL COMMITTEE**
+## ARTICLE VI.CONSTITUTIONAL COMMITTEE
 
-### **Section 1**
+### Section 1
 
 A Constitutional Committee shall be established as the branch of Cardano's on-chain governance process that ensures governance actions to be enacted on-chain are consistent with this
 
 Constitution. The Constitutional Committee shall comprise a set of owners of ada that is collectively responsible for ensuring that on-chain governance actions prior to enactment on chain,are constitutional. With limited exceptions as provided in this Constitution,the Constitutional Committee shall be limited to voting on the constitutionality of governance actions to be enacted on-chain. Constitutional Committee members are expected to have appropriate expertise to carry out their required responsibilities,considering their past contributions and involvement in the Cardano Blockchain ecosystem.
 
-### **Section 2**
+### Section 2
 
 The Constitutional Committee shall be composed of such number of members as shall be determined from time to time by owners of ada, as consistent with the Cardano Blockchain Guardrails, and as shall be sufficient to assure the ongoing integrity of the Cardano Blockchain.
 
 Members of the Constitutional Committee shall serve such term lengths as shall be determined from time to time by owners of ada as consistent with the minimum and maximum term lengths as set forth in the Cardano Blockchain Guardrails. To assure continuity in the operation of the Constitutional Committee, the terms for Constitutional Committee members shall be staggered.
 
-### **Section 3**
+### Section 3
 
 The Cardano Community shall establish and make public a process from time to time for election of members of the Constitutional Committee consistent with the requirements of the Cardano Blockchain Guardrails.
 
-### **Section 4**
+### Section 4
 
 No governance action, other than a "Motion of no-confidence," or "Update constitutional committee/threshold" may be implemented on-chain unless a requisite percentage as specified by the Guardrails of the members of the Constitutional Committee shall have first determined and affirmed through an on-chain action that such proposal does not violate this Constitution.
 
@@ -198,7 +198,7 @@ In the case of "Info" actions that propose a withdrawal from the Cardano treasur
 
 previously approved budget, Constitutional Committee members shall record a vote on-chain that sets forth their opinion as to whether such proposed withdrawal, if made in accordance with such“Info”action, would violate this Constitution.
 
-### **Section 5**
+### Section 5
 
 The Constitutional Committee shall be considered to be in one of the following two states at all times: a state of confidence or a state of no-confidence. In a state of no-confidence, members of the then standing Constitutional Committee must be reinstated or replaced using the "Update committee/threshold" governance action before any other on-chain governance action,other than“Info”actions, may go forward. During a state of no-confidence,“Info”actions other than “Info” actions relating to budget proposals or treasury withdrawal proposals, may continue to be recorded on-chain.
 
@@ -206,37 +206,37 @@ If a member of the Constitutional Committee is not carrying out its responsibili
 
 In the event of a "Motion of no-confidence” governance action to remove all members of the Constitutional Committee at the same time, that is approved by a requisite percentage as specified by the Guardrails of DReps and SPOs, upon implementation of the governance action,the Constitutional Committee shall be considered to be a state of no-confidence until such time as an election has been held either to reinstate the existing Constitutional Committee members in whole or in part, or to elect new Constitutional Committee members.
 
-### **Section 6**
+### Section 6
 
 Constitutional Committee processes shall be transparent. The Constitutional Committee shall publish each decision.When voting that a governance action proposed to be executed on-chain is unconstitutional, the Constitutional Committee collectively, or each member of the Constitutional Committee casting such a vote separately, shall set forth the basis for its decision with reference to specific Articles of this Constitution or provisions of the Guardrails Appendix that are in conflict with a given proposal. Internal deliberation among members of the Constitutional Committee, prior to casting votes, are not required to be publicly disclosed.
 
 The Constitutional Committee shall operate pursuant to a code of conduct periodically adopted and published by the Constitutional Committee. The Constitutional Committee is encouraged to include ethical guidelines in its code of conduct.The Constitutional Committee shall periodically adopt and publish such policies and procedures as the Constitutional Committee shall deem necessary in carrying out its duties.
 
-## **Section 7**
+## Section 7
 
 The Cardano Community is expected to support the creation, maintenance and ongoing administration of tools as may be necessary and appropriate for the Constitutional Committee to perform its required functions.
 
-### **Section 8**
+### Section 8
 
 Constitutional Committee members may be compensated for their efforts as members of the Constitutional Committee. Constitutional Committee members shall ensure that any compensation received in connection with their activities as a member is disclosed. Budgets approved for the Cardano Blockchain may include allocations from the Cardano Blockchain treasury sufficient to compensate Constitutional Committee members in such amounts as may be approved from time to time by ada owners and shall provide for periodic administrative costs of the Constitutional Committee in such amounts as requested from time to time by the Constitutional Committee and as approved by ada owners.
 
-## **ARTICLE VII. AMENDMENTS**
+## ARTICLE VII. AMENDMENTS
 
-### **Section 1**
+### Section 1
 
 This Constitution should be treated as a living document. Technical advancements, changes in the desires,needs and expectations of the Cardano Community, and unforeseen circumstances may give rise to the need in the future to amend this Constitution. The Cardano Community is encouraged to periodically review and debate the provisions of this Constitution, and when so desired,come together in such forums as the Cardano Community may deem appropriate, to propose amendments to this Constitution. Amendments may be made as provided in this Article VII.
 
-### **Section 2**
+### Section 2
 
 Except as otherwise so provided in the Cardano Blockchain Guardrails Appendix, amendments to this Constitution, including to the Cardano Blockchain Guardrails Appendix,shall be approved by a collective decision-making process, requiring an on-chain governance action by owners of ada satisfying a threshold of not less than 67% of the then active voting stake.
 
-### **Section 3**
+### Section 3
 
 If the Cardano Blockchain Guardrails Appendix sets forth an amendment threshold for a Cardano Blockchain Guardrail that is different than the amendment threshold contained in Section 2 of this Article VII,then the threshold set forth in the Cardano Blockchain Guardrails Appendix for such Cardano Blockchain Guardrail shall apply.
 
-## **APPENDIX I: CARDANO BLOCKCHAIN GUARDRAILS**
+## APPENDIX I: CARDANO BLOCKCHAIN GUARDRAILS
 
-### **1.INTRODUCTION**
+### 1.INTRODUCTION
 
 To implement Cardano Blockchain on-chain governance, it is necessary to establish sensible guardrails that will enable the Cardano Blockchain to continue to operate in a secure and sustainable way.
 
@@ -252,11 +252,11 @@ While the guardrails in this Appendix presently reflect the current state of tec
 
 Additional guardrails may also be needed where, for example,new protocol parameters are introduced.
 
-#### **Amending, Adding or Deprecating Guardrails**
+#### Amending, Adding or Deprecating Guardrails
 
 The guardrails set forth in this Appendix may be amended from time to time pursuant to an on chain governance action that satisfies the applicable voting threshold as set forth in this Appendix. Any such amendment to any guardrails shall require and be deemed to be an amendment to the Constitution itself, including any new guardrails. Each guardrail has a unique label. If the text of a guardrail is amended, the existing guardrail will be deprecated and a new label will be used in this Appendix. Similarly, if a guardrail is completely deprecated, its label will never be reused in the future. In all cases, the guardrails that apply to a governance action will be those in force at the time that the governance action is submitted on chain, regardless of any later amendments.
 
-#### **Terminology and Guidance**
+#### Terminology and Guidance
 
 **Should/Should not.**Where this Appendix says that a value "should not" be set below or above some value, this means that the guardrail is a recommendation or guideline, and the specific value could be open to discussion or alteration by a suitably expert group recognized by the Cardano community in light of experience with the Cardano Blockchain governance system or the operation of the Cardano Blockchain.
 
@@ -281,7 +281,7 @@ The guardrails set forth in this Appendix may be amended from time to time pursu
 
 **Future Performance Requirements.** Planned development such as new mechanisms for out of memory storage may impact block diffusion or other times. When changing parameters, it is necessary to consider these future performance requirements as well as the current operation of the Cardano Blockchain. Until development is complete, the requirements will be conservative but may then be relaxed to account for actual timing behavior.
 
-#### **Automated Checking ("Guardrails Script")**
+#### Automated Checking ("Guardrails Script")
 
 A script hash is associated with the constitution hash when a **New Constitution or Guardrails Script** governance action is enacted. It acts as an additional safeguard to the ledger rules and types,filtering non-compliant governance actions.
 
@@ -292,7 +292,7 @@ The guardrails script only affects two types of governance actons:
 
 The script is executed when either of these types of governance action is submitted on-chain.This avoids scenarios where, for example, an erroneous script could prevent the chain from ever enacting a Hard Fork action, resulting in deadlock. There are three different situations that apply to script usage.
 
-#### **Symbol and Explanation**
+#### Symbol and Explanation
 
 * (y) The script can be used to enforce the guardrail.  
 * (x) The script cannot be used to enforce the guardrail.  
@@ -304,23 +304,23 @@ Where a parameter is not explicitly listed in this document, then the script **m
 
 Conversely,where a parameter is explicitly listed in this document but no checkable guardrails are specified, the script **must not** imposes any constraints on changes to the parameter.
 
-## **2.GUARDRAILS AND GUIDELINES ON PROTOCOL PARAMETER UPDATE ACTIONS**
+## 2.GUARDRAILS AND GUIDELINES ON PROTOCOL PARAMETER UPDATE ACTIONS
 
 Below are guardrails and guidelines for changing updatable protocol parameter settings via the protocol parameter update governance action such that the Cardano Blockchain is never in an unrecoverable state as a result of such changes.
 
 Note that, to avoid ambiguity, this Appendix uses the parameter name that is used in protocol parameter update governance actions rather than any other convention.
 
-#### **Guardrails**
+#### Guardrails
 
 PARAM-01(y)Any protocol parameter that is not explicitly named in this document**must not** be changed by a Parameter update governance action
 
 PARAM-02 (y) Where a protocol parameter is explicitly listed in this document but no checkable guardrails are specified, the guardrails script **must not** impose any constraints on changes to the parameter. Checkable guardrails are shown by a (y)
 
-### **2.1. Critical Protocol Parameters**
+### 2.1. Critical Protocol Parameters
 
 The below protocol parameters are critical from a security point of view.
 
-#### **Parameters that are Critical to the Operation of the Blockchain**
+#### Parameters that are Critical to the Operation of the Blockchain
 
 * *maximum block body size*(*maxBlockBodySize*)  
 * *maximum transaction size* (*maxTxSize*)  
@@ -338,32 +338,32 @@ The below protocol parameters are critical from a security point of view.
 
 * (*govDeposit*)
 
-#### **Guardrails**
+#### Guardrails
 
 PARAM-03 (y) Critical protocol parameters require an SPO vote in addition to a DRep vote:SPOs**must**say$^ { prime prime } y e s ^ { prime prime }$with a collective support of more than 50% of all active block production stake. This is enforced by the guardrails on the stake pool voting threshold.
 
 PARAM-04(x)At least 3 months **should** normally pass between the publication of an off chain proposal to change a critical protocol parameter and the submission of the corresponding on-chain governance action. This guardrail may be relaxed in the event of a Severity 1 or Severity 2 network issue following careful technical discussion and evaluation.
 
-#### **Parameters that are Critical to the Gvernance System**
+#### Parameters that are Critical to the Gvernance System
 
 * *delegation key Lovelace deposit*(*stakeAddressDeposit*)  
 * *pool registration Lovelace deposit* (*stakePoolDeposit*)  
 * *minimum fixed rewards cut for pools* (*minPoolCost*)
 
-#### **DRep deposit amount*(*dRepDeposit*)**
+#### DRep deposit amount*(*dRepDeposit*)
 
 * *minimal Constitutional Committee size*(*committeeMinSize*)  
 * *maximum term length (in epochs) for the Constitutional Committee members*
 
 (*committeeMaxTermLength*)
 
-#### **Guardrails**
+#### Guardrails
 
 PARAM-05(y)DReps **must**vote$^ { prime prime } y e ^ { prime prime }$with a collective support of more than 50% of all active voting stake. This is enforced by the guardrails on the DRep voting thresholds.
 
 PARAM-06 (x) At least 3 months **should** normally pass between the publication of an off chain proposal to change a parameter that is critical to the governance system and the submission of the corresponding on-chain governance action. This guardrail may be relaxed in the event of a Severity 1 or Severity 2 network issue following careful technical discussion and evaluation.
 
-### **2.2. Economic Parameters**
+### 2.2. Economic Parameters
 
 The overall goals when managing economic parameters are to:
 
@@ -372,14 +372,14 @@ The overall goals when managing economic parameters are to:
 * Ensure that ada holders are adequately rewrded for using stake in constructive ways,including when delegating ada for block production; and  
 * Balance economic incentives for different Cardano Blockchain ecosystem stakeholders, including but not limited to Stake Pool Operators, ada holders, DeFi users,infrastructure users, developers (e.g. DApps) and financial intermediaries (e.g.exchanges)
 
-#### **Triggers for Change**
+#### Triggers for Change
 
 * Significant changes in the fiat value of ada resulting in potential problems with security, performance, functionality or long-term sustainability  
 * Changes in transaction volumes or types  
 * Community requests or suggestins  
 * Emergency situations that require changes to economic parameters
 
-#### **Counter-indicators**
+#### Counter-indicators
 
 Changes to the economic parameters should not be made in isolation. They need to account for:
 
@@ -387,14 +387,14 @@ Changes to the economic parameters should not be made in isolation. They need to
 
 * Network security concerns
 
-#### **Core Metrics**
+#### Core Metrics
 
 * Fiat value of ada resulting in potential problems with security,performance, functionality or long-term sustainability  
 * Transaction volumes and types  
 * Number and health of stake pools  
 * External economic factors
 
-#### **Changes to Specific Economic Parameters**
+#### Changes to Specific Economic Parameters
 
 Transaction fee per byte (txFeePerByte) and fixed transaction fee (txFeeFixed)
 
@@ -402,7 +402,7 @@ Defines the cost for basic transactions in Lovelace:
 
 *fee(tx) =txFeeFixed+ txFeePerByte x nBytes(tx)*
 
-#### **Guardrails**
+#### Guardrails
 
 TFPB-01(y)*txFeePerByte* **must not** be lower than 30 (0.000030 ada)
 
@@ -428,7 +428,7 @@ TFGEN-01$( x - ^ { prime prime } s h o u l d ^ { prime prime } )$To maintain a c
 
 TFGEN-02 (x-unquantifiable) Any changes to *txFeeFixed*or*txFeeFixed***must**consider the implications of reducing the cost of a denial-of-service attack or increasing the maximum transaction fee so that it becomes impossible to construct a transaction.
 
-#### **UTxO cost per byte (utxoCostPerByte)**
+#### UTxO cost per byte (utxoCostPerByte)
 
 Defines the deposit (in Lovelace) that is charged for each byte of storage that is held in a UTxO.This deposit is returned when the UTxO is no longer active.
 
@@ -439,7 +439,7 @@ DoS protection decreases in line with the free node memory (proportional to UTxO
 
 -Helps reduce long term storage costs for node users by providing an incentive to return UTxOs when no longer needed, or to merge UTxOs.
 
-#### **Guardrails**
+#### Guardrails
 
 UCPB-01(y)*utxoCostPerByte* **must not** be lower than 3,000 (0.003 ada)
 
@@ -461,7 +461,7 @@ iv) The sizes of UTxOs and
 
 v) The current total node memory usage
 
-#### **Stake address deposit (stakeAddressDeposit)**
+#### Stake address deposit (stakeAddressDeposit)
 
 Ensures that stake addresses are retired when no longer needed
 
@@ -470,7 +470,7 @@ Ensures that stake addresses are retired when no longer needed
 
 The rationale for the deposit is to incentivize that scarce memory resources are returned when they are no longer required. Reducing the number of active stake addresses also reduces processing and memory costs at the epoch boundary when calculating stake snapshots.
 
-#### **Guardrails**
+#### Guardrails
 
 SAD-01(y)*stakeAddressDeposit* **must not** be lower than 1,000,000 (1 ada)
 
@@ -486,7 +486,7 @@ Ensures that stake pools are retired by the stake pool operator when no longer n
 
 The rationale for the deposit is to incentivize that scarce memory resources are returned when they are no longer required. Rewards and stake snapshot calculations are also impacted by the number of active stake pools.
 
-#### **Guardrails**
+#### Guardrails
 
 SPD-01(y)*stakePoolDeposit* **must not** be lower than 250,000,000 (250 ada)
 
@@ -500,7 +500,7 @@ Part of the rewards mechanism
 
 * The minimum pool cost is transferred to the pool rewards address before any delegator rewards are paid
 
-#### **Guardrails**
+#### Guardrails
 
 MPC-01(y)*minPoolCost* **must not**be negative
 
@@ -508,7 +508,7 @@ MPC-02(y)*minPoolCost* **must not**exceed 500,000,000 (500 ada)
 
 MPC-03 (x -"should") *minPoolCost* **should** be set in line with the economic cost for operating a pool
 
-#### **Treasuy Cut (treasuryCut)**
+#### Treasuy Cut (treasuryCut)
 
 Part of the rewards mechanism
 
@@ -516,7 +516,7 @@ Part of the rewards mechanism
 
 * Can be set in the range 0.0-1.0 (0%-100%)
 
-#### **Guardrails**
+#### Guardrails
 
 TC-01 (y) *treasuryCut* **must not** be lower than 0.1(10%)
 
@@ -528,7 +528,7 @@ TC-04 (y) *treasuryCut* **must not** exceed 1.0(100%)
 
 TC-05 (~-no access to change history) *treasuryCut* **must not** be changed more than once in any 36 epoch period (approximately 6 months)
 
-#### **Monetary Expansion Rate (monetaryExpansion)**
+#### Monetary Expansion Rate (monetaryExpansion)
 
 Part of the rewards mechanism
 
@@ -540,7 +540,7 @@ Governs the long-term sustainability of Cardano
 
 * The reserves are gradually depleted until no rewards are supplied
 
-#### **Guardrails**
+#### Guardrails
 
 ME-01 (y)*monetaryExpansion***must not** exceed 0.005
 
@@ -560,7 +560,7 @@ Gives an economic return for Plutus script execution
 
 Provides security against low-cost DoS attacks
 
-#### **Guardrails**
+#### Guardrails
 
 EIUP-PS-01(y)*executionUnitPrices[priceSteps]* **must not** exceed 2,000/10,000,000
 
@@ -584,7 +584,7 @@ Transaction fee per byte for a reference script (minFeeRefScriptCoinsPerByte)
 
 Defines the cost for using Plutus reference scripts in Lovelace
 
-#### **Guardrails**
+#### Guardrails
 
 MFRS-01(y)*minFeeRefScriptCoinsPerByte***must not** exceed 1,000(0.001 ada)
 
@@ -596,7 +596,7 @@ MFRS-03(x -"should") To maintain a consistent level of protection against denial
 
 MFRS-04 (x - unquantifiable) Any changes to *minFeeRefScriptCoinsPerByte'***must**consider the implications of reducing the cost of a denial-of-service attack or increasing the maximum transaction fee
 
-### **2.3.Network Parameters**
+### 2.3.Network Parameters
 
 The overall goals when managing the Cardano Blockchain network parameters are to:
 
@@ -604,7 +604,7 @@ The overall goals when managing the Cardano Blockchain network parameters are to
 
 * Balance traffic demands for different user groups, including payment transactions,minters of Fungible/Non-Fungible Tokens, Plutus scripts, DeFi developers, Stake Pool Operators and voting transactions
 
-#### **Triggers for Change**
+#### Triggers for Change
 
 Changes to network parameters may be triggered by:
 
@@ -621,7 +621,7 @@ Changes may need to be reversed and/or should not be enacted in the event of:
 * Stake pools being unable to handle traffic volume  
 * Scripts being unable to complete execution
 
-#### **Core Metrics**
+#### Core Metrics
 
 All decisions on parameter changes should be informed by:
 
@@ -633,7 +633,7 @@ All decisions on parameter changes should be informed by:
 
 Detailed benchmarking results are required to confirm the effect of any changes on mainnet performance or behavior prior to enactment. The effects of different transaction mixes must be analyzed, including normal transactions, Plutus scripts, and governance actions.
 
-#### **Guardrails**
+#### Guardrails
 
 NETWORK-01(x - "should") No individual network parameter **should** change more than once per two epochs
 
@@ -645,7 +645,7 @@ Block Size (maxBlockBodySize)
 
 The maximum size of a block,in Bytes.
 
-#### **Guardrails**
+#### Guardrails
 
 MBBS-01(y) *maxBlockBodySize****must not**exceed 122,880 Bytes (120KB)
 
@@ -663,11 +663,11 @@ MBBS-07(x - "unquantifiable") The impact of any change to *maxBlockBodySize* **m
 
 (*maxBlockExecutionUnits[steps]*)against the total block diffusion target of 3s with 95%block propagation within 5s. The limit on maximum block size may be increased in the future if this is supported by benchmarking and monitoring results
 
-#### **TransactionSize(maxTxSize)**
+#### TransactionSize(maxTxSize)
 
 The maximum size of a transaction, in Bytes.
 
-#### **Guardrails**
+#### Guardrails
 
 MTS-01 (y) *maxTxSize* **must not**exceed 32,768 Bytes (32KB)
 
@@ -685,7 +685,7 @@ Memory Unit Limits(maxBlockExecutionUnits[memory], maxTxExecutionUnits[memory])
 
 The limit on the maximum number of memory units that can be used by Plutus scripts, either per-transaction or per-block.
 
-#### **Guardrails**
+#### Guardrails
 
 MTEU-M-01(y)*maxTxExecutionUnits[memory]***must not** exceed 40,000,000 units
 
@@ -713,7 +713,7 @@ CPU Unit Limits (maxBlockExecutionUnits[steps].maxTxExecutionUnits[steps])
 
 The limit on the maximum number of CPU steps that can be used by Plutus scripts, either per transaction or per-block.
 
-#### **Guardrails**
+#### Guardrails
 
 MTEU-S-01 (y)*maxTxExecutionUnits[steps]* **must not** exceed 15,000,000,000(15Bn)units
 
@@ -735,11 +735,11 @@ MBEU-S-04a (x-unquantifiable) The impact of the change to
 
 MEU-S-01 (~-no access to existing parameter values) *maxBlockExecutionUnits[steps]***must not**be less than *maxTxExecutionUnits[steps]*
 
-#### **Block Header Size (maxBlockHeaderSize)**
+#### Block Header Size (maxBlockHeaderSize)
 
 The size of the block header.
 
-#### **Guardrails**
+#### Guardrails
 
 MBHS-01 (y) *maxBlockHeaderSize* **must not**exceed 5,000 Bytes
 
@@ -751,7 +751,7 @@ MBHS-04 (x - "should") *maxBlockHeaderSize* **should** only normally be increase
 
 MBHS-05 (x - "should") *maxBlockHeaderSize* **should** be within TCP's initial congestion window (3 or 10 MTUs)
 
-### **2.4.Technical/Security Parameters**
+### 2.4.Technical/Security Parameters
 
 The overall goals when managing the technical/security parameters are:
 
@@ -759,25 +759,25 @@ The overall goals when managing the technical/security parameters are:
 
 2.Enable changes to the Plutus language
 
-#### **Triggers for Change**
+#### Triggers for Change
 
 * Changes in the number of active SPOs  
 * Changes to the Plutus language  
 * Security threats  
 * Community requests
 
-#### **Counter-indicators**
+#### Counter-indicators
 
 * Economic concerns, e.g. when changing the number of stake pools
 
-#### **Core Metrics**
+#### Core Metrics
 
 * Number of stake pools  
 * Level of decentralization
 
-#### **Changes to Specific Technical/Security Parameters**
+#### Changes to Specific Technical/Security Parameters
 
-#### **Target Number of Stake Pools (stakePoolTargetNum)**
+#### Target Number of Stake Pools (stakePoolTargetNum)
 
 Sets the target number of stake pools
 
@@ -786,7 +786,7 @@ Sets the target number of stake pools
 * Has an economic effect as well as a security affect-economic advice is also required when changing this parameter  
 * Large changes in this parameter will trigger mass redelegation events
 
-#### **Guardrails**
+#### Guardrails
 
 SPTN-01 (y) *stakePoolTargetNum* **must not** be lower than 250
 
@@ -806,7 +806,7 @@ Provides protection against Sybil attack
 
 Has an economic effect as well as technical effect - economic advice is also required
 
-#### **Guardrails**
+#### Guardrails
 
 PPI-01(y) *poolPledgeInfluence* **must not** be lower than 0.1
 
@@ -816,17 +816,17 @@ PPI-03 (y) *poolPledgeInfluence* **must not** be negative
 
 PPI-04 (x-"should") *poolPledgeInfluence* **should not** vary by more than +/-10% in any 18-epoch period (approximately 3 months)
 
-#### **Pool Retirement Window (poolRetireMaxEpoch)**
+#### Pool Retirement Window (poolRetireMaxEpoch)
 
 Defines the maximum number of epochs notice that a pool can give when planning to retire
 
-#### **Guardrails**
+#### Guardrails
 
 PRME-01 (y) *poolRetireMaxEpoch* **must not** be negative
 
 PRME-02 (x - "should") *poolRetireMaxEpoch* **should not** be lower than 1
 
-#### **Collateral Percentage (collateralPercentage)**
+#### Collateral Percentage (collateralPercentage)
 
 Defines how much collateral must be provided when executing a Plutus script as a percentage of the normal execution cost
 
@@ -836,7 +836,7 @@ Defines how much collateral must be provided when executing a Plutus script as a
 
 Provides security against low-cost attacks by making it more expensive rather than less expensive to execute failed scripts
 
-#### **Guardrails**
+#### Guardrails
 
 CP-01 (y) *collateralPercentage* **must not** be lower than 100
 
@@ -850,7 +850,7 @@ Maximum number of collateral inputs (maxCollateralInputs)
 
 Defines the maximum number of inputs that can be used for collateral when executing a Plutus script
 
-#### **Guardrails**
+#### Guardrails
 
 MCI-01 (y)*maxCollateralInputs* **must not** be lower than 1
 
@@ -858,7 +858,7 @@ Maximum Value Size (maxValueSize)
 
 The limit on the serialized size of the Value in each output.
 
-#### **Guardrails**
+#### Guardrails
 
 MVS-01(y)*max ValueSize* **must not** exceed 12,288 Bytes (12KB)
 
@@ -876,7 +876,7 @@ Define the base costs for each Plutus primitive in terms of CPU and memory unit
 
 A different cost model is required for each Plutus version. Each cost model comprises many distinct cost model values. Cost models are defined for each Plutus language version. A new language version may introduce additional cost model values or remove existing cost model values.
 
-#### **Guardrails**
+#### Guardrails
 
 PCM-01 (x-unquantifiable) *Cost model* values **must** be set by benchmarking on a reference architecture
 
@@ -902,7 +902,7 @@ Changes to governance parameters may be triggered by:
 * Unexpected or unwanted governance outcomes  
 * Entering a state of no confidence
 
-#### **Counter-indicators**
+#### Counter-indicators
 
 Changes may need to be reversed and/or should not be enacted in the event of:
 
@@ -913,7 +913,7 @@ Changes may need to be reversed and/or should not be enacted in the event of:
 
 actions
 
-#### **Core Metrics**
+#### Core Metrics
 
 All decisions on parameter changes should be informed by:
 
@@ -925,13 +925,13 @@ All decisions on parameter changes should be informed by:
 
 Changes to Specific Governance Parameters
 
-#### **Deposit for Governance Actions (govDeposit)**
+#### Deposit for Governance Actions (govDeposit)
 
 The deposit that is charged when submitting a governance action.
 
 * Helps to limit the number of actions that are submitted
 
-#### **Guardrails**
+#### Guardrails
 
 GD-01 (y) *govDeposit* **must not** be negative
 
@@ -943,13 +943,13 @@ ada)
 
 GD-04(x - "should") *govDeposit* **should** be adjusted in line with fiat changes
 
-#### **Deposit for DReps (dRepDeposit)**
+#### Deposit for DReps (dRepDeposit)
 
 The deposit that is charged when registering a DRep.
 
 * Helps to limit the number of active DReps
 
-#### **Guardrails**
+#### Guardrails
 
 DRD-01 (y)*dRepDeposit* **must not** be negative
 
@@ -963,7 +963,7 @@ DRep Activity Period (dRepActivity)
 
 The period (as a whole number of epochs) after which a DRep is considered to be inactive for vote calculation purposes, if they do not vote on any proposal.
 
-#### **Guardrails**
+#### Guardrails
 
 DRA-01(y)*dRepActivity***must not** be lower than 13 epochs (2 months)
 
@@ -1004,7 +1004,7 @@ The threshold parameters are listed below:
 * *pvtMotionNoConfidence*  
 * *pvtPPSecurityGroup*
 
-#### **Guardrails**
+#### Guardrails
 
 VT-GEN-01 (y) All thresholds **must** be greater than 50% and less than or equal to 100%
 
@@ -1024,7 +1024,7 @@ Governance Action Lifetime (govActionLifetime)
 
 The period after which a governance action will expire if it is not enacted - As a whole number of epochs
 
-#### **Guardrails**
+#### Guardrails
 
 GAL-01 (y)*govActionLifetime* **must not** be lower than 1 epoch (5 days)
 
@@ -1040,7 +1040,7 @@ Maximum Constitutional Committee Term (committeeMaxTermLength)
 
 The limit on the maximum term length that a committee member may serve
 
-#### **Guardrails**
+#### Guardrails
 
 CMTL-01a(y) *committeeMaxTermLength***must not** be zero
 
@@ -1056,7 +1056,7 @@ The minimum size of the Constitutional Committee (committeeMinSize)
 
 The least number of members that can be included in a Constitutional Committee following a governance action to change the Constitutional Committee.
 
-#### **Guardrails**
+#### Guardrails
 
 CMS-01(y)*committeeMinSize* **must not**be negative
 
@@ -1064,7 +1064,7 @@ CMS-02(y)*committeeMinSize***must not** be lower than 3
 
 CMS-03(y)*committeeMinSize* **must not**exceed 10
 
-### **2.6.Monitoring and Reversion of Parameter Changes**
+### 2.6.Monitoring and Reversion of Parameter Changes
 
 All network parameter changes **must be** monitored carefully for no less than 2 epochs (10days)
 
@@ -1083,15 +1083,15 @@ A specific reversion/recovery plan **must be** produced for each parameter chang
 
 This plan **should** be followed if problems are observed following the parameter change.Note that not all changes can be reverted. Additional care must be taken when making changes to these parameters.
 
-### **2.7.Non-Updatable Protocol Parameters**
+### 2.7.Non-Updatable Protocol Parameters**
 
 Some fundamental protocol parameters cannot be changed by the Protocol Parameter Update governance action. These parameters can only be changed in a new Genesis file as part of a hard fork. It is not necessary to provide specific guardrails on updating these parameters.
 
-## **3.GUARDRAILS AND GUIDELINES ON TREASURY WITHDRAWAL ACTIONS**
+## 3.GUARDRAILS AND GUIDELINES ON TREASURY WITHDRAWAL ACTIONS
 
 **Treasury withdrawal**actions specify the destination and amount of a number of withdrawals from the Cardano treasury.
 
-#### **Guardrails**
+#### Guardrails
 
 TREASURY-01a(x)A net change limit for the Cardano Treasury's balance per period of time **must**be agreed by the DReps via an on-chain governance action with a threshold of greater than 50% of the active voting stake
 
@@ -1101,7 +1101,7 @@ TREASURY-03 (x) The budget for the Cardano Treasury **must** be denominated in a
 
 TREASURY-04(x) Treasury withdrawals **must not** be ratified until there is a community approved Cardano budget then in effect pursuant to a previous on-chain governance action agreed by the DReps with a threshold of greater than 50% of the active voting stake
 
-## **4.GUARDRAILS AND GUIDELINES ON HARD FORK INITIATION ACTIONS**
+## 4.GUARDRAILS AND GUIDELINES ON HARD FORK INITIATION ACTIONS**
 
 The **hard fork initiation**action requires both a new major and a new minor protocol version to be specified.
 
@@ -1109,7 +1109,7 @@ The **hard fork initiation**action requires both a new major and a new minor pro
 
 As the result of a hard fork, new updatable protocol parameters may be introduced. Guardrails may be defined for these parameters, which will take effect following the hard fork. Existing updatable protocol parameters may also be deprecated by the hard fork, in which case the guardrails become obsolete for all future changes.
 
-#### **Guardrails**
+#### Guardrails
 
 HARDFORK-01 (~- no access to existing parameter values) The major protocol version **must** be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version **must**be zero
 
@@ -1127,43 +1127,43 @@ HARDFORK-07 (x) Any deprecated protocol parameters **must** be indicated in this
 
 HARDFORK-08 (~- no access to *Plutus cost model* parameters) New Plutus versions **must** be supported by a version-specific *Plutus cost model* that covers each primitive that is available in the new Plutus version
 
-## **5.GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL**
+## 5.GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL
 
-### **COMMITTEE OR THRESHOLD ACTIONS**
+### COMMITTEE OR THRESHOLD ACTIONS
 
 **Update Constitutional Committee or Threshold** governance actions may change the size,composition or required voting thresholds for the Constitutional Committee.
 
-### **Guardrails**
+### Guardrails
 
 UPDATE-CC-01a(x)**Update Constitutional Committee and/or threshold** **and/or term**governance actions **must not**be ratified until ada holders have ratified through an on-chain governance action this Constitution
 
-## **6.GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS**
+## 6.GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
 
 New constitution or guardrails script actions change the hash of the on-chain constitution and the associated guardrails script.
 
-### **Guardrails**
+### Guardrails
 
 NEW-CONSTITUTION-01a (x)A**New Constitution** **or Guardrails Script** governance action **must** be submitted to define any required guardrails for new parameters that are introduced via a Hard Fork governance action
 
 NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consistent with this Constitution
 
-## **7.GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS**
+## 7.GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS
 
 **No confidence**actions signal a state of no confidence in the governance system. No guardrails are imposed on **No Confidence** actions.
 
-#### **Guardrails**
+#### Guardrails
 
 -None
 
-## **8.GUARDRAILS AND GUIDELINES ON INFO ACTIONS**
+## 8.GUARDRAILS AND GUIDELINES ON INFO ACTIONS
 
 **Info**:actions are not enacted on-chain. No guardrails are imposed on **Info**actions.
 
-#### **Guardrails**
+#### Guardrails
 
 * None
 
-## **9.LIST OF PROTOCOL PARAMETER GROUPS**
+## 9.LIST OF PROTOCOL PARAMETER GROUPS
 
 The protocol parameters are grouped by type, allowing different thresholds to be set for each group.
 
@@ -1201,7 +1201,7 @@ The economic group consists of:
 
 (*executionUnitPrices[priceSteps/priceMemory]*)
 
-### **The technical group consists of:**
+### The technical group consists of:
 
 * *pool pledge influence*(*poolPledgeInfluence*)  
 * *pool retirement maximum epoch* (*poolRetireMaxEpoch*)  
@@ -1209,7 +1209,7 @@ The economic group consists of:
 * *Plutus execution cost models* (*costModels*)  
 * *proportion of collateral needed for scripts* (*collateralPercentage*)
 
-### **The governance group consists of:**
+### The governance group consists of:
 
 * *governance voting thresholds*(*dRepVotingThresholds[...],poolVotingThresholds[...]*)
 
