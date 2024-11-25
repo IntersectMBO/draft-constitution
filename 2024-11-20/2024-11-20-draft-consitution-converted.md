@@ -1,8 +1,10 @@
 `Draft 2024-11-20`
 
+# CARDANO BLOCKCHAIN ECOSYSTEM CONSTITUTION
+
 ## FRAMING NOTES
 
-These Framing Notes Are Not Considered To Be A Part Of This Constitution
+*These Framing Notes Are Not Considered To Be A Part Of This Constitution
 
 The Cardano Blockchain was established in 2017. In July 2020 the Cardano Blockchain was expanded to include independent block validators and in September 2024 an on-chain governance system was introduced. This Constitution outlines the rights and responsibilities of governance actors in the decentralized system who represent the owners of ada, the governance token of the Cardano Blockchain. The Cardano Blockchain is presently a decentralized ecosystem of blockchain technology, smart contracts,and community governance.
 
@@ -10,7 +12,7 @@ In approaching this Constitution,the Cardano Community recognizes that it must b
 
 By necessity, this Constitution recognizes the role of and empowers the Constitutional Committee,confirms the right of the Cardano Community to participate in collective bodies for collaboration, gives effect to on-chain governance, and empowers DReps to act as the voice of ada owners for on-chain voting.
 
-The Constitution also recognizes the necessity of safeguarding access to and the use of funds of the Cardano treasury through the inclusion of the Cardano Guardrails in this Constitution.
+The Constitution also recognizes the necessity of safeguarding access to and the use of funds of the Cardano treasury through the inclusion of the Cardano Guardrails in this Constitution.*
 
 ## PREAMBLE
 
