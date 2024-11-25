@@ -18,9 +18,7 @@
 
 Cardano is a decentralized ecosystem of blockchain technology, smart contracts, and community governance, committed to improving economic, political, and social systems for everyone,everywhere. By offering this foundational infrastructure, Cardano empowers individuals and communities to manage their identity, value and governance, by fostering the emergence of decentralized applications, businesses and network states.
 
-Through unbiased processing of immutable data, we the participants of the Cardano Community,consisting of individuals, organizations, contributors and others, choose to follow in the footsteps of the early Internet and cryptocurrency pioneers, who first forged bonds of community through
-
-digital technologies. We are guided by our shared principles and tenets as we exercise our self-governance by balancing decentralized decision-making with accountability and safeguarding the security of the Cardano Blockchain.
+Through unbiased processing of immutable data, we the participants of the Cardano Community,consisting of individuals, organizations, contributors and others, choose to follow in the footsteps of the early Internet and cryptocurrency pioneers, who first forged bonds of community through digital technologies. We are guided by our shared principles and tenets as we exercise our self-governance by balancing decentralized decision-making with accountability and safeguarding the security of the Cardano Blockchain.
 
 Recognizing the need for a more robust and dynamic governance framework, that neither relies nor depends upon traditional nation-state governance systems, but instead relies on self-governance by the Cardano Community, utilizing, wherever possible and beneficial,blockchain technology in the governance process, we hereby establish this Cardano Constitution to govern the Cardano Blockchain ecosystem,ensure the continuity of the Cardano Blockchain,and guard the rights of those who utilize it.
 
@@ -32,25 +30,25 @@ With these purposes in mind, we the Cardano Community affirm our intention to ab
 
 These below Tenets shall guide all participants of he Cardano Community, including the Constitutional Committee, and proposed governance actions shall be evaluated in accordance with these Tenets.The order in which the below Tenets appear is not intended to represent a priority among Tenets.
 
-TENET 1 Transactions on the Cardano Blockchain shall not be slowed down or censored and shall be expediently served for their intended purpose.
+**TENET 1** Transactions on the Cardano Blockchain shall not be slowed down or censored and shall be expediently served for their intended purpose.
 
-TENET 2 The cost of transactions on the Cardano Blockchain shall be predictable and not unreasonable.
+**TENET 2** The cost of transactions on the Cardano Blockchain shall be predictable and not unreasonable.
 
-TENET 3 Anyone desiring to develop and deploy applications on the Cardano Blockchain shall not unreasonably be prevented from developing and deploying such applications as intended.
+**TENET 3** Anyone desiring to develop and deploy applications on the Cardano Blockchain shall not unreasonably be prevented from developing and deploying such applications as intended.
 
-TENET 4 Contributions by the Cardano Community on the Cardano Blockchain shall be recognized,recorded and assessed fairly through reward sharing with SPOs and DReps,appropriate tokenomics and multi-resource consensus approaches.
+**TENET 4** Contributions by the Cardano Community on the Cardano Blockchain shall be recognized,recorded and assessed fairly through reward sharing with SPOs and DReps,appropriate tokenomics and multi-resource consensus approaches.
 
-TENET 5 The Cardano Blockchain shall not lock in an ada owner's value without an owner's consent.
+**TENET 5** The Cardano Blockchain shall not lock in an ada owner's value without an owner's consent.
 
-TENET 6 The Cardano Blockchain shall not unreasonably impede interoperability.
+**TENET 6** The Cardano Blockchain shall not unreasonably impede interoperability.
 
-TENET 7 The Cardano Blockchain shall preserve in a safe manner any value and information an ada owner seeks to store on the Cardano Blockchain.
+**TENET 7** The Cardano Blockchain shall preserve in a safe manner any value and information an ada owner seeks to store on the Cardano Blockchain.
 
-TENET 8 The Cardano Blockchain shall not unreasonably spend resources.
+**TENET 8** The Cardano Blockchain shall not unreasonably spend resources.
 
-TENET 9 All users of the Cardano Blockchain shall be treated equally, taking into account the collective desires of the Cardano Blockchain Community, consistent with the long-term sustainability and viability of the Cardano Blockchain.
+**TENET 9** All users of the Cardano Blockchain shall be treated equally, taking into account the collective desires of the Cardano Blockchain Community, consistent with the long-term sustainability and viability of the Cardano Blockchain.
 
-TENET 10 Financial stability shall be maintained and the total supply of ada shall not exceed 45,000,000,000 (45,000,000,000,000,000 lovelace).
+**TENET 10** Financial stability shall be maintained and the total supply of ada shall not exceed 45,000,000,000 (45,000,000,000,000,000 lovelace).
 
 ### Section 2
 
@@ -274,7 +272,7 @@ The guardrails set forth in this Appendix may be amended from time to time pursu
 
 A script hash is associated with the constitution hash when a **New Constitution or Guardrails Script** governance action is enacted. It acts as an additional safeguard to the ledger rules and types,filtering non-compliant governance actions.
 
-The guardrails script only affects two types of governance actons:
+The guardrails script only affects two types of governance actions:
 
 * **Parameter Update** actions, and  
 * **Treasury Withdrawal** actions.
@@ -672,7 +670,7 @@ MBEU-M-03 (x - "should") *maxBlockExecutionUnits[memory]* **should not** be chan
 
 MBEU-M-04a (x - unquantifiable) The impact of any change to *maxBlockExecutionUnits[memory]* **must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of the diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[steps]*. Any increase **must** also consider previously agreed future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block limit to be increased, but must be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements.
 
-MEU-M-01 (~ - no access to existing parameter values) *maxBlockExecutionUnits[memory]***must not** be less than *maxTxExecutionUnits[memory]*
+MEU-M-01 (~ - no access to existing parameter values) *maxBlockExecutionUnits[memory]* **must not** be less than *maxTxExecutionUnits[memory]*
 
 #### CPU Unit Limits (maxBlockExecutionUnits[steps].maxTxExecutionUnits[steps])
 
@@ -866,7 +864,7 @@ Changes to governance parameters may be triggered by:
 
 Changes may need to be reversed and/or should not be enacted in the event of:
 
-* Unexpected effcts on governance  
+* Unexpected effects on governance  
 * Excessive Layer 1 load due to on-chain voting or excessive numbers of governance actions
 
 ##### Core Metrics
@@ -996,7 +994,7 @@ The limit on the maximum term length that a committee member may serve
 
 ##### Guardrails
 
-CMTL-01a (y) *committeeMaxTermLength***must not** be zero
+CMTL-01a (y) *committeeMaxTermLength* **must not** be zero
 
 CMTL-02a (y) *committeeMaxTermLength* **must not** be negative
 
