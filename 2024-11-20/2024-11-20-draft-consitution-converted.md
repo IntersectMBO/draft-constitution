@@ -4,9 +4,9 @@
 
 These Framing Notes Are Not Considered To Be A Part Of This Constitution
 
-The Cardano Blockchain was established in 2017\. In July 2020 the Cardano Blockchain was expanded to include independent block validators and in September 2024 an on-chain governance system was introduced. This Constitution outlines the rights and responsibilities of governance actors in the decentralized system who represent the owners of ada, the governance token of the Cardano Blockchain. The Cardano Blockchain is presently a decentralized ecosystem of blockchain technology, smart contracts,and community governance.
+The Cardano Blockchain was established in 2017. In July 2020 the Cardano Blockchain was expanded to include independent block validators and in September 2024 an on-chain governance system was introduced. This Constitution outlines the rights and responsibilities of governance actors in the decentralized system who represent the owners of ada, the governance token of the Cardano Blockchain. The Cardano Blockchain is presently a decentralized ecosystem of blockchain technology, smart contracts,and community governance.
 
-In approaching this Constitution,the Cardano Community recognizes that it must be remembered that this is not a constitution for only a blockchain but rather; it is a constitution for a blockchain ecosystem \- a much more ambitious endeavor: Accordingly,how governance actions are approved, while extremely important, is not the sole focus of this Constitution.Rather;this Constitution provides the basis and fundamental framework through which all participants in the Cardano Community can come together to govern themselves and form radically new approaches to human interaction and collaboration.
+In approaching this Constitution,the Cardano Community recognizes that it must be remembered that this is not a constitution for only a blockchain but rather; it is a constitution for a blockchain ecosystem - a much more ambitious endeavor: Accordingly,how governance actions are approved, while extremely important, is not the sole focus of this Constitution.Rather;this Constitution provides the basis and fundamental framework through which all participants in the Cardano Community can come together to govern themselves and form radically new approaches to human interaction and collaboration.
 
 By necessity, this Constitution recognizes the role of and empowers the Constitutional Committee,confirms the right of the Cardano Community to participate in collective bodies for collaboration, gives effect to on-chain governance, and empowers DReps to act as the voice of ada owners for on-chain voting.
 
@@ -258,11 +258,11 @@ The guardrails set forth in this Appendix may be amended from time to time pursu
 
 #### **Terminology and Guidance**
 
-\*\*Should/Should not.\*\*Where this Appendix says that a value "should not" be set below or above some value, this means that the guardrail is a recommendation or guideline, and the specific value could be open to discussion or alteration by a suitably expert group recognized by the Cardano community in light of experience with the Cardano Blockchain governance system or the operation of the Cardano Blockchain.
+**Should/Should not.**Where this Appendix says that a value "should not" be set below or above some value, this means that the guardrail is a recommendation or guideline, and the specific value could be open to discussion or alteration by a suitably expert group recognized by the Cardano community in light of experience with the Cardano Blockchain governance system or the operation of the Cardano Blockchain.
 
 **Must/Must not.** Where this Appendix says that a value “must” or "must not" be set below or above some value, this means that the guardrail is a requirement that will be enforced by Cardano Blockchain ledger rules, types or other built-in mechanisms where possible, and that if not followed could cause a protocol failure,security breach or other undesirable outcome.
 
-\*\*Benchmarking.\*\*Benchmarking refers to careful system level performance evaluation that is designed to show a-priori that, for example, 95% of blocks will be diffused across a global network of Cardano Blockchain nodes within the required 5s time interval in all cases. This may require construction of specific test workflows and execution on a large test network of Cardano Blockchain nodes, simulating a global Cardano Blockchain network.
+**Benchmarking.**Benchmarking refers to careful system level performance evaluation that is designed to show a-priori that, for example, 95% of blocks will be diffused across a global network of Cardano Blockchain nodes within the required 5s time interval in all cases. This may require construction of specific test workflows and execution on a large test network of Cardano Blockchain nodes, simulating a global Cardano Blockchain network.
 
 **Performance analysis.** Performance analysis refers to projecting theoretical performance,empirical benchmarking or simulation results to predict actual system behavior. For example,performance results obtained from tests in a controlled test environment (such as a collection of data centers with known networking properies) may be extrapolated to inform likely performance behavior in a real Cardano Blockchain network environment.
 
@@ -272,9 +272,9 @@ The guardrails set forth in this Appendix may be amended from time to time pursu
 
 **Reverting Changes.** Where performance monitoring shows that actual network behavior following a change is inconsistent with the performance requirements for the Cardano Blockchain, then the change must be reverted to its previous state if that is possible.For example,if the block size is increased from 100KB to 120KB and 95% of blocks areno longer diffused within 5s, then a change must be made to revert the block size to 100KB. If this is not possible, then one or more alternative changes must be made that will ensure that the performance requirements are met.
 
-\*\*Severity Levels.\*\*Issues that affect the Cardano Blockchain network are classified by severity level, where:
+**Severity Levels.**Issues that affect the Cardano Blockchain network are classified by severity level, where:
 
-\-Severity 1 is a critical incident or issue with very high impact to the security,performance, functionality or long-term sustainability of the Cardano Blockchain network
+-Severity 1 is a critical incident or issue with very high impact to the security,performance, functionality or long-term sustainability of the Cardano Blockchain network
 
 * Severity 2 is a major incident or issue with significant impact to the security,performance, functionality or long-term sustainability of the Cardano Blockchain network  
 * Severity 3 is a minor incident or issue with low impact to the security,performance,functionality or long-term sustainability of the Cardano Blockchain network
@@ -296,7 +296,7 @@ The script is executed when either of these types of governance action is submit
 
 * (y) The script can be used to enforce the guardrail.  
 * (x) The script cannot be used to enforce the guardrail.  
-* (\~-reason) The scriptcannot be used to enforce the guardrail for the reason given,but future ledger changes could enable this.
+* (~-reason) The scriptcannot be used to enforce the guardrail for the reason given,but future ledger changes could enable this.
 
 Guardrails may overlap: in this case, the most restrictive set of guardrails will apply.
 
@@ -329,18 +329,18 @@ The below protocol parameters are critical from a security point of view.
 
 *maximum script execution/memory units in a single block*
 
-* ( ^ { \* } n$maxBlockExecutionUnits\[steps/memory\]\*)  
+* ( ^ { * } n$maxBlockExecutionUnits[steps/memory]*)  
 * *minimum fee coefficient*(*txFeePerByte*)  
 * *minimum fee constant*(*txFeeFixed*)
 
 *minimum fee per byte for reference scripts*  
-(*minFeeRefScriptCoinsPerByte*) \- *minimum Lovelace deposit per byte of serialized UTxO* (*utxoCostPerByte*) \- *governance action deposit*
+(*minFeeRefScriptCoinsPerByte*) - *minimum Lovelace deposit per byte of serialized UTxO* (*utxoCostPerByte*) - *governance action deposit*
 
 * (*govDeposit*)
 
 #### **Guardrails**
 
-PARAM-03 (y) Critical protocol parameters require an SPO vote in addition to a DRep vote:SPOs**must**say$^ { \\prime \\prime } y e s ^ { \\prime \\prime }$with a collective support of more than 50% of all active block production stake. This is enforced by the guardrails on the stake pool voting threshold.
+PARAM-03 (y) Critical protocol parameters require an SPO vote in addition to a DRep vote:SPOs**must**say$^ { prime prime } y e s ^ { prime prime }$with a collective support of more than 50% of all active block production stake. This is enforced by the guardrails on the stake pool voting threshold.
 
 PARAM-04(x)At least 3 months **should** normally pass between the publication of an off chain proposal to change a critical protocol parameter and the submission of the corresponding on-chain governance action. This guardrail may be relaxed in the event of a Severity 1 or Severity 2 network issue following careful technical discussion and evaluation.
 
@@ -350,7 +350,7 @@ PARAM-04(x)At least 3 months **should** normally pass between the publication of
 * *pool registration Lovelace deposit* (*stakePoolDeposit*)  
 * *minimum fixed rewards cut for pools* (*minPoolCost*)
 
-#### **DRep deposit amount\*(*dRepDeposit*)**
+#### **DRep deposit amount*(*dRepDeposit*)**
 
 * *minimal Constitutional Committee size*(*committeeMinSize*)  
 * *maximum term length (in epochs) for the Constitutional Committee members*
@@ -359,7 +359,7 @@ PARAM-04(x)At least 3 months **should** normally pass between the publication of
 
 #### **Guardrails**
 
-PARAM-05(y)DReps **must**vote$^ { \\prime \\prime } y e ^ { \\prime \\prime }$with a collective support of more than 50% of all active voting stake. This is enforced by the guardrails on the DRep voting thresholds.
+PARAM-05(y)DReps **must**vote$^ { prime prime } y e ^ { prime prime }$with a collective support of more than 50% of all active voting stake. This is enforced by the guardrails on the DRep voting thresholds.
 
 PARAM-06 (x) At least 3 months **should** normally pass between the publication of an off chain proposal to change a parameter that is critical to the governance system and the submission of the corresponding on-chain governance action. This guardrail may be relaxed in the event of a Severity 1 or Severity 2 network issue following careful technical discussion and evaluation.
 
@@ -383,7 +383,7 @@ The overall goals when managing economic parameters are to:
 
 Changes to the economic parameters should not be made in isolation. They need to account for:
 
-\-External economic factors
+-External economic factors
 
 * Network security concerns
 
@@ -400,7 +400,7 @@ Transaction fee per byte (txFeePerByte) and fixed transaction fee (txFeeFixed)
 
 Defines the cost for basic transactions in Lovelace:
 
-*fee(tx) \=txFeeFixed+ txFeePerByte x nBytes(tx)*
+*fee(tx) =txFeeFixed+ txFeePerByte x nBytes(tx)*
 
 #### **Guardrails**
 
@@ -422,9 +422,9 @@ TFF-02(y)*txFeeFixed* **must not** exceed 10,000,000(10 ada)
 
 This ensures that transactions can be paid for
 
-TFF-03$( y ) \* t x F e e F i x e d ^ { \* \* \* } 1$must not\*\*be negative
+TFF-03$( y ) * t x F e e F i x e d ^ { * * * } 1$must not**be negative
 
-TFGEN-01$( x \- ^ { \\prime \\prime } s h o u l d ^ { \\prime \\prime } )$To maintain a consistent level of protection against denial-of-service attacks,*txFeeFixed*and*txFeeFixed* **should**be adjusted whenever Plutus Execution prices are adjusted (executionUnitPrices\[steps/memory\])
+TFGEN-01$( x - ^ { prime prime } s h o u l d ^ { prime prime } )$To maintain a consistent level of protection against denial-of-service attacks,*txFeeFixed*and*txFeeFixed* **should**be adjusted whenever Plutus Execution prices are adjusted (executionUnitPrices[steps/memory])
 
 TFGEN-02 (x-unquantifiable) Any changes to *txFeeFixed*or*txFeeFixed***must**consider the implications of reducing the cost of a denial-of-service attack or increasing the maximum transaction fee so that it becomes impossible to construct a transaction.
 
@@ -437,7 +437,7 @@ Defines the deposit (in Lovelace) that is charged for each byte of storage that 
 
 DoS protection decreases in line with the free node memory (proportional to UTxO growth)
 
-\-Helps reduce long term storage costs for node users by providing an incentive to return UTxOs when no longer needed, or to merge UTxOs.
+-Helps reduce long term storage costs for node users by providing an incentive to return UTxOs when no longer needed, or to merge UTxOs.
 
 #### **Guardrails**
 
@@ -449,7 +449,7 @@ UCPB-03(y)*utxoCostPerByte* **must not** bezero
 
 UCPB-04(y)*utxoCostPerByte* **must not**be negative
 
-UCPB-05a (x \-"should") Changes **should** account for
+UCPB-05a (x -"should") Changes **should** account for
 
 i) The acceptable cost of attack
 
@@ -506,13 +506,13 @@ MPC-01(y)*minPoolCost* **must not**be negative
 
 MPC-02(y)*minPoolCost* **must not**exceed 500,000,000 (500 ada)
 
-MPC-03 (x \-"should") *minPoolCost* **should** be set in line with the economic cost for operating a pool
+MPC-03 (x -"should") *minPoolCost* **should** be set in line with the economic cost for operating a pool
 
 #### **Treasuy Cut (treasuryCut)**
 
 Part of the rewards mechanism
 
-\-The treasury cut portion of the monetary expansion is transferred to the treasury before any pool rewards are paid
+-The treasury cut portion of the monetary expansion is transferred to the treasury before any pool rewards are paid
 
 * Can be set in the range 0.0-1.0 (0%-100%)
 
@@ -526,13 +526,13 @@ TC-03 (y) *treasuryCut* **must not** be negative
 
 TC-04 (y) *treasuryCut* **must not** exceed 1.0(100%)
 
-TC-05 (\~-no access to change history) *treasuryCut* **must not** be changed more than once in any 36 epoch period (approximately 6 months)
+TC-05 (~-no access to change history) *treasuryCut* **must not** be changed more than once in any 36 epoch period (approximately 6 months)
 
 #### **Monetary Expansion Rate (monetaryExpansion)**
 
 Part of the rewards mechanism
 
-\-The monetary expansion controls the amount of reserves that is used for rewards each
+-The monetary expansion controls the amount of reserves that is used for rewards each
 
 epoch
 
@@ -546,13 +546,13 @@ ME-01 (y)*monetaryExpansion***must not** exceed 0.005
 
 ME-02 (y) *monetaryExpansion* **must not** be lower than 0.001
 
-ME-03 (y) *monetaryExpansion*\* must not'\*\*be negative
+ME-03 (y) *monetaryExpansion** must not'**be negative
 
-ME-04 (x \- "should") *monetaryExpansion* **should not** be varied by more than \+/- 10% in any 73-epoch period (approximately 12 months)
+ME-04 (x - "should") *monetaryExpansion* **should not** be varied by more than +/- 10% in any 73-epoch period (approximately 12 months)
 
 ME-05 (x- "should") *monetaryExpansion* **should not** be changed more than once in any 36-epoch period (approximately 6 months)
 
-Plutus Script Execution Prices (executionUnitPrices\[priceSteps/priceMemory\])
+Plutus Script Execution Prices (executionUnitPrices[priceSteps/priceMemory])
 
 Define the fees for executing Plutus scripts
 
@@ -562,21 +562,21 @@ Provides security against low-cost DoS attacks
 
 #### **Guardrails**
 
-EIUP-PS-01(y)*executionUnitPrices\[priceSteps\]* **must not** exceed 2,000/10,000,000
+EIUP-PS-01(y)*executionUnitPrices[priceSteps]* **must not** exceed 2,000/10,000,000
 
-EIUP-PS-02(y) \*executionUnitPrices\[priceSteps\]\***must not** be lower than 500/10,000,000
+EIUP-PS-02(y) *executionUnitPrices[priceSteps]***must not** be lower than 500/10,000,000
 
-EIUP-PM-01 (y) \*executionUnitPrices\[priceMemory\]\***must not** exceed 2,000/10,000
+EIUP-PM-01 (y) *executionUnitPrices[priceMemory]***must not** exceed 2,000/10,000
 
-EIUP-PM-02(y) \*executionUnitPrices\[priceMemory\]\***must not** be lower than 400/
+EIUP-PM-02(y) *executionUnitPrices[priceMemory]***must not** be lower than 400/
 
-10,000 EIUP-GEN-01(x \-"similar t$t o ^ { \\prime \\prime } )$The execution prices **must** be set so that
+10,000 EIUP-GEN-01(x -"similar t$t o ^ { prime prime } )$The execution prices **must** be set so that
 
 i) the cost of executing a transaction with maximum CPU steps is similar to the cost of a maximum sized non-script transaction and
 
 ii) the cost of executing a transaction with maximum memory units is similar to the cost of a maximum sized non-script transaction
 
-EIUP-GEN-02(x \- "should")The execution prices **should** be adjusted whenever transaction fees are adjusted (*txFeeFixed/txFeePerByte*). The goal is to ensure that the processing delay is similar for "full" transactions, regardless of their type.
+EIUP-GEN-02(x - "should")The execution prices **should** be adjusted whenever transaction fees are adjusted (*txFeeFixed/txFeePerByte*). The goal is to ensure that the processing delay is similar for "full" transactions, regardless of their type.
 
 * This helps ensure that the requirements on block diffusion/propagation times are met.
 
@@ -588,13 +588,13 @@ Defines the cost for using Plutus reference scripts in Lovelace
 
 MFRS-01(y)*minFeeRefScriptCoinsPerByte***must not** exceed 1,000(0.001 ada)
 
-\-This ensures that transactions can be paid for
+-This ensures that transactions can be paid for
 
 MFRS-02(y)*minFeeRefScriptCoinsPerByte* **must not** be negative
 
-MFRS-03(x \-"should") To maintain a consistent level of protection against denial-of-service attacks,*minFeeRefScriptCoinsPerByte***should**be adjusted whenever Plutus Execution prices are adjusted (*executionUnitPrices\[steps/memory\]*)and whenever *txFeeFixed* is adjusted
+MFRS-03(x -"should") To maintain a consistent level of protection against denial-of-service attacks,*minFeeRefScriptCoinsPerByte***should**be adjusted whenever Plutus Execution prices are adjusted (*executionUnitPrices[steps/memory]*)and whenever *txFeeFixed* is adjusted
 
-MFRS-04 (x \- unquantifiable) Any changes to \*minFeeRefScriptCoinsPerByte'\***must**consider the implications of reducing the cost of a denial-of-service attack or increasing the maximum transaction fee
+MFRS-04 (x - unquantifiable) Any changes to *minFeeRefScriptCoinsPerByte'***must**consider the implications of reducing the cost of a denial-of-service attack or increasing the maximum transaction fee
 
 ### **2.3.Network Parameters**
 
@@ -616,7 +616,7 @@ Counter-indicators
 
 Changes may need to be reversed and/or should not be enacted in the event of:
 
-\-Excessive block propagation delays
+-Excessive block propagation delays
 
 * Stake pools being unable to handle traffic volume  
 * Scripts being unable to complete execution
@@ -635,9 +635,9 @@ Detailed benchmarking results are required to confirm the effect of any changes 
 
 #### **Guardrails**
 
-NETWORK-01(x \- "should") No individual network parameter **should** change more than once per two epochs
+NETWORK-01(x - "should") No individual network parameter **should** change more than once per two epochs
 
-NETWORK-02 (x \-"should") Only one network parameter **should**be changed per epoch unless they are directly correlated, e.g., per-transaction and per-block memory unit limits
+NETWORK-02 (x -"should") Only one network parameter **should**be changed per epoch unless they are directly correlated, e.g., per-transaction and per-block memory unit limits
 
 Changes to Specific Network Parameters
 
@@ -647,21 +647,21 @@ The maximum size of a block,in Bytes.
 
 #### **Guardrails**
 
-MBBS-01(y) *maxBlockBodySize*\***must not**exceed 122,880 Bytes (120KB)
+MBBS-01(y) *maxBlockBodySize****must not**exceed 122,880 Bytes (120KB)
 
 MBBS-02(y)*maxBlockBodySize* **must not**be lower than 24,576 Bytes (24KB)
 
 MBBS-03a(x-"exceptional circumstances") *maxBlockBodySize* **must not**be decreased, other than in exceptional circumstances where there are potential problems with security, performance, functionality or long-term sustainability
 
-MBBS-04(\~- no access to existing parameter values) *maxBlockBodySize***must**be large enough to include at least one transaction (that is, *maxBlockBodySize***must** be at least *maxTxSize*)
+MBBS-04(~- no access to existing parameter values) *maxBlockBodySize***must**be large enough to include at least one transaction (that is, *maxBlockBodySize***must** be at least *maxTxSize*)
 
 MBBS-05 (x- "should")*maxBlockBodySize***should**be changed by at most 10,240 Bytes (10KB) per epoch (5 days), and preferably by 8,192 Bytes (8KB) or less per epoch
 
-MBBS-06$( x \- ^ { \\prime \\prime } s h o u l d ^ { \\prime \\prime } )$The block size**should not** induce an additional Transmission Control Protocol(TCP) round trip. Any increase beyond this must be backed by performance analysis,simulation and benchmarking
+MBBS-06$( x - ^ { prime prime } s h o u l d ^ { prime prime } )$The block size**should not** induce an additional Transmission Control Protocol(TCP) round trip. Any increase beyond this must be backed by performance analysis,simulation and benchmarking
 
-MBBS-07(x \- "unquantifiable") The impact of any change to *maxBlockBodySize* **must**be confirmed by detailed benchmarking/simulation and not exceed the requirements of the block diffusion/propagation time budgets, as described below. Any increase to *maxBlockBodySize*must also consider future requirements for Plutus script execution
+MBBS-07(x - "unquantifiable") The impact of any change to *maxBlockBodySize* **must**be confirmed by detailed benchmarking/simulation and not exceed the requirements of the block diffusion/propagation time budgets, as described below. Any increase to *maxBlockBodySize*must also consider future requirements for Plutus script execution
 
-(*maxBlockExecutionUnits\[steps\]*)against the total block diffusion target of 3s with 95%block propagation within 5s. The limit on maximum block size may be increased in the future if this is supported by benchmarking and monitoring results
+(*maxBlockExecutionUnits[steps]*)against the total block diffusion target of 3s with 95%block propagation within 5s. The limit on maximum block size may be increased in the future if this is supported by benchmarking and monitoring results
 
 #### **TransactionSize(maxTxSize)**
 
@@ -673,67 +673,67 @@ MTS-01 (y) *maxTxSize* **must not**exceed 32,768 Bytes (32KB)
 
 MTS-02 (y) *maxTxSize***must not**be negative
 
-MTS-03 (\~-no access to existing parameter values) *maxTxSize* **must not**be decreased
+MTS-03 (~-no access to existing parameter values) *maxTxSize* **must not**be decreased
 
-MTS-04 (\~-no access to existing parameter values) *maxTxSize* **must not**exceed *maxBlockBodySize*
+MTS-04 (~-no access to existing parameter values) *maxTxSize* **must not**exceed *maxBlockBodySize*
 
-MTS-05 (x \- "should") *maxTxSize* **should not** be increased by more than 2,560 Bytes (2.5KB) in any epoch, and preferably **should**be increased by 2,048 Bytes (2KB) or less per epoch
+MTS-05 (x - "should") *maxTxSize* **should not** be increased by more than 2,560 Bytes (2.5KB) in any epoch, and preferably **should**be increased by 2,048 Bytes (2KB) or less per epoch
 
-MTS-06 (x \- "should") *maxTxSize* **should not** exceed 1/4 of the block size
+MTS-06 (x - "should") *maxTxSize* **should not** exceed 1/4 of the block size
 
-Memory Unit Limits(maxBlockExecutionUnits\[memory\], maxTxExecutionUnits\[memory\])
+Memory Unit Limits(maxBlockExecutionUnits[memory], maxTxExecutionUnits[memory])
 
 The limit on the maximum number of memory units that can be used by Plutus scripts, either per-transaction or per-block.
 
 #### **Guardrails**
 
-MTEU-M-01(y)\*maxTxExecutionUnits\[memory\]\***must not** exceed 40,000,000 units
+MTEU-M-01(y)*maxTxExecutionUnits[memory]***must not** exceed 40,000,000 units
 
-MTEU-M-02(y)*maxTxExecutionUnits\[memory\]* **must not** be negative
+MTEU-M-02(y)*maxTxExecutionUnits[memory]* **must not** be negative
 
-MTEU-M-03 (\~ \- no access to existing parameter values) \*maxTxExecutionUnits\[memory\]\***must not** be decreased
+MTEU-M-03 (~ - no access to existing parameter values) *maxTxExecutionUnits[memory]***must not** be decreased
 
-MTEU-M-04 (x-"should") \*maxTxExecutionUnits\[memory\]\***should not** be increased by more than 2,500,000 units in any epoch
+MTEU-M-04 (x-"should") *maxTxExecutionUnits[memory]***should not** be increased by more than 2,500,000 units in any epoch
 
-MBEU-M-01(y)\*maxBlockExecutionUnits\[memory\]\***must not** exceed 120,000,000 units
+MBEU-M-01(y)*maxBlockExecutionUnits[memory]***must not** exceed 120,000,000 units
 
-MBEU-M-02(y)\*maxBlockExecutionUnits\[memory\]\***must not** be negative
+MBEU-M-02(y)*maxBlockExecutionUnits[memory]***must not** be negative
 
-MBEU-M-03(x \- "should") \*maxBlockExecutionUnits\[memory\]\***should not** be changed (increasedor decreased) by more than 10,000,000 units in any epoch
+MBEU-M-03(x - "should") *maxBlockExecutionUnits[memory]***should not** be changed (increasedor decreased) by more than 10,000,000 units in any epoch
 
 MBEU-M-04a (x-unquantifiable) The impact of any change to
 
-\*maxBlockExecutionUnits\[memory\]\***must** be confirmed by detailed
+*maxBlockExecutionUnits[memory]***must** be confirmed by detailed
 
-benchmarking/simulation and not exceed the requirements of the block diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits\[steps\]* and *maxBlockBodySize*.Any increase **must**also consider previously agreed future requirements for the total block size(*maxBlockBodySize*)measured against the total block diffusion target of 3s with 95%block propagation within 5s. Future Plutus performance improvements may allow the per-block memory limit to be increased, but must be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
+benchmarking/simulation and not exceed the requirements of the block diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[steps]* and *maxBlockBodySize*.Any increase **must**also consider previously agreed future requirements for the total block size(*maxBlockBodySize*)measured against the total block diffusion target of 3s with 95%block propagation within 5s. Future Plutus performance improvements may allow the per-block memory limit to be increased, but must be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
 
-MEU-M-01 (\~ \- no access to existing parameter values) \*maxBlockExecutionUnits\[memory\]\***must not** be less than *maxTxExecutionUnits\[memory\]*
+MEU-M-01 (~ - no access to existing parameter values) *maxBlockExecutionUnits[memory]***must not** be less than *maxTxExecutionUnits[memory]*
 
-CPU Unit Limits (maxBlockExecutionUnits\[steps\].maxTxExecutionUnits\[steps\])
+CPU Unit Limits (maxBlockExecutionUnits[steps].maxTxExecutionUnits[steps])
 
 The limit on the maximum number of CPU steps that can be used by Plutus scripts, either per transaction or per-block.
 
 #### **Guardrails**
 
-MTEU-S-01 (y)*maxTxExecutionUnits\[steps\]* **must not** exceed 15,000,000,000(15Bn)units
+MTEU-S-01 (y)*maxTxExecutionUnits[steps]* **must not** exceed 15,000,000,000(15Bn)units
 
-MTEU-S-02(y)\*maxTxExecutionUnits\[steps\]\***must not** be negative
+MTEU-S-02(y)*maxTxExecutionUnits[steps]***must not** be negative
 
-MTEU-S-03 (\~- no access to existing parameter values) \*maxTxExecutionUnits\[steps\]\***must not** be decreased
+MTEU-S-03 (~- no access to existing parameter values) *maxTxExecutionUnits[steps]***must not** be decreased
 
-MTEU-S-04(x-"should") *maxTxExecutionUnits\[steps\]* **should not** be increased by more than 500,000,000 (500M) units in any epoch(5 days)
+MTEU-S-04(x-"should") *maxTxExecutionUnits[steps]* **should not** be increased by more than 500,000,000 (500M) units in any epoch(5 days)
 
-MBEU-S-01(y)\*maxBlockExecutionUnits\[steps\]\***must not**exceed 40,000,000,000(40Bn) units
+MBEU-S-01(y)*maxBlockExecutionUnits[steps]***must not**exceed 40,000,000,000(40Bn) units
 
-MBEU-S-02(y)\*maxBlockExecutionUnits\[steps\]\***must not**be negative
+MBEU-S-02(y)*maxBlockExecutionUnits[steps]***must not**be negative
 
-MBEU-S-03(x \-"should")*maxBlockExecutionUnits\[steps\]* **should not** be changed (increased or decreased) by more than 2,000,000,000 (2Bn) units in any epoch (5 days)
+MBEU-S-03(x -"should")*maxBlockExecutionUnits[steps]* **should not** be changed (increased or decreased) by more than 2,000,000,000 (2Bn) units in any epoch (5 days)
 
 MBEU-S-04a (x-unquantifiable) The impact of the change to
 
-\*maxBlockExecutionUnits\[steps\]\***1must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of theblock diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits\[memory\]* and *maxBlockBodySize*.Any increase **must**also consider previously identified future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block step limit to be increased,but **must** be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
+*maxBlockExecutionUnits[steps]***1must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of theblock diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[memory]* and *maxBlockBodySize*.Any increase **must**also consider previously identified future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block step limit to be increased,but **must** be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
 
-MEU-S-01 (\~-no access to existing parameter values) \*maxBlockExecutionUnits\[steps\]\***must not**be less than *maxTxExecutionUnits\[steps\]*
+MEU-S-01 (~-no access to existing parameter values) *maxBlockExecutionUnits[steps]***must not**be less than *maxTxExecutionUnits[steps]*
 
 #### **Block Header Size (maxBlockHeaderSize)**
 
@@ -745,11 +745,11 @@ MBHS-01 (y) *maxBlockHeaderSize* **must not**exceed 5,000 Bytes
 
 MBHS-02(y)*maxBlockHeaderSize* **must not** be negative
 
-MBHS-03(x \-"largest valid header" is subject to change) *maxBlockHeaderSize*\*\*$\\max 加 ^ { \* \* } b $large enough for the largest valid header
+MBHS-03(x -"largest valid header" is subject to change) *maxBlockHeaderSize***$max 加 ^ { * * } b $large enough for the largest valid header
 
-MBHS-04 (x \- "should") *maxBlockHeaderSize* **should** only normally be increased if the protocol changes
+MBHS-04 (x - "should") *maxBlockHeaderSize* **should** only normally be increased if the protocol changes
 
-MBHS-05 (x \- "should") *maxBlockHeaderSize* **should** be within TCP's initial congestion window (3 or 10 MTUs)
+MBHS-05 (x - "should") *maxBlockHeaderSize* **should** be within TCP's initial congestion window (3 or 10 MTUs)
 
 ### **2.4.Technical/Security Parameters**
 
@@ -804,7 +804,7 @@ Provides protection against Sybil attack
 
 * Higher values reward pools that have more pledge and penalize pools that have less pledge
 
-Has an economic effect as well as technical effect \- economic advice is also required
+Has an economic effect as well as technical effect - economic advice is also required
 
 #### **Guardrails**
 
@@ -814,7 +814,7 @@ PPI-02 (y) *poolPledgeInfluence* **must not** exceed 1.0
 
 PPI-03 (y) *poolPledgeInfluence* **must not** be negative
 
-PPI-04 (x-"should") *poolPledgeInfluence* **should not** vary by more than \+/-10% in any 18-epoch period (approximately 3 months)
+PPI-04 (x-"should") *poolPledgeInfluence* **should not** vary by more than +/-10% in any 18-epoch period (approximately 3 months)
 
 #### **Pool Retirement Window (poolRetireMaxEpoch)**
 
@@ -824,7 +824,7 @@ Defines the maximum number of epochs notice that a pool can give when planning t
 
 PRME-01 (y) *poolRetireMaxEpoch* **must not** be negative
 
-PRME-02 (x \- "should") *poolRetireMaxEpoch* **should not** be lower than 1
+PRME-02 (x - "should") *poolRetireMaxEpoch* **should not** be lower than 1
 
 #### **Collateral Percentage (collateralPercentage)**
 
@@ -864,9 +864,9 @@ MVS-01(y)*max ValueSize* **must not** exceed 12,288 Bytes (12KB)
 
 MVS-02 (y) *maxValueSize* **must not**be negative
 
-MVS-03 (\~ \-no access to existing parameter values) *max ValueSize* **must** be less than *maxTxSize*
+MVS-03 (~ -no access to existing parameter values) *max ValueSize* **must** be less than *maxTxSize*
 
-MVS-04 (\~ \- no access to existing parameter values) *maxValueSize* **must not** be reduced
+MVS-04 (~ - no access to existing parameter values) *maxValueSize* **must not** be reduced
 
 MVS-05 (x- "sensible output" is subject to interpretation) *maxValueSize* **must**be large enough to allow sensible outputs (e.g. any existing on-chain output or anticipated outputs that could be produced by new ledger rules)
 
@@ -880,11 +880,11 @@ A different cost model is required for each Plutus version. Each cost model comp
 
 PCM-01 (x-unquantifiable) *Cost model* values **must** be set by benchmarking on a reference architecture
 
-PCM-02 (x \-primitives and language versions aren't introduced in transactions) The *cost model* **must** be updated if new primitives are introduced or a new Plutus language version is added
+PCM-02 (x -primitives and language versions aren't introduced in transactions) The *cost model* **must** be updated if new primitives are introduced or a new Plutus language version is added
 
-PCM-03a (\~- no access to *Plutus cost model* parameters) *Cost model* values **should not** normally be negative. Negative values must be justified against the underlying cost model for the associated primitives
+PCM-03a (~- no access to *Plutus cost model* parameters) *Cost model* values **should not** normally be negative. Negative values must be justified against the underlying cost model for the associated primitives
 
-PCM-04 (\~ \-no access to *Plutus cost model* parameters) A *cost model* **must**be supplied for each Plutus language version that the protocol supports
+PCM-04 (~ -no access to *Plutus cost model* parameters) A *cost model* **must**be supplied for each Plutus language version that the protocol supports
 
 2.5. Governance Parameters
 
@@ -941,7 +941,7 @@ GD-03 (y) *govDeposit* **must not** exceed 10,000,000,000,000 (10 Million
 
 ada)
 
-GD-04(x \- "should") *govDeposit* **should** be adjusted in line with fiat changes
+GD-04(x - "should") *govDeposit* **should** be adjusted in line with fiat changes
 
 #### **Deposit for DReps (dRepDeposit)**
 
@@ -971,11 +971,11 @@ DRA-02(y)*dRepActivity***must not** exceed 37 epochs (6 months)
 
 DRA-03 (y) *dRepActivity* **must not** be negative
 
-DRA-04 (\~- no access to existing parameter values) *dRepActivity* **must**be greater than *govActionLifetime*
+DRA-04 (~- no access to existing parameter values) *dRepActivity* **must**be greater than *govActionLifetime*
 
 DRA-05 (x-"should") *dRepActivity***should** be calculated in human terms (2 months etc)
 
-DRep and SPO Governance Action Thresholds (dRepVotingThesholds\[...\].poolVotingThresholds(..\])
+DRep and SPO Governance Action Thresholds (dRepVotingThesholds[...].poolVotingThresholds(..])
 
 Thresholds on the active voting stake that is required to ratify a specific type of governance action by either DReps or SPOs.
 
@@ -1022,19 +1022,19 @@ VT-NC-01(y) **No confidence** action thresholds **must** be in the range 51%-75%
 
 Governance Action Lifetime (govActionLifetime)
 
-The period after which a governance action will expire if it is not enacted \- As a whole number of epochs
+The period after which a governance action will expire if it is not enacted - As a whole number of epochs
 
 #### **Guardrails**
 
 GAL-01 (y)*govActionLifetime* **must not** be lower than 1 epoch (5 days)
 
-GAL-03 (x \- "should") *govActionLifetime* **should not** be lower than 2 epochs(10 days)
+GAL-03 (x - "should") *govActionLifetime* **should not** be lower than 2 epochs(10 days)
 
 GAL-02(y)*govActionLifetime* **must not** exceed 15 epochs (75 days)
 
-GAL-04 (x \-"should") *govActionLifetime* **should** be calibrated in human terms(eg 30days, two weeks), to allow sufficient time for voting etc. to take place
+GAL-04 (x -"should") *govActionLifetime* **should** be calibrated in human terms(eg 30days, two weeks), to allow sufficient time for voting etc. to take place
 
-GAL-05 (\~ \- no access to existing parameter values) *govActionLifetime* **must** be less than *dRepActivity*
+GAL-05 (~ - no access to existing parameter values) *govActionLifetime* **must** be less than *dRepActivity*
 
 Maximum Constitutional Committee Term (committeeMaxTermLength)
 
@@ -1050,7 +1050,7 @@ CMTL-03a(y)*committeeMaxTermLength* **must not** be lower than 18 epochs(90 days
 
 CMTL-04a(y)*committeeMaxTermLength* **must not** exceed 293 epochs (approximately 4 years)
 
-CMTL-05a (x \-"should") *committeeMaxTermLength* **should not** exceed 220epochs(approximately 3 years)
+CMTL-05a (x -"should") *committeeMaxTermLength* **should not** exceed 220epochs(approximately 3 years)
 
 The minimum size of the Constitutional Committee (committeeMinSize)
 
@@ -1111,11 +1111,11 @@ As the result of a hard fork, new updatable protocol parameters may be introduce
 
 #### **Guardrails**
 
-HARDFORK-01 (\~- no access to existing parameter values) The major protocol version **must** be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version **must**be zero
+HARDFORK-01 (~- no access to existing parameter values) The major protocol version **must** be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version **must**be zero
 
-HARDFORK-02a (\~- no access to existing parameter values) Unless the major protocol version is also changed, the minor protocol version **must**be greater than the minor version that will be enacted immediately prior to this change
+HARDFORK-02a (~- no access to existing parameter values) Unless the major protocol version is also changed, the minor protocol version **must**be greater than the minor version that will be enacted immediately prior to this change
 
-HARDFORK-03(\~-no access to existing parameter values) At least one of the protocol versions (major or minor or both) **must**change
+HARDFORK-03(~-no access to existing parameter values) At least one of the protocol versions (major or minor or both) **must**change
 
 HARDFORK-04 (x) At least 85% of stake pools by active stake **should** have upgraded to a Cardano node version that is capable of processing the rules associated with the new protocol version
 
@@ -1125,7 +1125,7 @@ HARDFORK-06 (x) Settings for any new protocol parameters that are introduced wit
 
 HARDFORK-07 (x) Any deprecated protocol parameters **must** be indicated in this Appendix
 
-HARDFORK-08 (\~- no access to *Plutus cost model* parameters) New Plutus versions **must** be supported by a version-specific *Plutus cost model* that covers each primitive that is available in the new Plutus version
+HARDFORK-08 (~- no access to *Plutus cost model* parameters) New Plutus versions **must** be supported by a version-specific *Plutus cost model* that covers each primitive that is available in the new Plutus version
 
 ## **5.GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL**
 
@@ -1153,7 +1153,7 @@ NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consisten
 
 #### **Guardrails**
 
-\-None
+-None
 
 ## **8.GUARDRAILS AND GUIDELINES ON INFO ACTIONS**
 
@@ -1175,11 +1175,11 @@ The network group consists of:
 * *maximum size of a serialized asset value* (*maxValueSize*)  
 * *maximum script execution units in a single transaction*
 
-(*maxTxExecutionUnits\[steps\]*)
+(*maxTxExecutionUnits[steps]*)
 
 * *maximum script execution units in a single block*
 
-(*maxBlockExecutionUnits\[steps\]*)
+(*maxBlockExecutionUnits[steps]*)
 
 * *maximum number of collateral inputs* (*maxCollateralInputs*)
 
@@ -1189,7 +1189,7 @@ The economic group consists of:
 * *minimum fee constant*(*txFeeFixed*)  
 * *minimum fee per byte for reference scripts*
 
-(*minFeeRefScriptCoinsPerByte*) \- *delegation key Lovelace deposit*(*stakeAddressDeposit*)
+(*minFeeRefScriptCoinsPerByte*) - *delegation key Lovelace deposit*(*stakeAddressDeposit*)
 
 * *pool registration Lovelace deposit*(*stakePoolDeposit*)  
 * *monetary expansion*(*monetaryExpansion*)  
@@ -1197,9 +1197,9 @@ The economic group consists of:
 * *minimum fixed rewards cut for pools* (*minPoolCost*)  
 * *minimum Lovelace deposit per byte of serialized UTxO*
 
-(*coinsPerUTxOByte*) \- *rices of Plutus execution units*
+(*coinsPerUTxOByte*) - *rices of Plutus execution units*
 
-(*executionUnitPrices\[priceSteps/priceMemory\]*)
+(*executionUnitPrices[priceSteps/priceMemory]*)
 
 ### **The technical group consists of:**
 
@@ -1211,9 +1211,9 @@ The economic group consists of:
 
 ### **The governance group consists of:**
 
-* *governance voting thresholds*(*dRepVotingThresholds\[...\],poolVotingThresholds\[...\]*)
+* *governance voting thresholds*(*dRepVotingThresholds[...],poolVotingThresholds[...]*)
 
-\**governance action maximum lifetime in epochs*(*govActionLifetime*) \-*governance action deposit*(*govActionDeposit*)
+**governance action maximum lifetime in epochs*(*govActionLifetime*) -*governance action deposit*(*govActionDeposit*)
 
 * *DRep deposit amount*(*dRepDeposit*)  
 * *DRep activity period in epochs* (*dRepActivity*)  
