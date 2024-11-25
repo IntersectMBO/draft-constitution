@@ -272,7 +272,7 @@ The guardrails set forth in this Appendix may be amended from time to time pursu
 
 A script hash is associated with the constitution hash when a **New Constitution or Guardrails Script** governance action is enacted. It acts as an additional safeguard to the ledger rules and types,filtering non-compliant governance actions.
 
-The guardrails script only affects two types of governance actons:
+The guardrails script only affects two types of governance actions:
 
 * **Parameter Update** actions, and  
 * **Treasury Withdrawal** actions.
@@ -670,7 +670,7 @@ MBEU-M-03 (x - "should") *maxBlockExecutionUnits[memory]* **should not** be chan
 
 MBEU-M-04a (x - unquantifiable) The impact of any change to *maxBlockExecutionUnits[memory]* **must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of the diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[steps]*. Any increase **must** also consider previously agreed future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block limit to be increased, but must be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements.
 
-MEU-M-01 (~ - no access to existing parameter values) *maxBlockExecutionUnits[memory]***must not** be less than *maxTxExecutionUnits[memory]*
+MEU-M-01 (~ - no access to existing parameter values) *maxBlockExecutionUnits[memory]* **must not** be less than *maxTxExecutionUnits[memory]*
 
 #### CPU Unit Limits (maxBlockExecutionUnits[steps].maxTxExecutionUnits[steps])
 
@@ -864,7 +864,7 @@ Changes to governance parameters may be triggered by:
 
 Changes may need to be reversed and/or should not be enacted in the event of:
 
-* Unexpected effcts on governance  
+* Unexpected effects on governance  
 * Excessive Layer 1 load due to on-chain voting or excessive numbers of governance actions
 
 ##### Core Metrics
@@ -994,7 +994,7 @@ The limit on the maximum term length that a committee member may serve
 
 ##### Guardrails
 
-CMTL-01a (y) *committeeMaxTermLength***must not** be zero
+CMTL-01a (y) *committeeMaxTermLength* **must not** be zero
 
 CMTL-02a (y) *committeeMaxTermLength* **must not** be negative
 
