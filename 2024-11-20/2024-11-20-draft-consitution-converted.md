@@ -315,7 +315,7 @@ PARAM-02 (y) Where a protocol parameter is explicitly listed in this document bu
 
 The below protocol parameters are critical from a security point of view.
 
-#### Parameters that are Critical to the Operation of the Blockchain
+##### Parameters that are Critical to the Operation of the Blockchain
 
 * *maximum block body size*(*maxBlockBodySize*)  
 * *maximum transaction size* (*maxTxSize*)  
@@ -328,13 +328,13 @@ The below protocol parameters are critical from a security point of view.
 * *minimum Lovelace deposit per byte of serialized UTxO* (*utxoCostPerByte*)
 * *governance action deposit* (*govDeposit*)
 
-#### Guardrails
+##### Guardrails
 
 PARAM-03 (y) Critical protocol parameters require an SPO vote in addition to a DRep vote: SPOs **must** say "yes" with a collective support of more than 50% of all active block production stake. This is enforced by the guardrails on the stake pool voting threshold.
 
-PARAM-04(x) At least 3 months **should** normally pass between the publication of an off-chain proposal to change a critical protocol parameter and the submission of the corresponding on-chain governance action. This guardrail may be relaxed in the event of a Severity 1 or Severity 2 network issue following careful technical discussion and evaluation.
+PARAM-04 (x) At least 3 months **should** normally pass between the publication of an off-chain proposal to change a critical protocol parameter and the submission of the corresponding on-chain governance action. This guardrail may be relaxed in the event of a Severity 1 or Severity 2 network issue following careful technical discussion and evaluation.
 
-#### Parameters that are Critical to the Gvernance System
+##### Parameters that are Critical to the Governance System
 
 * *delegation key Lovelace deposit* (*stakeAddressDeposit*)
 * *pool registration Lovelace deposit* (*stakePoolDeposit*)
@@ -343,7 +343,7 @@ PARAM-04(x) At least 3 months **should** normally pass between the publication o
 * *minimal Constitutional Committee size* (*committeeMinSize*)
 * *maximum term length (in epochs) for the Constitutional Committee members* (*committeeMaxTermLimit*)
 
-#### Guardrails
+##### Guardrails
 
 PARAM-05 (y) DReps **must** vote "yes" with a collective support of more than 50% of all active voting stake. This is enforced by the guardrails on the DRep voting thresholds.
 
@@ -358,28 +358,28 @@ The overall goals when managing economic parameters are to:
 * Ensure that ada holders are adequately rewrded for using stake in constructive ways,including when delegating ada for block production; and  
 * Balance economic incentives for different Cardano Blockchain ecosystem stakeholders, including but not limited to Stake Pool Operators, ada holders, DeFi users,infrastructure users, developers (e.g. DApps) and financial intermediaries (e.g.exchanges)
 
-#### Triggers for Change
+##### Triggers for Change
 
 * Significant changes in the fiat value of ada resulting in potential problems with security, performance, functionality or long-term sustainability  
 * Changes in transaction volumes or types  
-* Community requests or suggestins  
+* Community requests or suggestions  
 * Emergency situations that require changes to economic parameters
 
-#### Counter-indicators
+##### Counter-indicators
 
 Changes to the economic parameters should not be made in isolation. They need to account for:
 
 * External economic factors
 * Network security concerns
 
-#### Core Metrics
+##### Core Metrics
 
 * Fiat value of ada resulting in potential problems with security,performance, functionality or long-term sustainability  
 * Transaction volumes and types  
 * Number and health of stake pools  
 * External economic factors
 
-#### Changes to Specific Economic Parameters
+##### Changes to Specific Economic Parameters
 
 Transaction fee per byte (txFeePerByte) and fixed transaction fee (txFeeFixed)
 
@@ -387,7 +387,7 @@ Defines the cost for basic transactions in Lovelace:
 
 *fee(tx) =txFeeFixed+ txFeePerByte x nBytes(tx)*
 
-#### Guardrails
+##### Guardrails
 
 TFPB-01(y) *txFeePerByte* **must not** be lower than 30 (0.000030 ada)
 
@@ -413,7 +413,7 @@ TFGEN-01 (x - "should") To maintain a consistent level of protection against den
 
 TFGEN-02 (x - unquantifiable) Any changes to *txFeeFixed* or *txFeePerByte* **must** consider the implications of reducing the cost of a denial-of-service attack or increasing the maximum transaction fee so that it becomes impossible to construct a transaction.
 
-#### UTxO cost per byte (utxoCostPerByte)
+##### UTxO cost per byte (utxoCostPerByte)
 
 Defines the deposit (in Lovelace) that is charged for each byte of storage that is held in a UTxO.This deposit is returned when the UTxO is no longer active.
 
@@ -422,15 +422,15 @@ Defines the deposit (in Lovelace) that is charged for each byte of storage that 
 * DoS protection decreases in line with the free node memory (proportional to UTxO growth)
 * Helps reduce long term storage costs for node users by providing an incentive to return UTxOs when no longer needed, or to merge UTxOs.
 
-#### Guardrails
+##### Guardrails
 
 UCPB-01(y)*utxoCostPerByte* **must not** be lower than 3,000 (0.003 ada)
 
 UCPB-02(y)*utxoCostPerByte* **must not** exceed 6,500 (0.0065 ada)
 
-UCPB-03(y)*utxoCostPerByte* **must not** bezero
+UCPB-03(y)*utxoCostPerByte* **must not** be zero
 
-UCPB-04(y)*utxoCostPerByte* **must not**be negative
+UCPB-04(y)*utxoCostPerByte* **must not** be negative
 
 UCPB-05a (x -"should") Changes **should** account for
 
@@ -444,7 +444,7 @@ iv) The sizes of UTxOs and
 
 v) The current total node memory usage
 
-#### Stake address deposit (stakeAddressDeposit)
+##### Stake address deposit (stakeAddressDeposit)
 
 Ensures that stake addresses are retired when no longer needed
 
@@ -453,7 +453,7 @@ Ensures that stake addresses are retired when no longer needed
 
 The rationale for the deposit is to incentivize that scarce memory resources are returned when they are no longer required. Reducing the number of active stake addresses also reduces processing and memory costs at the epoch boundary when calculating stake snapshots.
 
-#### Guardrails
+##### Guardrails
 
 SAD-01(y) *stakeAddressDeposit* **must not** be lower than 1,000,000 (1 ada)
 
@@ -461,7 +461,7 @@ SAD-02 (y) *stakeAddressDeposit* **must not** exceed 5,000,000(5ada)
 
 SAD-03(y) *stakeAddressDeposit* **must not** be negative
 
-Stake pool deposit (stakePoolDeposit)
+#### Stake pool deposit (stakePoolDeposit)
 
 Ensures that stake pools are retired by the stake pool operator when no longer needed by them
 
@@ -469,7 +469,7 @@ Ensures that stake pools are retired by the stake pool operator when no longer n
 
 The rationale for the deposit is to incentivize that scarce memory resources are returned when they are no longer required. Rewards and stake snapshot calculations are also impacted by the number of active stake pools.
 
-#### Guardrails
+##### Guardrails
 
 SPD-01(y) *stakePoolDeposit* **must not** be lower than 250,000,000 (250 ada)
 
@@ -483,11 +483,11 @@ Part of the rewards mechanism
 
 * The minimum pool cost is transferred to the pool rewards address before any delegator rewards are paid
 
-#### Guardrails
+##### Guardrails
 
-MPC-01(y) *minPoolCost* **must not**be negative
+MPC-01(y) *minPoolCost* **must not** be negative
 
-MPC-02(y) *minPoolCost* **must not**exceed 500,000,000 (500 ada)
+MPC-02(y) *minPoolCost* **must not** exceed 500,000,000 (500 ada)
 
 MPC-03 (x -"should") *minPoolCost* **should** be set in line with the economic cost for operating a pool
 
@@ -499,7 +499,7 @@ The treasury cut portion of the monetary expansion is transferred to the treasur
 
 * Can be set in the range 0.0-1.0 (0%-100%)
 
-#### Guardrails
+##### Guardrails
 
 TC-01 (y) *treasuryCut* **must not** be lower than 0.1(10%)
 
@@ -519,7 +519,7 @@ Part of the rewards mechanism
 * Governs the long-term sustainability of Cardano
 * The reserves are gradually depleted until no rewards are supplied
 
-#### Guardrails
+##### Guardrails
 
 ME-01 (y)*monetaryExpansion***must not** exceed 0.005
 
@@ -531,7 +531,7 @@ ME-04 (x - "should") *monetaryExpansion* **should not** be varied by more than +
 
 ME-05 (x- "should") *monetaryExpansion* **should not** be changed more than once in any 36-epoch period (approximately 6 months)
 
-Plutus Script Execution Prices (executionUnitPrices[priceSteps/priceMemory])
+#### Plutus Script Execution Prices (executionUnitPrices[priceSteps/priceMemory])
 
 Define the fees for executing Plutus scripts
 
@@ -539,7 +539,7 @@ Gives an economic return for Plutus script execution
 
 Provides security against low-cost DoS attacks
 
-#### Guardrails
+##### Guardrails
 
 EIUP-PS-01(y) *executionUnitPrices[priceSteps]* **must not** exceed 2,000/10,000,000
 
@@ -563,7 +563,7 @@ EIUP-GEN-02 (x - "should") The execution prices **should** be adjusted whenever 
 
 Defines the cost for using Plutus reference scripts in Lovelace
 
-#### Guardrails
+##### Guardrails
 
 MFRS-01 (y) *minFeeRefScriptCoinsPerByte* **must not** exceed 1,000 (0.001 ada).
 
@@ -582,7 +582,7 @@ The overall goals when managing the Cardano Blockchain network parameters are to
 1. Match the available Cardano Blockchain Layer 1 network capacity to current or future traffic demands, including payment transactions, layer 1 DApps, sidechain management and governance needs
 2. Balance traffic demands for different user groups, including payment transactions,minters of Fungible/Non-Fungible Tokens, Plutus scripts, DeFi developers, Stake Pool Operators and voting transactions
 
-#### Triggers for Change
+##### Triggers for Change
 
 Changes to network parameters may be triggered by:
 
@@ -590,7 +590,7 @@ Changes to network parameters may be triggered by:
 * Anticipated changes in traffic demands  
 * Community requests
 
-#### Counter-indicators
+##### Counter-indicators
 
 Changes may need to be reversed and/or should not be enacted in the event of:
 
@@ -598,7 +598,7 @@ Changes may need to be reversed and/or should not be enacted in the event of:
 * Stake pools being unable to handle traffic volume  
 * Scripts being unable to complete execution
 
-#### Core Metrics
+##### Core Metrics
 
 All decisions on parameter changes should be informed by:
 
@@ -610,7 +610,7 @@ All decisions on parameter changes should be informed by:
 
 Detailed benchmarking results are required to confirm the effect of any changes on mainnet performance or behavior prior to enactment. The effects of different transaction mixes must be analyzed, including normal transactions, Plutus scripts, and governance actions.
 
-#### Guardrails
+##### Guardrails
 
 NETWORK-01 (x - "should") No individual network parameter **should** change more than once per two epochs
 
@@ -622,7 +622,7 @@ Changes to Specific Network Parameters
 
 The maximum size of a block,in Bytes.
 
-#### Guardrails
+##### Guardrails
 
 MBBS-01 (y) *maxBlockBodySize* ***must not** exceed 122,880 Bytes (120KB)
 
@@ -642,7 +642,7 @@ MBBS-07 (x - "unquantifiable") The impact of any change to *maxBlockBodySize* **
 
 The maximum size of a transaction, in Bytes.
 
-#### Guardrails
+##### Guardrails
 
 MTS-01 (y) *maxTxSize* **must not** exceed 32,768 Bytes (32KB)
 
@@ -660,7 +660,7 @@ MTS-06 (x - "should") *maxTxSize* **should not** exceed 1/4 of the block size
 
 The limit on the maximum number of memory units that can be used by Plutus scripts, either per-transaction or per-block.
 
-#### Guardrails
+##### Guardrails
 
 MTEU-M-01 (y) *maxTxExecutionUnits[memory]* **must not** exceed 40,000,000 units
 
@@ -684,7 +684,7 @@ MEU-M-01 (~ - no access to existing parameter values) *maxBlockExecutionUnits[me
 
 The limit on the maximum number of CPU steps that can be used by Plutus scripts, either per transaction or per-block.
 
-#### Guardrails
+##### Guardrails
 
 MTEU-S-01 (y) *maxTxExecutionUnits[steps]* **must not** exceed 15,000,000,000(15Bn)units
 
@@ -708,7 +708,7 @@ MEU-S-01 (~-no access to existing parameter values) *maxBlockExecutionUnits[step
 
 The size of the block header.
 
-#### Guardrails
+##### Guardrails
 
 MBHS-01 (y) *maxBlockHeaderSize* **must not**exceed 5,000 Bytes
 
@@ -727,25 +727,25 @@ The overall goals when managing the technical/security parameters are:
 1. Ensure the security of the Cardano network in terms of decentralization, protection against Sybil and 51% attacks and protection against denial of service attacks
 2. Enable changes to the Plutus language
 
-#### Triggers for Change
+##### Triggers for Change
 
 * Changes in the number of active SPOs  
 * Changes to the Plutus language  
 * Security threats  
 * Community requests
 
-#### Counter-indicators
+##### Counter-indicators
 
 * Economic concerns, e.g. when changing the number of stake pools
 
-#### Core Metrics
+##### Core Metrics
 
 * Number of stake pools  
 * Level of decentralization
 
 #### Changes to Specific Technical/Security Parameters
 
-#### Target Number of Stake Pools (stakePoolTargetNum)
+##### Target Number of Stake Pools (stakePoolTargetNum)
 
 Sets the target number of stake pools
 
@@ -754,7 +754,7 @@ Sets the target number of stake pools
 * Has an economic effect as well as a security affect-economic advice is also required when changing this parameter  
 * Large changes in this parameter will trigger mass redelegation events
 
-#### Guardrails
+##### Guardrails
 
 SPTN-01 (y) *stakePoolTargetNum* **must not** be lower than 250
 
@@ -772,7 +772,7 @@ Enables the pledge protection mechanism
 * Higher values reward pools that have more pledge and penalize pools that have less pledge
 * Has an economic effect as well as technical effect - economic advice is also required
 
-#### Guardrails
+##### Guardrails
 
 PPI-01 (y) *poolPledgeInfluence* **must not** be lower than 0.1
 
@@ -786,7 +786,7 @@ PPI-04 (x-"should") *poolPledgeInfluence* **should not** vary by more than +/-10
 
 Defines the maximum number of epochs notice that a pool can give when planning to retire
 
-#### Guardrails
+##### Guardrails
 
 PRME-01 (y) *poolRetireMaxEpoch* **must not** be negative
 
@@ -802,7 +802,7 @@ Defines how much collateral must be provided when executing a Plutus script as a
 
 Provides security against low-cost attacks by making it more expensive rather than less expensive to execute failed scripts
 
-#### Guardrails
+##### Guardrails
 
 CP-01 (y) *collateralPercentage* **must not** be lower than 100
 
@@ -816,7 +816,7 @@ CP-04 (y) *collateralPercentage* **must not** be zero
 
 Defines the maximum number of inputs that can be used for collateral when executing a Plutus script
 
-#### Guardrails
+##### Guardrails
 
 MCI-01 (y) *maxCollateralInputs* **must not** be lower than 1
 
@@ -824,7 +824,7 @@ MCI-01 (y) *maxCollateralInputs* **must not** be lower than 1
 
 The limit on the serialized size of the Value in each output.
 
-#### Guardrails
+##### Guardrails
 
 MVS-01 (y) *max ValueSize* **must not** exceed 12,288 Bytes (12KB)
 
@@ -842,7 +842,7 @@ Define the base costs for each Plutus primitive in terms of CPU and memory unit
 
 A different cost model is required for each Plutus version. Each cost model comprises many distinct cost model values. Cost models are defined for each Plutus language version. A new language version may introduce additional cost model values or remove existing cost model values.
 
-#### Guardrails
+##### Guardrails
 
 PCM-01 (x-unquantifiable) *Cost model* values **must** be set by benchmarking on a reference architecture
 
@@ -859,7 +859,7 @@ The overall goals when managing the governance parameters are to:
 * Ensure governance stability  
 * Maintain a representative form of governance
 
-#### Triggers for Change
+##### Triggers for Change
 
 Changes to governance parameters may be triggered by:
 
@@ -868,14 +868,14 @@ Changes to governance parameters may be triggered by:
 * Unexpected or unwanted governance outcomes  
 * Entering a state of no confidence
 
-#### Counter-indicators
+##### Counter-indicators
 
 Changes may need to be reversed and/or should not be enacted in the event of:
 
 * Unexpected effcts on governance  
 * Excessive Layer 1 load due to on-chain voting or excessive numbers of governance actions
 
-#### Core Metrics
+##### Core Metrics
 
 All decisions on parameter changes should be informed by:
 
@@ -893,7 +893,7 @@ The deposit that is charged when submitting a governance action.
 
 * Helps to limit the number of actions that are submitted
 
-#### Guardrails
+##### Guardrails
 
 GD-01 (y) *govDeposit* **must not** be negative
 
@@ -909,7 +909,7 @@ The deposit that is charged when registering a DRep.
 
 * Helps to limit the number of active DReps
 
-#### Guardrails
+###### Guardrails
 
 DRD-01 (y) *dRepDeposit* **must not** be negative
 
@@ -923,7 +923,7 @@ DRD-04 (x- "should") *dRepDeposit* **should** be adjusted in line with fiat chan
 
 The period (as a whole number of epochs) after which a DRep is considered to be inactive for vote calculation purposes, if they do not vote on any proposal.
 
-#### Guardrails
+##### Guardrails
 
 DRA-01 (y) *dRepActivity* **must not** be lower than 13 epochs (2 months)
 
@@ -964,7 +964,7 @@ The threshold parameters are listed below:
 * *pvtMotionNoConfidence*  
 * *pvtPPSecurityGroup*
 
-#### Guardrails
+##### Guardrails
 
 VT-GEN-01 (y) All thresholds **must** be greater than 50% and less than or equal to 100%
 
@@ -984,7 +984,7 @@ VT-NC-01(y) **No confidence** action thresholds **must** be in the range 51%-75%
 
 The period after which a governance action will expire if it is not enacted - As a whole number of epochs
 
-#### Guardrails
+##### Guardrails
 
 GAL-01 (y) *govActionLifetime* **must not** be lower than 1 epoch (5 days)
 
@@ -1000,7 +1000,7 @@ GAL-05 (~ - no access to existing parameter values) *govActionLifetime* **must**
 
 The limit on the maximum term length that a committee member may serve
 
-#### Guardrails
+##### Guardrails
 
 CMTL-01a (y) *committeeMaxTermLength***must not** be zero
 
@@ -1016,7 +1016,7 @@ CMTL-05a (x -"should") *committeeMaxTermLength* **should not** exceed 220 epochs
 
 The least number of members that can be included in a Constitutional Committee following a governance action to change the Constitutional Committee.
 
-#### Guardrails
+##### Guardrails
 
 CMS-01 (y) *committeeMinSize* **must not**be negative
 
@@ -1049,7 +1049,7 @@ Some fundamental protocol parameters cannot be changed by the Protocol Parameter
 
 **Treasury withdrawal** actions specify the destination and amount of a number of withdrawals from the Cardano treasury.
 
-#### Guardrails
+##### Guardrails
 
 TREASURY-01a (x) A net change limit for the Cardano Treasury's balance per period of time **must** be agreed by the DReps via an on-chain governance action with a threshold of greater than 50% of the active voting stake
 
@@ -1067,7 +1067,7 @@ The **hard fork initiation** action requires both a new major and a new minor pr
 
 As the result of a hard fork, new updatable protocol parameters may be introduced. Guardrails may be defined for these parameters, which will take effect following the hard fork. Existing updatable protocol parameters may also be deprecated by the hard fork, in which case the guardrails become obsolete for all future changes.
 
-#### Guardrails
+##### Guardrails
 
 HARDFORK-01 (~- no access to existing parameter values) The major protocol version **must** be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version **must** be zero
 
@@ -1091,7 +1091,7 @@ HARDFORK-08 (~- no access to *Plutus cost model* parameters) New Plutus versions
 
 **Update Constitutional Committee or Threshold** governance actions may change the size,composition or required voting thresholds for the Constitutional Committee.
 
-#### Guardrails
+##### Guardrails
 
 UPDATE-CC-01a (x) **Update Constitutional Committee and/or threshold** **and/or term** governance actions **must not** be ratified until ada holders have ratified through an on-chain governance action this Constitution
 
@@ -1111,7 +1111,7 @@ NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consisten
 
 #### Guardrails
 
--None
+* None
 
 ### 8.GUARDRAILS AND GUIDELINES ON INFO ACTIONS
 
