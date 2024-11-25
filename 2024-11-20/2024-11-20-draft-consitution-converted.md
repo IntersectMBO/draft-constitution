@@ -1034,7 +1034,7 @@ All network parameter changes **must be** monitored carefully for no less than 2
 
 All other parameter changes should be monitored
 
-* The revrsion plan **should** be implemented if the overall effect on performance,security, functionality or long-term sustainability is unacceptable.
+* The reversion plan **should** be implemented if the overall effect on performance,security, functionality or long-term sustainability is unacceptable.
 
 A specific reversion/recovery plan **must be** produced for each parameter change. This plan must include:
 
@@ -1087,7 +1087,7 @@ HARDFORK-07 (x) Any deprecated protocol parameters **must** be indicated in this
 
 HARDFORK-08 (~- no access to *Plutus cost model* parameters) New Plutus versions **must** be supported by a version-specific *Plutus cost model* that covers each primitive that is available in the new Plutus version
 
-### 5.GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL
+### 5. GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL
 
 #### COMMITTEE OR THRESHOLD ACTIONS
 
@@ -1097,7 +1097,7 @@ HARDFORK-08 (~- no access to *Plutus cost model* parameters) New Plutus versions
 
 UPDATE-CC-01a (x) **Update Constitutional Committee and/or threshold** **and/or term** governance actions **must not** be ratified until ada holders have ratified through an on-chain governance action this Constitution
 
-### 6.GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
+### 6. GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
 
 New constitution or guardrails script actions change the hash of the on-chain constitution and the associated guardrails script.
 
@@ -1107,7 +1107,7 @@ NEW-CONSTITUTION-01a (x) A **New Constitution** **or Guardrails Script** governa
 
 NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consistent with this Constitution
 
-### 7.GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS
+### 7. GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS
 
 **No confidence** actions signal a state of no confidence in the governance system. No guardrails are imposed on **No Confidence** actions.
 
@@ -1115,7 +1115,7 @@ NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consisten
 
 * None
 
-### 8.GUARDRAILS AND GUIDELINES ON INFO ACTIONS
+### 8. GUARDRAILS AND GUIDELINES ON INFO ACTIONS
 
 **Info** actions are not enacted on-chain. No guardrails are imposed on **Info** actions.
 
