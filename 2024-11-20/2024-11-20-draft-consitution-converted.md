@@ -148,7 +148,7 @@ The Cardano Community is expected to support the creation, maintenance and ongoi
 
 DReps acting on behalf of other ada owners may be compensated for their efforts. DReps shall ensure that any compensation received in connection with their activities as a DRep is disclosed. DReps may not pay compensation to an ada owner or to an owner's designee in exchange for being appointed a DRep by such ada owner or by its designee or for voting on behalf of such ada owner or its designee.
 
-## ARTICLE V.STAKE POOL OPERATORS
+## ARTICLE V. STAKE POOL OPERATORS
 
 ### Section 1
 
@@ -355,7 +355,7 @@ The overall goals when managing economic parameters are to:
 
 * Enable long-term economic sustainability for the Cardano Blockchain ecosystem;  
 * Ensure that stake pools are adequately rewarded for maintaining the Cardano Blockchain;  
-* Ensure that ada holders are adequately rewrded for using stake in constructive ways,including when delegating ada for block production; and  
+* Ensure that ada holders are adequately rewarded for using stake in constructive ways,including when delegating ada for block production; and  
 * Balance economic incentives for different Cardano Blockchain ecosystem stakeholders, including but not limited to Stake Pool Operators, ada holders, DeFi users,infrastructure users, developers (e.g. DApps) and financial intermediaries (e.g.exchanges)
 
 ##### Triggers for Change
@@ -448,8 +448,8 @@ v) The current total node memory usage
 
 Ensures that stake addresses are retired when no longer needed
 
-* Helps reduce long term storage csts  
-* Helps limit CPU and memory costs inthe ledger
+* Helps reduce long term storage costs  
+* Helps limit CPU and memory costs in the ledger
 
 The rationale for the deposit is to incentivize that scarce memory resources are returned when they are no longer required. Reducing the number of active stake addresses also reduces processing and memory costs at the epoch boundary when calculating stake snapshots.
 
@@ -457,7 +457,7 @@ The rationale for the deposit is to incentivize that scarce memory resources are
 
 SAD-01(y) *stakeAddressDeposit* **must not** be lower than 1,000,000 (1 ada)
 
-SAD-02 (y) *stakeAddressDeposit* **must not** exceed 5,000,000(5ada)
+SAD-02 (y) *stakeAddressDeposit* **must not** exceed 5,000,000 (5ada)
 
 SAD-03(y) *stakeAddressDeposit* **must not** be negative
 
@@ -473,11 +473,11 @@ The rationale for the deposit is to incentivize that scarce memory resources are
 
 SPD-01(y) *stakePoolDeposit* **must not** be lower than 250,000,000 (250 ada)
 
-SPD-02(y) *stakePoolDeposit* **must not** exceed 500,000,000(500 ada)
+SPD-02(y) *stakePoolDeposit* **must not** exceed 500,000,000 (500 ada)
 
 SPD-03(y) *stakePoolDeposit* **must not** be negative
 
-Minimum Pool Cost (minPoolCost)
+#### Minimum Pool Cost (minPoolCost)
 
 Part of the rewards mechanism
 
@@ -491,7 +491,7 @@ MPC-02(y) *minPoolCost* **must not** exceed 500,000,000 (500 ada)
 
 MPC-03 (x -"should") *minPoolCost* **should** be set in line with the economic cost for operating a pool
 
-#### Treasuy Cut (treasuryCut)
+#### Treasury Cut (treasuryCut)
 
 Part of the rewards mechanism
 
@@ -614,7 +614,7 @@ Detailed benchmarking results are required to confirm the effect of any changes 
 
 NETWORK-01 (x - "should") No individual network parameter **should** change more than once per two epochs
 
-NETWORK-02 (x -"should") Only one network parameter **should** be changed per epoch unless they are directly correlated, e.g., per-transaction and per-block memory unit limits
+NETWORK-02 (x - "should") Only one network parameter **should** be changed per epoch unless they are directly correlated, e.g., per-transaction and per-block memory unit limits
 
 Changes to Specific Network Parameters
 
@@ -674,7 +674,7 @@ MBEU-M-01 (y) *maxBlockExecutionUnits[memory]* **must not** exceed 120,000,000 u
 
 MBEU-M-02 (y) *maxBlockExecutionUnits[memory]* **must not** be negative
 
-MBEU-M-03 (x - "should") *maxBlockExecutionUnits[memory]* **should not** be changed (increasedor decreased) by more than 10,000,000 units in any epoch
+MBEU-M-03 (x - "should") *maxBlockExecutionUnits[memory]* **should not** be changed (increased or decreased) by more than 10,000,000 units in any epoch
 
 MBEU-M-04a (x - unquantifiable) The impact of any change to *maxBlockExecutionUnits[memory]* **must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of the diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[steps]*. Any increase **must** also consider previously agreed future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block limit to be increased, but must be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements.
 
@@ -696,13 +696,13 @@ MTEU-S-04 (x-"should") *maxTxExecutionUnits[steps]* **should not** be increased 
 
 MBEU-S-01 (y) *maxBlockExecutionUnits[steps]* **must not** exceed 40,000,000,000(40Bn) units
 
-MBEU-S-02 (y) *maxBlockExecutionUnits[steps]* **must not**be negative
+MBEU-S-02 (y) *maxBlockExecutionUnits[steps]* **must not** be negative
 
 MBEU-S-03 (x -"should") *maxBlockExecutionUnits[steps]* **should not** be changed (increased or decreased) by more than 2,000,000,000 (2Bn) units in any epoch (5 days)
 
-MBEU-S-04a (x-unquantifiable) The impact of the change to *maxBlockExecutionUnits[steps]* **1 must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of theblock diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[memory]* and *maxBlockBodySize*.Any increase **must** also consider previously identified future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block step limit to be increased,but **must** be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
+MBEU-S-04a (x-unquantifiable) The impact of the change to *maxBlockExecutionUnits[steps]* **1 must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of the block diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[memory]* and *maxBlockBodySize*.Any increase **must** also consider previously identified future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block step limit to be increased,but **must** be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
 
-MEU-S-01 (~-no access to existing parameter values) *maxBlockExecutionUnits[steps]* **must not**be less than *maxTxExecutionUnits[steps]*
+MEU-S-01 (~-no access to existing parameter values) *maxBlockExecutionUnits[steps]* **must not** be less than *maxTxExecutionUnits[steps]*
 
 #### Block Header Size (maxBlockHeaderSize)
 
@@ -710,7 +710,7 @@ The size of the block header.
 
 ##### Guardrails
 
-MBHS-01 (y) *maxBlockHeaderSize* **must not**exceed 5,000 Bytes
+MBHS-01 (y) *maxBlockHeaderSize* **must not** exceed 5,000 Bytes
 
 MBHS-02 (y) *maxBlockHeaderSize* **must not** be negative
 
@@ -992,7 +992,7 @@ GAL-03 (x - "should") *govActionLifetime* **should not** be lower than 2 epochs 
 
 GAL-02 (y) *govActionLifetime* **must not** exceed 15 epochs (75 days)
 
-GAL-04 (x -"should") *govActionLifetime* **should** be calibrated in human terms (eg 30days, two weeks), to allow sufficient time for voting etc. to take place
+GAL-04 (x -"should") *govActionLifetime* **should** be calibrated in human terms (eg 30 days, two weeks), to allow sufficient time for voting etc. to take place
 
 GAL-05 (~ - no access to existing parameter values) *govActionLifetime* **must** be less than *dRepActivity*
 
@@ -1006,7 +1006,7 @@ CMTL-01a (y) *committeeMaxTermLength***must not** be zero
 
 CMTL-02a (y) *committeeMaxTermLength* **must not** be negative
 
-CMTL-03a (y) *committeeMaxTermLength* **must not** be lower than 18 epochs(90 days, or approximately 3 months)
+CMTL-03a (y) *committeeMaxTermLength* **must not** be lower than 18 epochs (90 days, or approximately 3 months)
 
 CMTL-04a (y) *committeeMaxTermLength* **must not** exceed 293 epochs (approximately 4 years)
 
@@ -1018,7 +1018,7 @@ The least number of members that can be included in a Constitutional Committee f
 
 ##### Guardrails
 
-CMS-01 (y) *committeeMinSize* **must not**be negative
+CMS-01 (y) *committeeMinSize* **must not** be negative
 
 CMS-02 (y) *committeeMinSize* **must not** be lower than 3
 
@@ -1079,7 +1079,7 @@ HARDFORK-04 (x) At least 85% of stake pools by active stake **should** have upgr
 
 HARDFORK-05 (x) Any new updatable protocol parameters that are introduced with a hard fork **must** be included in this Appendix and suitable guardrails defined for those parameters
 
-HARDFORK-06 (x) Settings for any new protocol parameters that are introduced with a hard fork **must**be included in the appropriate Genesis file
+HARDFORK-06 (x) Settings for any new protocol parameters that are introduced with a hard fork **must** be included in the appropriate Genesis file
 
 HARDFORK-07 (x) Any deprecated protocol parameters **must** be indicated in this Appendix
 
