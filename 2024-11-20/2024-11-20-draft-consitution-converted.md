@@ -34,9 +34,7 @@ These below Tenets shall guide all participants of he Cardano Community, includi
 
 TENET 1 Transactions on the Cardano Blockchain shall not be slowed down or censored and shall be expediently served for their intended purpose.
 
-TENET 2 The cost of transactions on the Cardano Blockchain shall be predictable and not
-
-unreasonable.
+TENET 2 The cost of transactions on the Cardano Blockchain shall be predictable and not unreasonable.
 
 TENET 3 Anyone desiring to develop and deploy applications on the Cardano Blockchain shall not unreasonably be prevented from developing and deploying such applications as intended.
 
@@ -68,9 +66,7 @@ No formal membership shall be required to use, participate in and benefit from t
 
 ### Section 2
 
-Participants in the Cardano Community who own ada are entitled to access and participate in the on-chain decision-making processes of the Cardano Blockchain ecosystem,including
-
-voting and taking part in on-chain governance actions regarding the Cardano Blockchain.
+Participants in the Cardano Community who own ada are entitled to access and participate in the on-chain decision-making processes of the Cardano Blockchain ecosystem, including voting and taking part in on-chain governance actions regarding the Cardano Blockchain.
 
 ### Section 3
 
@@ -96,9 +92,7 @@ On-chain governance decisions shall be made through a collective decision-making
 
 ### Section 4
 
-All owners of ada shall have the right to vote in on-chain governance action decision-making processes, subject to any restrictions or requirements provided for in this Constitution and the Cardano Blockchain Guardrails. All owners of ada shall have the right to propose changes to the governance structure of the Cardano Blockchain ecosystem in accordance with the Cardano Blockchain Guardrails. Owners of ada who use third-party custodians or other designees to hold
-
-their ada, may authorize, or may withhold authorization for, such third-parties to vote on their behalf.
+All owners of ada shall have the right to vote in on-chain governance action decision-making processes, subject to any restrictions or requirements provided for in this Constitution and the Cardano Blockchain Guardrails. All owners of ada shall have the right to propose changes to the governance structure of the Cardano Blockchain ecosystem in accordance with the Cardano Blockchain Guardrails. Owners of ada who use third-party custodians or other designees to hold their ada, may authorize, or may withhold authorization for, such third-parties to vote on their behalf.
 
 ### Section 5
 
@@ -172,9 +166,7 @@ Owners of ada who are both SPOs and acting as DReps shall publicly disclose that
 
 ### Section 1
 
-A Constitutional Committee shall be established as the branch of Cardano's on-chain governance process that ensures governance actions to be enacted on-chain are consistent with this
-
-Constitution. The Constitutional Committee shall comprise a set of owners of ada that is collectively responsible for ensuring that on-chain governance actions prior to enactment on chain,are constitutional. With limited exceptions as provided in this Constitution,the Constitutional Committee shall be limited to voting on the constitutionality of governance actions to be enacted on-chain. Constitutional Committee members are expected to have appropriate expertise to carry out their required responsibilities,considering their past contributions and involvement in the Cardano Blockchain ecosystem.
+A Constitutional Committee shall be established as the branch of Cardano's on-chain governance process that ensures governance actions to be enacted on-chain are consistent with this Constitution. The Constitutional Committee shall comprise a set of owners of ada that is collectively responsible for ensuring that on-chain governance actions prior to enactment on chain,are constitutional. With limited exceptions as provided in this Constitution,the Constitutional Committee shall be limited to voting on the constitutionality of governance actions to be enacted on-chain. Constitutional Committee members are expected to have appropriate expertise to carry out their required responsibilities,considering their past contributions and involvement in the Cardano Blockchain ecosystem.
 
 ### Section 2
 
@@ -391,21 +383,21 @@ Defines the cost for basic transactions in Lovelace:
 
 ##### Guardrails
 
-TFPB-01(y) *txFeePerByte* **must not** be lower than 30 (0.000030 ada)
+TFPB-01 (y) *txFeePerByte* **must not** be lower than 30 (0.000030 ada)
 
 This protects against low-cost denial of service attacks
 
-TFPB-02(y) *txFeePerByte* **must not** exceed 1,000 (0.001 ada)
+TFPB-02 (y) *txFeePerByte* **must not** exceed 1,000 (0.001 ada)
 
 This ensures that transactions can be paid for
 
 TFPB-03 (y) *txFeePerByte* **must not** be negative
 
-TFF-01(y) *txFeeFixed* **must not** be lower than 100,000 (0.1 ada)
+TFF-01 (y) *txFeeFixed* **must not** be lower than 100,000 (0.1 ada)
 
 This protects against low-cost denial of service attacks
 
-TFF-02(y) *txFeeFixed* **must not** exceed 10,000,000(10 ada)
+TFF-02 (y) *txFeeFixed* **must not** exceed 10,000,000(10 ada)
 
 This ensures that transactions can be paid for
 
@@ -426,13 +418,13 @@ Defines the deposit (in Lovelace) that is charged for each byte of storage that 
 
 ##### Guardrails
 
-UCPB-01(y)*utxoCostPerByte* **must not** be lower than 3,000 (0.003 ada)
+UCPB-01 (y) *utxoCostPerByte* **must not** be lower than 3,000 (0.003 ada)
 
-UCPB-02(y)*utxoCostPerByte* **must not** exceed 6,500 (0.0065 ada)
+UCPB-02 (y) *utxoCostPerByte* **must not** exceed 6,500 (0.0065 ada)
 
-UCPB-03(y)*utxoCostPerByte* **must not** be zero
+UCPB-03 (y) *utxoCostPerByte* **must not** be zero
 
-UCPB-04(y)*utxoCostPerByte* **must not** be negative
+UCPB-04 (y) *utxoCostPerByte* **must not** be negative
 
 UCPB-05a (x -"should") Changes **should** account for
 
@@ -457,11 +449,11 @@ The rationale for the deposit is to incentivize that scarce memory resources are
 
 ##### Guardrails
 
-SAD-01(y) *stakeAddressDeposit* **must not** be lower than 1,000,000 (1 ada)
+SAD-01 (y) *stakeAddressDeposit* **must not** be lower than 1,000,000 (1 ada)
 
 SAD-02 (y) *stakeAddressDeposit* **must not** exceed 5,000,000 (5ada)
 
-SAD-03(y) *stakeAddressDeposit* **must not** be negative
+SAD-03 (y) *stakeAddressDeposit* **must not** be negative
 
 #### Stake pool deposit (stakePoolDeposit)
 
@@ -473,11 +465,11 @@ The rationale for the deposit is to incentivize that scarce memory resources are
 
 ##### Guardrails
 
-SPD-01(y) *stakePoolDeposit* **must not** be lower than 250,000,000 (250 ada)
+SPD-01 (y) *stakePoolDeposit* **must not** be lower than 250,000,000 (250 ada)
 
-SPD-02(y) *stakePoolDeposit* **must not** exceed 500,000,000 (500 ada)
+SPD-02 (y) *stakePoolDeposit* **must not** exceed 500,000,000 (500 ada)
 
-SPD-03(y) *stakePoolDeposit* **must not** be negative
+SPD-03 (y) *stakePoolDeposit* **must not** be negative
 
 #### Minimum Pool Cost (minPoolCost)
 
@@ -487,9 +479,9 @@ Part of the rewards mechanism
 
 ##### Guardrails
 
-MPC-01(y) *minPoolCost* **must not** be negative
+MPC-01 (y) *minPoolCost* **must not** be negative
 
-MPC-02(y) *minPoolCost* **must not** exceed 500,000,000 (500 ada)
+MPC-02 (y) *minPoolCost* **must not** exceed 500,000,000 (500 ada)
 
 MPC-03 (x -"should") *minPoolCost* **should** be set in line with the economic cost for operating a pool
 
@@ -523,7 +515,7 @@ Part of the rewards mechanism
 
 ##### Guardrails
 
-ME-01 (y)*monetaryExpansion***must not** exceed 0.005
+ME-01 (y) *monetaryExpansion***must not** exceed 0.005
 
 ME-02 (y) *monetaryExpansion* **must not** be lower than 0.001
 
@@ -543,9 +535,9 @@ Provides security against low-cost DoS attacks
 
 ##### Guardrails
 
-EIUP-PS-01(y) *executionUnitPrices[priceSteps]* **must not** exceed 2,000/10,000,000
+EIUP-PS-01 (y) *executionUnitPrices[priceSteps]* **must not** exceed 2,000/10,000,000
 
-EIUP-PS-02(y) *executionUnitPrices[priceSteps]* **must not** be lower than 500/10,000,000
+EIUP-PS-02 (y) *executionUnitPrices[priceSteps]* **must not** be lower than 500/10,000,000
 
 EIUP-PM-01 (y) *executionUnitPrices[priceMemory]* **must not** exceed 2,000/10,000
 
