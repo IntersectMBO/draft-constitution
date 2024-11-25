@@ -120,11 +120,11 @@ The Cardano Community is expected to support the creation,maintenance and ongoin
 
 The Cardano Community is expected to propose, not less than on an annual basis, a budget for the ongoing maintenance and future development of the Cardano Blockchain. All owners of ada are expected to periodically approve the Cardano Blockchain budget through an on-chain “Info action.”No withdrawals from the Cardano Blockchain treasury shall be permitted unless such withdrawals have been authorized and are being made pursuant to a budget for the
 
-Cardano Blockchain that i then in effect as required by the Cardano Blockchain Guardrails,and which has not been determined by the Constitutional Committee to be unconstitutional.Cardano Blockchain budgets shall specify a process for overseeing use of funds from Cardano Blockchain treasury withdrawals including designating one or more administrators who shall be responsible for such oversight.
+Cardano Blockchain that i then in effect as required by the Cardano Blockchain Guardrails,and which has not been determined by the Constitutional Committee to be unconstitutional. Cardano Blockchain budgets shall specify a process for overseeing use of funds from Cardano Blockchain treasury withdrawals including designating one or more administrators who shall be responsible for such oversight.
 
 Any governance action requesting ada from the Cardano Blockchain treasury shall require an allocation of ada as a part of such funding request to cover the cost of periodic independent audits and the implementation of oversight metrics as to the use of such ada. Contractual obligations governing the use of ada received from the Cardano Blockchain treasury pursuant to a Cardano budget shall include dispute resolution provisions.
 
-## ARTICLE IV.DELEGATED REPRESENTATIVES
+## ARTICLE IV. DELEGATED REPRESENTATIVES
 
 ### Section 1
 
@@ -142,13 +142,11 @@ DReps acting on behalf of other ada owners are expected to periodically adopt, a
 
 ### Section 4
 
-The Cardano Community is expected to support the creation, maintenance and ongoing administration of tools to enable owners of ada to explore and evaluate DRep candidates,
-
-access and evaluate DRep codes of conduct and select DReps on such criteria as they deem relevant.
+The Cardano Community is expected to support the creation, maintenance and ongoing administration of tools to enable owners of ada to explore and evaluate DRep candidates, access and evaluate DRep codes of conduct and select DReps on such criteria as they deem relevant.
 
 ### Section 5
 
-DReps acting on behalf of other ada owners may be compensated for their efforts. DReps shall ensure that any compensation received in connection with their activities as a DRep is disclosed.DReps may not pay compensation to an ada owner or to an owner's designee in exchange for being appointed a DRep by such ada owner or by its designee or for voting on behalf of such ada owner or its designee.
+DReps acting on behalf of other ada owners may be compensated for their efforts. DReps shall ensure that any compensation received in connection with their activities as a DRep is disclosed. DReps may not pay compensation to an ada owner or to an owner's designee in exchange for being appointed a DRep by such ada owner or by its designee or for voting on behalf of such ada owner or its designee.
 
 ## ARTICLE V.STAKE POOL OPERATORS
 
@@ -168,7 +166,7 @@ SPOs are encouraged to periodically adopt, and update as they deem appropriate, 
 
 Owners of ada who are both SPOs and acting as DReps shall publicly disclose that they are participating in on-chain governance actions in both such capacities prior to exercising any on-chain governance rights.
 
-## ARTICLE VI.CONSTITUTIONAL COMMITTEE
+## ARTICLE VI. CONSTITUTIONAL COMMITTEE
 
 ### Section 1
 
@@ -190,13 +188,11 @@ The Cardano Community shall establish and make public a process from time to tim
 
 No governance action, other than a "Motion of no-confidence," or "Update constitutional committee/threshold" may be implemented on-chain unless a requisite percentage as specified by the Guardrails of the members of the Constitutional Committee shall have first determined and affirmed through an on-chain action that such proposal does not violate this Constitution.
 
-Because “Info” actions have no on-chain effect and, accordingly, are neither constitutional nor unconstitutional,Constitutional Committee members may not prevent “Info” actions from being recorded on-chain.Members of the Constitutional Committee may nevertheless record a vote on-chain regarding an “Info” action in order to express their view on such “Info” action,including wheter the suggested course of action proposed in such “Info”action,would be,in the view of such member, unconstitutional if it were to be enforced by on-chain mechanisms.
+Because “Info” actions have no on-chain effect and, accordingly, are neither constitutional nor unconstitutional,Constitutional Committee members may not prevent “Info” actions from being recorded on-chain. Members of the Constitutional Committee may nevertheless record a vote on-chain regarding an “Info” action in order to express their view on such “Info” action,including wheter the suggested course of action proposed in such “Info”action,would be,in the view of such member, unconstitutional if it were to be enforced by on-chain mechanisms.
 
 In the case of "Info actions” that propose a Cardano Blockchain budget, Constitutional Committee members shall record a vote on-chain that sets forth their opinion as to whether the proposed budget, if it were to be implemented in the form contained in the “Info”action,would violate this Constitution.
 
-In the case of "Info" actions that propose a withdrawal from the Cardano treasury pursuant to a
-
-previously approved budget, Constitutional Committee members shall record a vote on-chain that sets forth their opinion as to whether such proposed withdrawal, if made in accordance with such“Info”action, would violate this Constitution.
+In the case of "Info" actions that propose a withdrawal from the Cardano treasury pursuant to a previously approved budget, Constitutional Committee members shall record a vote on-chain that sets forth their opinion as to whether such proposed withdrawal, if made in accordance with such“Info”action, would violate this Constitution.
 
 ### Section 5
 
@@ -212,7 +208,7 @@ Constitutional Committee processes shall be transparent. The Constitutional Comm
 
 The Constitutional Committee shall operate pursuant to a code of conduct periodically adopted and published by the Constitutional Committee. The Constitutional Committee is encouraged to include ethical guidelines in its code of conduct.The Constitutional Committee shall periodically adopt and publish such policies and procedures as the Constitutional Committee shall deem necessary in carrying out its duties.
 
-## Section 7
+### Section 7
 
 The Cardano Community is expected to support the creation, maintenance and ongoing administration of tools as may be necessary and appropriate for the Constitutional Committee to perform its required functions.
 
@@ -236,7 +232,7 @@ If the Cardano Blockchain Guardrails Appendix sets forth an amendment threshold 
 
 ## APPENDIX I: CARDANO BLOCKCHAIN GUARDRAILS
 
-### 1.INTRODUCTION
+### 1. INTRODUCTION
 
 To implement Cardano Blockchain on-chain governance, it is necessary to establish sensible guardrails that will enable the Cardano Blockchain to continue to operate in a secure and sustainable way.
 
@@ -295,7 +291,7 @@ The script is executed when either of these types of governance action is submit
 
 * (y) The script can be used to enforce the guardrail.  
 * (x) The script cannot be used to enforce the guardrail.  
-* (~-reason) The scriptcannot be used to enforce the guardrail for the reason given,but future ledger changes could enable this.
+* (~-reason) The script cannot be used to enforce the guardrail for the reason given,but future ledger changes could enable this.
 
 Guardrails may overlap: in this case, the most restrictive set of guardrails will apply.
 
@@ -303,7 +299,7 @@ Where a parameter is not explicitly listed in this document, then the script **m
 
 Conversely,where a parameter is explicitly listed in this document but no checkable guardrails are specified, the script **must not** imposes any constraints on changes to the parameter.
 
-## 2.GUARDRAILS AND GUIDELINES ON PROTOCOL PARAMETER UPDATE ACTIONS
+### 2. GUARDRAILS AND GUIDELINES ON PROTOCOL PARAMETER UPDATE ACTIONS
 
 Below are guardrails and guidelines for changing updatable protocol parameter settings via the protocol parameter update governance action such that the Cardano Blockchain is never in an unrecoverable state as a result of such changes.
 
@@ -311,11 +307,11 @@ Note that, to avoid ambiguity, this Appendix uses the parameter name that is use
 
 #### Guardrails
 
-PARAM-01(y)Any protocol parameter that is not explicitly named in this document **must not** be changed by a Parameter update governance action
+PARAM-01 (y) Any protocol parameter that is not explicitly named in this document **must not** be changed by a Parameter update governance action
 
 PARAM-02 (y) Where a protocol parameter is explicitly listed in this document but no checkable guardrails are specified, the guardrails script **must not** impose any constraints on changes to the parameter. Checkable guardrails are shown by a (y)
 
-### 2.1. Critical Protocol Parameters
+#### 2.1. Critical Protocol Parameters
 
 The below protocol parameters are critical from a security point of view.
 
@@ -353,7 +349,7 @@ PARAM-05 (y) DReps **must** vote "yes" with a collective support of more than 50
 
 PARAM-06 (x) At least 3 months **should** normally pass between the publication of an off-chain proposal to change a parameter that is critical to the governance system and the submission of the corresponding on-chain governance action. This guardrail may be relaxed in the event of a Severity 1 or Severity 2 network issue following careful technical discussion and evaluation.
 
-### 2.2. Economic Parameters
+#### 2.2. Economic Parameters
 
 The overall goals when managing economic parameters are to:
 
@@ -579,7 +575,7 @@ MFRS-03 (x - "should") To maintain a consistent level of protection against deni
 
 MFRS-04 (x - unquantifiable) Any changes to *minFeeRefScriptCoinsPerByte'* **must** consider the implications of reducing the cost of a denial-of-service attack or increasing the maximum transaction fee
 
-### 2.3.Network Parameters
+#### 2.3. Network Parameters
 
 The overall goals when managing the Cardano Blockchain network parameters are to:
 
@@ -636,7 +632,7 @@ MBBS-03a (x-"exceptional circumstances") *maxBlockBodySize* **must not** be decr
 
 MBBS-04 (~ no access to existing parameter values) *maxBlockBodySize* **must** be large enough to include at least one transaction (that is, *maxBlockBodySize* **must** be at least *maxTxSize*)
 
-MBBS-05 (x- "should")*maxBlockBodySize* **should** be changed by at most 10,240 Bytes (10KB) per epoch (5 days), and preferably by 8,192 Bytes (8KB) or less per epoch
+MBBS-05 (x- "should") *maxBlockBodySize* **should** be changed by at most 10,240 Bytes (10KB) per epoch (5 days), and preferably by 8,192 Bytes (8KB) or less per epoch
 
 MBBS-06 (x - "should") The block size **should not** induce an additional Transmission Control Protocol (TCP) round trip. Any increase beyond this must be backed by performance analysis, simulation, and benchmarking.
 
@@ -648,7 +644,7 @@ The maximum size of a transaction, in Bytes.
 
 #### Guardrails
 
-MTS-01 (y) *maxTxSize* **must not**exceed 32,768 Bytes (32KB)
+MTS-01 (y) *maxTxSize* **must not** exceed 32,768 Bytes (32KB)
 
 MTS-02 (y) *maxTxSize* **must not** be negative
 
@@ -698,15 +694,13 @@ MTEU-S-03 (~- no access to existing parameter values) *maxTxExecutionUnits[steps
 
 MTEU-S-04 (x-"should") *maxTxExecutionUnits[steps]* **should not** be increased by more than 500,000,000 (500M) units in any epoch(5 days)
 
-MBEU-S-0 1(y) *maxBlockExecutionUnits[steps]* **must not** exceed 40,000,000,000(40Bn) units
+MBEU-S-01 (y) *maxBlockExecutionUnits[steps]* **must not** exceed 40,000,000,000(40Bn) units
 
 MBEU-S-02 (y) *maxBlockExecutionUnits[steps]* **must not**be negative
 
 MBEU-S-03 (x -"should") *maxBlockExecutionUnits[steps]* **should not** be changed (increased or decreased) by more than 2,000,000,000 (2Bn) units in any epoch (5 days)
 
-MBEU-S-04a (x-unquantifiable) The impact of the change to
-
-*maxBlockExecutionUnits[steps]* **1must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of theblock diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[memory]* and *maxBlockBodySize*.Any increase **must** also consider previously identified future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block step limit to be increased,but **must** be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
+MBEU-S-04a (x-unquantifiable) The impact of the change to *maxBlockExecutionUnits[steps]* **1 must** be confirmed by detailed benchmarking/simulation and not exceed the requirements of theblock diffusion/propagation time budgets, as also impacted by *maxBlockExecutionUnits[memory]* and *maxBlockBodySize*.Any increase **must** also consider previously identified future requirements for the total block size (*maxBlockBodySize*) measured against the total block diffusion target of 3s with 95% block propagation within 5s. Future Plutus performance improvements may allow the per-block step limit to be increased,but **must** be balanced against the overall diffusion limits as specified in the previous sentence, and future requirements
 
 MEU-S-01 (~-no access to existing parameter values) *maxBlockExecutionUnits[steps]* **must not**be less than *maxTxExecutionUnits[steps]*
 
@@ -726,7 +720,7 @@ MBHS-04 (x - "should") *maxBlockHeaderSize* **should** only normally be increase
 
 MBHS-05 (x - "should") *maxBlockHeaderSize* **should** be within TCP's initial congestion window (3 or 10 MTUs)
 
-### 2.4.Technical/Security Parameters
+#### 2.4. Technical/Security Parameters
 
 The overall goals when managing the technical/security parameters are:
 
@@ -812,7 +806,7 @@ Provides security against low-cost attacks by making it more expensive rather th
 
 CP-01 (y) *collateralPercentage* **must not** be lower than 100
 
-CP-02 (y) *collateralPercentage* **must not**exceed 200
+CP-02 (y) *collateralPercentage* **must not** exceed 200
 
 CP-03 (y) *collateralPercentage* **must not** be negative
 
@@ -858,7 +852,7 @@ PCM-03a (~- no access to *Plutus cost model* parameters) *Cost model* values **s
 
 PCM-04 (~ -no access to *Plutus cost model* parameters) A *cost model* **must** be supplied for each Plutus language version that the protocol supports
 
-### 2.5. Governance Parameters
+#### 2.5. Governance Parameters
 
 The overall goals when managing the governance parameters are to:
 
@@ -1030,7 +1024,7 @@ CMS-02 (y) *committeeMinSize* **must not** be lower than 3
 
 CMS-03 (y) *committeeMinSize* **must not** exceed 10
 
-### 2.6. Monitoring and Reversion of Parameter Changes
+#### 2.6. Monitoring and Reversion of Parameter Changes
 
 All network parameter changes **must be** monitored carefully for no less than 2 epochs (10 days)
 
@@ -1047,11 +1041,11 @@ A specific reversion/recovery plan **must be** produced for each parameter chang
 
 This plan **should** be followed if problems are observed following the parameter change. Note that not all changes can be reverted. Additional care must be taken when making changes to these parameters.
 
-### 2.7.Non-Updatable Protocol Parameters**
+#### 2.7. Non-Updatable Protocol Parameters**
 
 Some fundamental protocol parameters cannot be changed by the Protocol Parameter Update governance action. These parameters can only be changed in a new Genesis file as part of a hard fork. It is not necessary to provide specific guardrails on updating these parameters.
 
-## 3.GUARDRAILS AND GUIDELINES ON TREASURY WITHDRAWAL ACTIONS
+### 3. GUARDRAILS AND GUIDELINES ON TREASURY WITHDRAWAL ACTIONS
 
 **Treasury withdrawal** actions specify the destination and amount of a number of withdrawals from the Cardano treasury.
 
@@ -1065,7 +1059,7 @@ TREASURY-03 (x) The budget for the Cardano Treasury **must** be denominated in a
 
 TREASURY-04 (x) Treasury withdrawals **must not** be ratified until there is a community approved Cardano budget then in effect pursuant to a previous on-chain governance action agreed by the DReps with a threshold of greater than 50% of the active voting stake
 
-## 4. GUARDRAILS AND GUIDELINES ON HARD FORK INITIATION ACTIONS
+### 4. GUARDRAILS AND GUIDELINES ON HARD FORK INITIATION ACTIONS
 
 The **hard fork initiation** action requires both a new major and a new minor protocol version to be specified.
 
@@ -1091,27 +1085,27 @@ HARDFORK-07 (x) Any deprecated protocol parameters **must** be indicated in this
 
 HARDFORK-08 (~- no access to *Plutus cost model* parameters) New Plutus versions **must** be supported by a version-specific *Plutus cost model* that covers each primitive that is available in the new Plutus version
 
-## 5.GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL
+### 5.GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL
 
-### COMMITTEE OR THRESHOLD ACTIONS
+#### COMMITTEE OR THRESHOLD ACTIONS
 
 **Update Constitutional Committee or Threshold** governance actions may change the size,composition or required voting thresholds for the Constitutional Committee.
 
-### Guardrails
+#### Guardrails
 
 UPDATE-CC-01a (x) **Update Constitutional Committee and/or threshold** **and/or term** governance actions **must not** be ratified until ada holders have ratified through an on-chain governance action this Constitution
 
-## 6.GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
+### 6.GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
 
 New constitution or guardrails script actions change the hash of the on-chain constitution and the associated guardrails script.
 
-### Guardrails
+#### Guardrails
 
 NEW-CONSTITUTION-01a (x) A **New Constitution** **or Guardrails Script** governance action **must** be submitted to define any required guardrails for new parameters that are introduced via a Hard Fork governance action
 
 NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consistent with this Constitution
 
-## 7.GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS
+### 7.GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS
 
 **No confidence** actions signal a state of no confidence in the governance system. No guardrails are imposed on **No Confidence** actions.
 
@@ -1119,7 +1113,7 @@ NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consisten
 
 -None
 
-## 8.GUARDRAILS AND GUIDELINES ON INFO ACTIONS
+### 8.GUARDRAILS AND GUIDELINES ON INFO ACTIONS
 
 **Info** actions are not enacted on-chain. No guardrails are imposed on **Info** actions.
 
@@ -1127,7 +1121,7 @@ NEW-CONSTITUTION-02(x) If specified, the new guardrails script must be consisten
 
 * None
 
-## 9. LIST OF PROTOCOL PARAMETER GROUPS
+### 9. LIST OF PROTOCOL PARAMETER GROUPS
 
 The protocol parameters are grouped by type, allowing different thresholds to be set for each group.
 
