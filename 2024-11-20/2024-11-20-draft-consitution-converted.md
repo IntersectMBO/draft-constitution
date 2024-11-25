@@ -30,25 +30,25 @@ With these purposes in mind, we the Cardano Community affirm our intention to ab
 
 These below Tenets shall guide all participants of he Cardano Community, including the Constitutional Committee, and proposed governance actions shall be evaluated in accordance with these Tenets.The order in which the below Tenets appear is not intended to represent a priority among Tenets.
 
-TENET 1 Transactions on the Cardano Blockchain shall not be slowed down or censored and shall be expediently served for their intended purpose.
+**TENET 1** Transactions on the Cardano Blockchain shall not be slowed down or censored and shall be expediently served for their intended purpose.
 
-TENET 2 The cost of transactions on the Cardano Blockchain shall be predictable and not unreasonable.
+**TENET 2** The cost of transactions on the Cardano Blockchain shall be predictable and not unreasonable.
 
-TENET 3 Anyone desiring to develop and deploy applications on the Cardano Blockchain shall not unreasonably be prevented from developing and deploying such applications as intended.
+**TENET 3** Anyone desiring to develop and deploy applications on the Cardano Blockchain shall not unreasonably be prevented from developing and deploying such applications as intended.
 
-TENET 4 Contributions by the Cardano Community on the Cardano Blockchain shall be recognized,recorded and assessed fairly through reward sharing with SPOs and DReps,appropriate tokenomics and multi-resource consensus approaches.
+**TENET 4** Contributions by the Cardano Community on the Cardano Blockchain shall be recognized,recorded and assessed fairly through reward sharing with SPOs and DReps,appropriate tokenomics and multi-resource consensus approaches.
 
-TENET 5 The Cardano Blockchain shall not lock in an ada owner's value without an owner's consent.
+**TENET 5** The Cardano Blockchain shall not lock in an ada owner's value without an owner's consent.
 
-TENET 6 The Cardano Blockchain shall not unreasonably impede interoperability.
+**TENET 6** The Cardano Blockchain shall not unreasonably impede interoperability.
 
-TENET 7 The Cardano Blockchain shall preserve in a safe manner any value and information an ada owner seeks to store on the Cardano Blockchain.
+**TENET 7** The Cardano Blockchain shall preserve in a safe manner any value and information an ada owner seeks to store on the Cardano Blockchain.
 
-TENET 8 The Cardano Blockchain shall not unreasonably spend resources.
+**TENET 8** The Cardano Blockchain shall not unreasonably spend resources.
 
-TENET 9 All users of the Cardano Blockchain shall be treated equally, taking into account the collective desires of the Cardano Blockchain Community, consistent with the long-term sustainability and viability of the Cardano Blockchain.
+**TENET 9** All users of the Cardano Blockchain shall be treated equally, taking into account the collective desires of the Cardano Blockchain Community, consistent with the long-term sustainability and viability of the Cardano Blockchain.
 
-TENET 10 Financial stability shall be maintained and the total supply of ada shall not exceed 45,000,000,000 (45,000,000,000,000,000 lovelace).
+**TENET 10** Financial stability shall be maintained and the total supply of ada shall not exceed 45,000,000,000 (45,000,000,000,000,000 lovelace).
 
 ### Section 2
 
