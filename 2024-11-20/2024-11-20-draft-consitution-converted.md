@@ -34,9 +34,7 @@ These below Tenets shall guide all participants of he Cardano Community, includi
 
 TENET 1 Transactions on the Cardano Blockchain shall not be slowed down or censored and shall be expediently served for their intended purpose.
 
-TENET 2 The cost of transactions on the Cardano Blockchain shall be predictable and not
-
-unreasonable.
+TENET 2 The cost of transactions on the Cardano Blockchain shall be predictable and not unreasonable.
 
 TENET 3 Anyone desiring to develop and deploy applications on the Cardano Blockchain shall not unreasonably be prevented from developing and deploying such applications as intended.
 
@@ -68,9 +66,7 @@ No formal membership shall be required to use, participate in and benefit from t
 
 ### Section 2
 
-Participants in the Cardano Community who own ada are entitled to access and participate in the on-chain decision-making processes of the Cardano Blockchain ecosystem,including
-
-voting and taking part in on-chain governance actions regarding the Cardano Blockchain.
+Participants in the Cardano Community who own ada are entitled to access and participate in the on-chain decision-making processes of the Cardano Blockchain ecosystem, including voting and taking part in on-chain governance actions regarding the Cardano Blockchain.
 
 ### Section 3
 
@@ -96,9 +92,7 @@ On-chain governance decisions shall be made through a collective decision-making
 
 ### Section 4
 
-All owners of ada shall have the right to vote in on-chain governance action decision-making processes, subject to any restrictions or requirements provided for in this Constitution and the Cardano Blockchain Guardrails. All owners of ada shall have the right to propose changes to the governance structure of the Cardano Blockchain ecosystem in accordance with the Cardano Blockchain Guardrails. Owners of ada who use third-party custodians or other designees to hold
-
-their ada, may authorize, or may withhold authorization for, such third-parties to vote on their behalf.
+All owners of ada shall have the right to vote in on-chain governance action decision-making processes, subject to any restrictions or requirements provided for in this Constitution and the Cardano Blockchain Guardrails. All owners of ada shall have the right to propose changes to the governance structure of the Cardano Blockchain ecosystem in accordance with the Cardano Blockchain Guardrails. Owners of ada who use third-party custodians or other designees to hold their ada, may authorize, or may withhold authorization for, such third-parties to vote on their behalf.
 
 ### Section 5
 
@@ -172,9 +166,7 @@ Owners of ada who are both SPOs and acting as DReps shall publicly disclose that
 
 ### Section 1
 
-A Constitutional Committee shall be established as the branch of Cardano's on-chain governance process that ensures governance actions to be enacted on-chain are consistent with this
-
-Constitution. The Constitutional Committee shall comprise a set of owners of ada that is collectively responsible for ensuring that on-chain governance actions prior to enactment on chain,are constitutional. With limited exceptions as provided in this Constitution,the Constitutional Committee shall be limited to voting on the constitutionality of governance actions to be enacted on-chain. Constitutional Committee members are expected to have appropriate expertise to carry out their required responsibilities,considering their past contributions and involvement in the Cardano Blockchain ecosystem.
+A Constitutional Committee shall be established as the branch of Cardano's on-chain governance process that ensures governance actions to be enacted on-chain are consistent with this Constitution. The Constitutional Committee shall comprise a set of owners of ada that is collectively responsible for ensuring that on-chain governance actions prior to enactment on chain,are constitutional. With limited exceptions as provided in this Constitution,the Constitutional Committee shall be limited to voting on the constitutionality of governance actions to be enacted on-chain. Constitutional Committee members are expected to have appropriate expertise to carry out their required responsibilities,considering their past contributions and involvement in the Cardano Blockchain ecosystem.
 
 ### Section 2
 
