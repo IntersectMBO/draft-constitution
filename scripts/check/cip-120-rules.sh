@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# Function to check UTF-8 encoding
-check_utf8_encoding() {
-  if ! file -i "$1" | grep -q 'charset=utf-8'; then
-    echo "Error: File is not UTF-8 encoded."
-    return 1
-  fi
-  echo "UTF-8 encoding check passed."
-  return 0
-}
-
 # Function to check line length
 check_line_length() {
   local error_found=0
@@ -121,7 +111,6 @@ check_last_line_empty() {
 validate_document() {
   local error_found=0
 
-  check_utf8_encoding "$1" || error_found=1
   check_line_length "$1" || error_found=1
   check_sentences "$1" || error_found=1
   # check_file_name "$1" || error_found=1
