@@ -33,7 +33,11 @@ Run the converter script.
 ./scripts/remove-formatting-from-headings.sh /path/to/input.txt /path/to/output.txt
 ```
 
-### 5. Check that its good
+### 5. Manual fixes
+
+Go through and clean it up!!
+
+### 6. Check that its good
 
 Check if any CIP120 rules are broken.
 
@@ -47,7 +51,7 @@ Check where CIP120 rules are broken.
 ./scripts/check/cip-120-specific.sh /path/to/input.txt
 ```
 
-### 6. Hash the doc
+### 7. Hash the doc
 
 ```shell
 ./scripts/hash.sh /path/to/input.txt
