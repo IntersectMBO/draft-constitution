@@ -1166,8 +1166,7 @@ changed (increased or decreased) by more than 10,000,000 units in ANY epoch
 
 MBEU-M-04a (x - unquantifiable) The impact of any change to
 
-*maxBlockExecutionUnits[memory]* **must** be confirmed by detailed
-
+*maxBlockExecutionUnits[memory]* **must** be confirmed by detailed 
 benchmarking/simulation and not exceed the requirements of the block 
 diffusion/propagation time budgets, as also impacted by 
 *maxBlockExecutionUnits[steps]* and *maxBlockBodySize*.
