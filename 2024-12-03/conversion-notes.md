@@ -1,23 +1,20 @@
 
-### Manual Fixes 
-
-- 
-
-### Issues
+### Issues with conversion
 
 - spaces being counted in the 80 chars limit
 - the full stop/newline script misreads when e.g. AND numbed lists
+
 - the i) lists 
-- headings that are more than 80 chars
 
 ### Changes
 
-- Added headings to Parameters that are Critical to the Operation of the Blockchain
+- Added heading level to Parameters that are Critical to the Operation of the Blockchain
 - registrationlovelace -> registration lovelace
 
 ### Questions
 
 - do we want to add table support ??
+
 - #### Changes to Specific Network Parameters heading level?
 - Capatalize headings?
 - Appendix `##` heading
