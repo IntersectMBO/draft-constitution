@@ -801,7 +801,7 @@ Defines the cost for basic transactions in lovelace:
 
 *fee(tx) = txFeeFixed + txFeePerByte x nBytes(tx)*
 
-#### GUARDRAILS
+##### GUARDRAILS
 
 TFPB-01 (y) *txFeePerByte* **must not** be lower than 30 (0.000030 ada) This 
 protects against low-cost denial of service attacks
@@ -1322,7 +1322,7 @@ PPI-04 (x - "should") *poolPledgeInfluence* **should not** vary by more than
 Defines the maximum number of epochs notice that a pool can give when planning 
 to retire
 
-#### GUARDRAILS
+##### GUARDRAILS
 
 PRME-01 (y) *poolRetireMaxEpoch* **must not** be negative
 
@@ -1592,7 +1592,7 @@ epochs (approximately 3 years)
 The least number of members that can be included in a Constitutional Committee 
 following a governance action to change the Constitutional Committee.
 
-#### GUARDRAILS
+##### GUARDRAILS
 
 CMS-01 (y) *committeeMinSize* **must not** be negative
 
@@ -1641,7 +1641,7 @@ It is not necessary to provide specific guardrails on updating these parameters.
 **Treasury withdrawal** actions specify the destination and amount of a number 
 of withdrawals from the Cardano treasury.
 
-#### GUARDRAILS
+##### GUARDRAILS
 
 TREASURY-01a (x) A net change limit for the Cardano Treasury's balance per 
 period of time **must** be agreed by the DReps via an on-chain governance 
