@@ -584,7 +584,7 @@ deprecated and a new label will be used in this Appendix.
 Similarly, if a Guardrail is completely deprecated, its label will never be 
 reused in the future.
 In all cases, the Guardrails that apply to a governance action will be those in 
-force at the time that the governance action is submitted on-chain, regardless 
+force at the time that the governance action is submitted on chain, regardless 
 of any later amendments.
 
 #### Terminology and Guidance
