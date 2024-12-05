@@ -1919,7 +1919,7 @@ interpreting this Constitution.
 The Constitutional Committee should consider this Appendix II as it deems 
 relevant and useful in carrying out its constitutional duties.
 
-### Framing Notes
+### 1. Framing Notes
 
 The Cardano Blockchain was established in 2017.
 In July 2020 the Cardano Blockchain was expanded to include independent block 
@@ -1951,7 +1951,7 @@ The Constitution also recognizes the necessity of safeguarding access to and
 the use of funds of the Cardano treasury through the inclusion of the Cardano 
 Guardrails in this Constitution.
 
-### Definitions
+### 2. Definitions
 
 | Index | Term | Definition |
 | ----- | ---- | ---------- |
