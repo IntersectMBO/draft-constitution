@@ -2,6 +2,10 @@
 
 This repository holds copies of the Draft Cardano constitution, converted to different file formats.
 
+The constitution drafting is being done via a word processing tool.
+The text is then exported into PDF files.
+We take the PDF and convert to [CIP-120 | Constitution Specification](https://github.com/Ryun1/CIPs/tree/cip-constitution-tech/CIP-0120) complaint documents containing markdown text styling.
+
 For further information please see:
  - [Draft Cardano Constitution on Intersect knowledge base](https://docs.intersectmbo.org/cardano/cardano-governance/cardano-constitution/draft-cardano-constitution)
  - [Constitution Workshops on Intersect knowledge base](https://intersect.gitbook.io/constitution)
