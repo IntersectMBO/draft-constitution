@@ -899,15 +899,15 @@ UCPB-04 (y) *utxoCostPerByte* **must not** be negative
 
 UCPB-05a (x - "should") Changes **should** account for
 
-i) The acceptable cost of attack
+1. The acceptable cost of attack
 
-ii) The acceptable time for an attack
+2. The acceptable time for an attack
 
-iii) The acceptable memory configuration for full node users
+3. The acceptable memory configuration for full node users
 
-iv) The sizes of UTxOs and
+4. The sizes of UTxOs and
 
-v) The current total node memory usage
+5. The current total node memory usage
 
 #### Stake address deposit (stakeAddressDeposit)
 
@@ -1037,10 +1037,10 @@ EIUP-PM-02 (y) *executionUnitPrices[priceMemory]* **must not** be lower than
 
 EIUP-GEN-01 (x - "similar to") The execution prices **must** be set so that
 
-i) the cost of executing a transaction with maximum CPU steps is similar to the 
+1. the cost of executing a transaction with maximum CPU steps is similar to the 
 cost of a maximum sized non-script transaction and
 
-ii) the cost of executing a transaction with maximum memory units is similar to 
+2. the cost of executing a transaction with maximum memory units is similar to 
 the cost of a maximum sized non-script transaction
 
 EIUP-GEN-02 (x - "should") The execution prices **should** be adjusted whenever 
