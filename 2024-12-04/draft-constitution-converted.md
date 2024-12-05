@@ -597,7 +597,7 @@ light of experience with the Cardano Blockchain governance system or the
 operation of the Cardano Blockchain.
 
 **Must/Must not.** Where this Appendix says that a value "must" or "must not" 
-be set below or above some value, this means that theGuardrail is a requirement 
+be set below or above some value, this means that the Guardrail is a requirement 
 that will be enforced by Cardano Blockchain ledger rules, types or other 
 built-in mechanisms where possible, and that if not followed could cause a 
 protocol failure, security breach or other undesirable outcome.
