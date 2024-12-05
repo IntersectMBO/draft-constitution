@@ -678,7 +678,7 @@ The Guardrails Script only affects two types of governance actions:
 - **Treasury Withdrawal** actions.
 
 The Guardrails Script is executed when either of these types of governance 
-action is submitted on-chain.
+action are submitted on-chain.
 This avoids scenarios where, for example, an erroneous script could prevent the 
 Cardano Blockchain from ever enacting a Hard Fork action, resulting in deadlock.
 There are three different situations that apply to Guardrail Script usage.
@@ -694,10 +694,10 @@ Guardrails may overlap: in this case, the most restrictive set of Guardrails
 will apply.
 
 Where a parameter is not explicitly listed in this document, then the Guardrail 
-Script **must not** permits any changes to the parameter.
+Script **must not** permit any changes to the parameter.
 
 Conversely, where a parameter is explicitly listed in this document but no 
-checkable Guardrails are specified, the Guardrail Script **must not** imposes 
+checkable Guardrails are specified, the Guardrail Script **must not** impose 
 any constraints on changes to the parameter.
 
 ### 2. Guardrails and Guidelines on Protocol Parameter Update Actions
