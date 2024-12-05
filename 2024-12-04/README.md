@@ -20,4 +20,3 @@ The second PDF is the document with the markup changes merged in.
 #### PDFs
 
 - [Draft PDF file](./draft-constitution.pdf)
-- [Draft PDF file with markup](./draft-constitution-markup.pdf)
