@@ -531,7 +531,7 @@ Blockchain Guardrails Appendix for such Guardrail shall apply.
 
 ## APPENDIX I: CARDANO BLOCKCHAIN GUARDRAILS
 
-### 1. INTRODUCTION
+### 1. Introduction
 
 To implement Cardano Blockchain on-chain governance, it is necessary to 
 establish sensible Guardrails that will enable the Cardano Blockchain to 
@@ -700,7 +700,7 @@ Conversely, where a parameter is explicitly listed in this document but no
 checkable Guardrails are specified, the Guardrail Script **must not** imposes 
 any constraints on changes to the parameter.
 
-### 2. GUARDRAILS AND GUIDELINES ON PROTOCOL PARAMETER UPDATE ACTIONS
+### 2. Guardrails and Guidelines on Protocol Parameter Update Actions
 
 Below are Guardrails and guidelines for changing updatable protocol parameter 
 settings via the protocol parameter update governance action such that the 
@@ -1718,7 +1718,7 @@ These parameters can only be changed in a new Genesis file as part of a hard
 fork.
 It is not necessary to provide specific guardrails on updating these parameters.
 
-### 3. GUARDRAILS AND GUIDELINES ON TREASURY WITHDRAWAL ACTIONS
+### 3. Guardrails and Guidelines on Treasury Withdrawal Actions
 
 **Treasury withdrawal** actions specify the destination and amount of a number 
 of withdrawals from the Cardano treasury.
@@ -1743,7 +1743,7 @@ ecosystem budget then in effect pursuant to a previous on-chain governance
 action agreed by the DReps with a threshold of greater than 50% of the active 
 voting stake
 
-### 4. GUARDRAILS AND GUIDELINES ON HARD FORK INITIATION ACTIONS
+### 4. Guardrails and Guidelines on Hard Fork Initiation Actions
 
 The **hard fork initiation** action requires both a new major and a new minor 
 protocol version to be specified.
@@ -1791,7 +1791,7 @@ HARDFORK-08 (~ - no access to *Plutus cost model* parameters) New Plutus
 versions **must** be supported by a version-specific *Plutus cost model* that 
 covers each primitive that is available in the new Plutus version
 
-### 5. GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL COMMITTEE OR THRESHOLD ACTIONS
+### 5. Guardrails and Guidelines on Update Constitutional Committee or Threshold Actions
 
 **Update Constitutional Committee or Threshold** governance actions may change 
 the size, composition or required voting thresholds for the Constitutional 
@@ -1803,7 +1803,7 @@ UPDATE-CC-01a (x) **Update Constitutional Committee and/or threshold** **and/or
 term** governance actions **must not** be ratified until ada holders have 
 ratified through an on-chain governance action this Constitution
 
-### 6. GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
+### 6. Guardrails and Guidelines on New Constitution or Guardrails Script Action
 
 New constitution or Guardrails Script actions change the hash of the on-chain 
 Constitution and the associated Guardrails Script.
@@ -1817,7 +1817,7 @@ new parameters that are introduced via a Hard Fork governance action
 NEW-CONSTITUTION-02 (x) If specified, the new Guardrails Script must be 
 consistent with this Constitution
 
-### 7. GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS
+### 7. Guardrails and Guidelines on No Confidence Actions
 
 **No confidence** actions signal a state of no confidence in the governance 
 system.
@@ -1836,7 +1836,7 @@ No guardrails are imposed on **Info** actions.
 
 - None
 
-### 9. LIST OF PROTOCOL PARAMETER GROUPS
+### 9. List of Protocol Parameter Groups
 
 The protocol parameters are grouped by type, allowing different thresholds to 
 be set for each group.
@@ -1919,7 +1919,7 @@ interpreting this Constitution.
 The Constitutional Committee should consider this Appendix II as it deems 
 relevant and useful in carrying out its constitutional duties.
 
-### FRAMING NOTES
+### Framing Notes
 
 The Cardano Blockchain was established in 2017.
 In July 2020 the Cardano Blockchain was expanded to include independent block 
@@ -1951,7 +1951,7 @@ The Constitution also recognizes the necessity of safeguarding access to and
 the use of funds of the Cardano treasury through the inclusion of the Cardano 
 Guardrails in this Constitution.
 
-### DEFINITIONS
+### Definitions
 
 | Index | Term | Definition |
 | ----- | ---- | ---------- |
