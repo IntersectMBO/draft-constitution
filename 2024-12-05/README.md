@@ -21,7 +21,7 @@ We take the PDF and convert to CIP-120 complaint documents containing markdown t
 
 ### Hash
 
-BLAKE2b-256 hash digest: ``
+BLAKE2b-256 hash digest: `2a61e2f4b63442978140c77a70daab3961b22b12b63b13949a390c097214d1c5`
 
 #### How-to
 
