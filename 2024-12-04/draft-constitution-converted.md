@@ -1613,7 +1613,7 @@ The threshold parameters are listed below:
 VT-GEN-01 (y) All thresholds **must** be greater than 50% and less than or 
 equal to 100%
 
-VT-GEN-02 (y) Economic, network and technical parameter thresholds **must** be 
+VT-GEN-02a (y) Economic, network and technical/security parameter thresholds **must** be 
 in the range 51%-75%
 
 VT-GEN-03 (y) Governance parameter thresholds **must** be in the range 75%-90%
@@ -1882,7 +1882,7 @@ The economic parameter group consists of:
 - *prices of Plutus execution units* 
 (*executionUnitPrices[priceSteps/priceMemory]*)
 
-The technical parameter group consists of:
+The technical/security parameter group consists of:
 
 - *pool pledge influence* (*poolPledgeInfluence*)
 
