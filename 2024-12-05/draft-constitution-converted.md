@@ -170,7 +170,7 @@ and to allow community sentiment to be gauged without committing to any
 on-chain change to the Cardano Blockchain.
 Such "Info" actions have no on-chain effect other than to record such "Info" 
 action on the Cardano Blockchain.
-In accordance with Article VII Section 4, “Info” actions shall also be used in 
+In accordance with Article VII Section 4, "Info" actions shall also be used in 
 connection with proposed Cardano Blockchain ecosystem budgets and Cardano 
 Blockchain treasury withdrawals.
 
@@ -339,8 +339,8 @@ the nodes that participate in Cardano Blockchain's consensus mechanism.
 
 SPOs shall act as a check on the power of the Constitutional Committee under 
 exceptional circumstances by separately voting on "Motion of no-confidence" and 
-"Update committee/threshold and/or term” governance actions, and on 
-“Parameter Update” governance actions that affect security-critical parameters 
+"Update committee/threshold and/or term" governance actions, and on 
+"Parameter Update" governance actions that affect security-critical parameters 
 set forth under Parameters that are Critical to the Operation of the Blockchain 
 in Section 2.1 of the Cardano Blockchain Guardrails Appendix.
 
@@ -1959,6 +1959,6 @@ interpreting the Constitution, including, without limitation, a definition
 booklet that has been released contemporaneously with the on-chain ratification 
 of the Constitution.
 So long as any such published guidance has been hashed to the Cardano 
-Blockchain pursuant to an “Info” action, the Constitutional Committee shall not 
+Blockchain pursuant to an "Info" action, the Constitutional Committee shall not 
 be precluded from considering and utilizing such guidance as it deems 
 appropriate.
