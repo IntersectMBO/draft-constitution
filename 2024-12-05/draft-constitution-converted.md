@@ -68,10 +68,10 @@ and information stored on the Cardano Blockchain.
 
 **TENET 8** The Cardano Blockchain shall not unreasonably spend resources.
 
-**TENET 9** All users of the Cardano Blockchain shall be treated equitably, 
-taking into account the collective desires of the Cardano Blockchain Community, 
-consistent with the long-term sustainability and viability of the Cardano 
-Blockchain.
+**TENET 9** All users of the Cardano Blockchain shall be treated fairly and 
+impartially, taking into account the collective desires of the Cardano 
+Blockchain Community, consistent with the long-term sustainability and 
+viability of the Cardano Blockchain.
 
 **TENET 10** Financial stability shall be maintained and the total supply of 
 ada shall not exceed 45,000,000,000 (45,000,000,000,000,000 lovelace).
@@ -167,11 +167,12 @@ vote on their behalf.
 A special form of on-chain governance action, an "Info" action, exists to allow 
 the Cardano Community to propose potential future on-chain governance actions 
 and to allow community sentiment to be gauged without committing to any 
-on-chain change of the Cardano Blockchain.
+on-chain change to the Cardano Blockchain.
 Such "Info" actions have no on-chain effect other than to record such "Info" 
 action on the Cardano Blockchain.
-"Info" action may also be used to seek approval for proposed Cardano Blockchain 
-ecosystem budgets and Cardano Blockchain treasury withdrawals.
+In accordance with Article VII Section 4, “Info” actions shall also be used in 
+connection with proposed Cardano Blockchain ecosystem budgets and Cardano 
+Blockchain treasury withdrawals.
 
 ### Section 5
 
@@ -267,7 +268,7 @@ include dispute resolution provisions.
 Any ada received from a Cardano Blockchain treasury withdrawal, so long as such 
 ada is being held directly or indirectly by an administrator prior to further 
 disbursement, must be kept in one or more separate accounts that can be audited 
-by the Cardano Community, and such accounts may not be delegated to an SPO but 
+by the Cardano Community, and such accounts shall not be delegated to an SPO but 
 must be delegated to the predefined auto abstain voting option.
 
 ## ARTICLE V. DELEGATED REPRESENTATIVES
@@ -338,9 +339,10 @@ the nodes that participate in Cardano Blockchain's consensus mechanism.
 
 SPOs shall act as a check on the power of the Constitutional Committee under 
 exceptional circumstances by separately voting on "Motion of no-confidence" and 
-"Update committee/threshold and/or term" governance actions, and on "Parameter 
-Update" governance actions that affect security-critical parameters set forth 
-in the Cardano Blockchain Guardrails Appendix.
+"Update committee/threshold and/or term” governance actions, and on 
+“Parameter Update” governance actions that affect security-critical parameters 
+set forth under Parameters that are Critical to the Operation of the Blockchain 
+in Section 2.1 of the Cardano Blockchain Guardrails Appendix.
 
 ### Section 3
 
@@ -1729,12 +1731,11 @@ TREASURY-01a (x) A net change limit for the Cardano treasury's balance per
 period of time **must** be agreed by the DReps via an on-chain governance 
 action with a threshold of greater than 50% of the active voting stake
 
-TREASURY-02 (x) Withdrawals from the Cardano Blockchain treasury made pursuant 
-to an approved Cardano Blockchain ecosystem for the Cardano Treasury 
-**must not** exceed the net change limit for the Cardano Treasury's balance 
-per period of time
+TREASURY-02a (x) Withdrawals from the Cardano Blockchain treasury made pursuant 
+to an approved Cardano Blockchain ecosystem budget **must not** exceed the net 
+change limit for the Cardano Treasury's balance per period of time
 
-TREASURY-03 (x) Withdrawals from the Cardano Blockchain treasury **must** be 
+TREASURY-03a (x) Withdrawals from the Cardano Blockchain treasury **must** be 
 denominated in ada
 
 TREASURY-04a (x) Withdrawals from the Cardano Blockchain treasury **must not** 
@@ -1912,12 +1913,11 @@ poolVotingThresholds[...]*)
 - *maximum term length (in epochs) for the constitutional committee members* 
 (*committeeMaxTermLength*)
 
-## APPENDIX II: FRAMING NOTES AND DEFINITIONS
+## APPENDIX II: SUPPORTING GUIDANCE
 
-These Framing Notes and Definitions are intended to provide guidance in 
-interpreting this Constitution.
-The Constitutional Committee should consider this Appendix II as it deems 
-relevant and useful in carrying out its constitutional duties.
+This Appendix II is intended to provide guidance in interpreting the 
+Constitution and the Constitutional Committee shall consider this Appendix II 
+as it deems relevant and useful in carrying out its constitutional duties.
 
 ### 1. Framing Notes
 
@@ -1948,34 +1948,17 @@ governance, and empowers DReps to act as the voice of ada owners for on-chain
 voting.
 
 The Constitution also recognizes the necessity of safeguarding access to and 
-the use of funds of the Cardano treasury through the inclusion of the Cardano 
-Guardrails in this Constitution.
+the use of funds of the Cardano Blockchain treasury through the inclusion of 
+the Cardano Blockchain Guardrails in this Constitution.
 
-### 2. Definitions
+### 2. Other Guidance
 
-| Index | Term | Definition |
-| ----- | ---- | ---------- |
-| 1     | **active block production stake**      | Means, in relation to SPOs, the number of lovelace which is actively delegated to the SPO for the purpose of block production.                                                                                                                |
-| 2     | **active voting stake**                | Means the total number of lovelace which is considered active, based upon required voting activity and registration to vote, as specified in the Guardrails and counted for the purposes of determining a vote.                                |
-| 3     | **ada**                                | Means the cryptocurrency which is native to the Cardano Blockchain.                                                                                                                                                                         |
-| 4     | **ada owner**                          | Means the person or entity that has legal title to ada as determined by applicable law.                                                                                                                                                      |
-| 5     | **Cardano Blockchain**                 | Means the public, proof-of-stake, peer-to-peer, distributed ledger system operating under the name "Cardano."                                                                                                                                |
-| 6     | **Cardano Blockchain ecosystem**       | Collectively refers to the interconnected and interdependent network of participants in the Cardano Community who have or may come together to support, develop, advance and maintain the Cardano Blockchain pursuant to shared principles and a common vision as enshrined by the Constitution. |
-| 7     | **Cardano Blockchain ecosystem budget**| Means, for any given period, the allocation of ada from the Cardano Blockchain treasury that has been approved in accordance with the Constitution in order to fulfill the permitted uses of the Cardano Blockchain treasury set forth in Article IV. |
-| 8     | **Cardano Community**                  | All owners of ada, all developers of, all those building on, and all those otherwise supporting, maintaining, contributing to, or using the Cardano Blockchain, whether individuals or organizations, are deemed to collectively constitute the Cardano Community. |
-| 9     | **Cardano Blockchain treasury**        | Means the decentralized on-chain ada management system that holds and releases ada received from transaction fees and monetary expansion.                                                                                                     |
-| 10    | **Constitutional Committee or CC**     | Means the governing body responsible for determining that governance actions implemented on-chain are constitutional.                                                                                                                        |
-| 11    | **delegator**                          | Means an ada owner who delegates its voting stake to one or more DReps in order to vote with respect to on-chain governance actions.                                                                                                         |
-| 12    | **Delegated Representative or DRep**   | Means an individual or entity who has registered to vote with respect to on-chain governance actions for its own behalf or on behalf of other owners of ada.                                                                                 |
-| 13    | **epoch**                              | Means a fixed time period of time to provide all SPOs a common frame of reference for scheduled events on the Cardano Blockchain.                                                                                                            |
-| 14    | **expected**                           | As used in this Constitution, “expected” is intended to represent a reasonable presumption that the identified action, although not mandatory, will occur.                                                                                   |
-| 15    | **governance action**                  | Means an action to record information on, take action in relation to, or modify the parameters of, the Cardano Blockchain which has been submitted for an on-chain vote.                                                                      |
-| 16    | **Guardrail**                          | Means the conditions and parameters set forth in the Cardano Blockchain Guardrails Appendix required to maintain the functionality, security and performance of the Cardano Blockchain, some of which, but not all, are directly implemented on the Cardano Blockchain. |
-| 17    | **Guardrails Script**                  | Means the plutus script that is recorded on-chain and that enforces the automatable Guardrails when a Governance Action is implemented on-chain.                                                                                             |
-| 18    | **lovelace**                           | Means a unit of ada, with one million lovelace to every one ada.                                                                                                                                                                             |
-| 19    | **net change limit**                   | Means the limit in ada by which the Cardano treasury shall not change in a given period.                                                                                                                                                      |
-| 20    | **on-chain and off-chain**             | "on-chain" refers to governance actions which are implemented or otherwise recorded on the Cardano Blockchain, and "off-chain" refers to proposed governance actions which have not yet been implemented or otherwise recorded on the Cardano Blockchain or other types of governance related decisions that are not intended to be implemented or otherwise recorded on the Cardano Blockchain. |
-| 21    | **parameters**                         | Means settings and limits for the implementation of the Cardano Blockchain which are specified in the Constitution.                                                                                                                          |
-| 22    | **predefined auto abstain voting option** | Means a delegation of an ada owner’s voting stake to an ongoing vote of abstain.                                                                                                                                                             |
-| 23    | **protocol**                           | Means the algorithms, rules and procedures governing the operation of the Cardano Blockchain.                                                                                                                                               |
-| 24    | **Stake Pool Operator or SPO**         | Means each person or entity running a Cardano block-producing node.                                                                                                                                                                         |
+The drafters of the Constitution, together with other participants from the 
+Cardano Community, have published and in the future may publish guidance for 
+interpreting the Constitution, including, without limitation, a definition 
+booklet that has been released contemporaneously with the on-chain ratification 
+of the Constitution.
+So long as any such published guidance has been hashed to the Cardano 
+Blockchain pursuant to an “Info” action, the Constitutional Committee shall not 
+be precluded from considering and utilizing such guidance as it deems 
+appropriate.
