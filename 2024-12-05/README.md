@@ -21,4 +21,16 @@ We take the PDF and convert to CIP-120 complaint documents containing markdown t
 
 ### Hash
 
-BLAKE2b-256 hash digest: `a54b86fad3281fd6b816448b87f88d86ded3a69739ce1fd46fe7ab7404bef435`
+BLAKE2b-256 hash digest: ``
+
+#### How-to
+
+```shell
+cardano-cli hash anchor-data --url https://raw.githubusercontent.com/IntersectMBO/draft-constitution/refs/heads/main/2024-12-05/cardano-constitution-1.txt
+```
+
+or
+
+```shell
+./scripts/hash.sh ./2024-12-05/cardano-constitution-1.txt
+```
