@@ -364,7 +364,7 @@ on-chain governance process that ensures governance actions to be enacted
 on-chain are consistent with this Constitution.
 The Constitutional Committee shall comprise a set of owners of ada that is 
 collectively responsible for ensuring that on-chain governance actions prior to 
-enactment on chain, are constitutional.
+enactment on-chain, are constitutional.
 Except as otherwise provided in Section 4 of this Article VII, the 
 Constitutional Committee shall be limited to voting on the constitutionality of 
 governance actions to be enacted on-chain.
@@ -531,7 +531,7 @@ Blockchain Guardrails Appendix for such Guardrail shall apply.
 
 ## APPENDIX I: CARDANO BLOCKCHAIN GUARDRAILS
 
-### 1. INTRODUCTION
+### 1. Introduction
 
 To implement Cardano Blockchain on-chain governance, it is necessary to 
 establish sensible Guardrails that will enable the Cardano Blockchain to 
@@ -574,7 +574,7 @@ parameters are introduced.
 #### Amending, Adding or Deprecating Guardrails
 
 The Guardrails set forth in this Appendix may be amended from time to time 
-pursuant to an on chain governance action that satisfies the applicable voting 
+pursuant to an on-chain governance action that satisfies the applicable voting 
 threshold as set forth in this Appendix.
 Any such amendment to any Guardrails shall require and be deemed to be an 
 amendment to the Constitution itself, including any new Guardrails.
@@ -584,7 +584,7 @@ deprecated and a new label will be used in this Appendix.
 Similarly, if a Guardrail is completely deprecated, its label will never be 
 reused in the future.
 In all cases, the Guardrails that apply to a governance action will be those in 
-force at the time that the governance action is submitted on chain, regardless 
+force at the time that the governance action is submitted on-chain, regardless 
 of any later amendments.
 
 #### Terminology and Guidance
@@ -597,7 +597,7 @@ light of experience with the Cardano Blockchain governance system or the
 operation of the Cardano Blockchain.
 
 **Must/Must not.** Where this Appendix says that a value "must" or "must not" 
-be set below or above some value, this means that theGuardrail is a requirement 
+be set below or above some value, this means that the Guardrail is a requirement 
 that will be enforced by Cardano Blockchain ledger rules, types or other 
 built-in mechanisms where possible, and that if not followed could cause a 
 protocol failure, security breach or other undesirable outcome.
@@ -700,7 +700,7 @@ Conversely, where a parameter is explicitly listed in this document but no
 checkable Guardrails are specified, the Guardrail Script **must not** imposes 
 any constraints on changes to the parameter.
 
-### 2. GUARDRAILS AND GUIDELINES ON PROTOCOL PARAMETER UPDATE ACTIONS
+### 2. Guardrails and Guidelines on Protocol Parameter Update Actions
 
 Below are Guardrails and guidelines for changing updatable protocol parameter 
 settings via the protocol parameter update governance action such that the 
@@ -899,15 +899,15 @@ UCPB-04 (y) *utxoCostPerByte* **must not** be negative
 
 UCPB-05a (x - "should") Changes **should** account for
 
-i) The acceptable cost of attack
+1. The acceptable cost of attack
 
-ii) The acceptable time for an attack
+2. The acceptable time for an attack
 
-iii) The acceptable memory configuration for full node users
+3. The acceptable memory configuration for full node users
 
-iv) The sizes of UTxOs and
+4. The sizes of UTxOs and
 
-v) The current total node memory usage
+5. The current total node memory usage
 
 #### Stake address deposit (stakeAddressDeposit)
 
@@ -1037,10 +1037,10 @@ EIUP-PM-02 (y) *executionUnitPrices[priceMemory]* **must not** be lower than
 
 EIUP-GEN-01 (x - "similar to") The execution prices **must** be set so that
 
-i) the cost of executing a transaction with maximum CPU steps is similar to the 
+1. the cost of executing a transaction with maximum CPU steps is similar to the 
 cost of a maximum sized non-script transaction and
 
-ii) the cost of executing a transaction with maximum memory units is similar to 
+2. the cost of executing a transaction with maximum memory units is similar to 
 the cost of a maximum sized non-script transaction
 
 EIUP-GEN-02 (x - "should") The execution prices **should** be adjusted whenever 
@@ -1613,7 +1613,7 @@ The threshold parameters are listed below:
 VT-GEN-01 (y) All thresholds **must** be greater than 50% and less than or 
 equal to 100%
 
-VT-GEN-02 (y) Economic, network and technical parameter thresholds **must** be 
+VT-GEN-02a (y) Economic, network and technical/security parameter thresholds **must** be 
 in the range 51%-75%
 
 VT-GEN-03 (y) Governance parameter thresholds **must** be in the range 75%-90%
@@ -1718,7 +1718,7 @@ These parameters can only be changed in a new Genesis file as part of a hard
 fork.
 It is not necessary to provide specific guardrails on updating these parameters.
 
-### 3. GUARDRAILS AND GUIDELINES ON TREASURY WITHDRAWAL ACTIONS
+### 3. Guardrails and Guidelines on Treasury Withdrawal Actions
 
 **Treasury withdrawal** actions specify the destination and amount of a number 
 of withdrawals from the Cardano treasury.
@@ -1743,7 +1743,7 @@ ecosystem budget then in effect pursuant to a previous on-chain governance
 action agreed by the DReps with a threshold of greater than 50% of the active 
 voting stake
 
-### 4. GUARDRAILS AND GUIDELINES ON HARD FORK INITIATION ACTIONS
+### 4. Guardrails and Guidelines on Hard Fork Initiation Actions
 
 The **hard fork initiation** action requires both a new major and a new minor 
 protocol version to be specified.
@@ -1791,7 +1791,7 @@ HARDFORK-08 (~ - no access to *Plutus cost model* parameters) New Plutus
 versions **must** be supported by a version-specific *Plutus cost model* that 
 covers each primitive that is available in the new Plutus version
 
-### 5. GUARDRAILS AND GUIDELINES ON UPDATE CONSTITUTIONAL COMMITTEE OR THRESHOLD ACTIONS
+### 5. Guardrails and Guidelines on Update Constitutional Committee or Threshold Actions
 
 **Update Constitutional Committee or Threshold** governance actions may change 
 the size, composition or required voting thresholds for the Constitutional 
@@ -1803,7 +1803,7 @@ UPDATE-CC-01a (x) **Update Constitutional Committee and/or threshold** **and/or
 term** governance actions **must not** be ratified until ada holders have 
 ratified through an on-chain governance action this Constitution
 
-### 6. GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
+### 6. Guardrails and Guidelines on New Constitution or Guardrails Script Actions
 
 New constitution or Guardrails Script actions change the hash of the on-chain 
 Constitution and the associated Guardrails Script.
@@ -1817,7 +1817,7 @@ new parameters that are introduced via a Hard Fork governance action
 NEW-CONSTITUTION-02 (x) If specified, the new Guardrails Script must be 
 consistent with this Constitution
 
-### 7. GUARDRAILS AND GUIDELINES ON NO CONFIDENCE ACTIONS
+### 7. Guardrails and Guidelines on No Confidence Actions
 
 **No confidence** actions signal a state of no confidence in the governance 
 system.
@@ -1836,7 +1836,7 @@ No guardrails are imposed on **Info** actions.
 
 - None
 
-### 9. LIST OF PROTOCOL PARAMETER GROUPS
+### 9. List of Protocol Parameter Groups
 
 The protocol parameters are grouped by type, allowing different thresholds to 
 be set for each group.
@@ -1882,7 +1882,7 @@ The economic parameter group consists of:
 - *prices of Plutus execution units* 
 (*executionUnitPrices[priceSteps/priceMemory]*)
 
-The technical parameter group consists of:
+The technical/security parameter group consists of:
 
 - *pool pledge influence* (*poolPledgeInfluence*)
 
@@ -1919,7 +1919,7 @@ interpreting this Constitution.
 The Constitutional Committee should consider this Appendix II as it deems 
 relevant and useful in carrying out its constitutional duties.
 
-### FRAMING NOTES
+### 1. Framing Notes
 
 The Cardano Blockchain was established in 2017.
 In July 2020 the Cardano Blockchain was expanded to include independent block 
@@ -1951,7 +1951,7 @@ The Constitution also recognizes the necessity of safeguarding access to and
 the use of funds of the Cardano treasury through the inclusion of the Cardano 
 Guardrails in this Constitution.
 
-### DEFINITIONS
+### 2. Definitions
 
 | Index | Term | Definition |
 | ----- | ---- | ---------- |
