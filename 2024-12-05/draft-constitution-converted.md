@@ -9,7 +9,7 @@ By offering this foundational infrastructure, Cardano empowers individuals and
 communities to manage their identity, value and governance, fostering the
 emergence of decentralized applications, businesses and network states.
 
-Through unbiased processing of immutable data, we the participants of the
+Through unbiased processing of immutable data, we, the participants of the
 Cardano Community, consisting of individuals, organizations, contributors and
 others, choose to follow in the footsteps of the early Internet and
 cryptocurrency pioneers, who first forged bonds of community through digital
@@ -26,7 +26,7 @@ process, we hereby establish this Cardano Constitution to govern the Cardano
 Blockchain ecosystem, ensure the continuity of the Cardano Blockchain, and
 guard the rights of those who utilize it.
 
-With these purposes in mind, we the Cardano Community affirm our intention to
+With these purposes in mind, we, the Cardano Community, affirm our intention to
 abide by this Constitution in order to participate in the governance of the
 Cardano Blockchain ecosystem.
 We invite all who share our values to join us but stand not in the way of any
@@ -159,7 +159,7 @@ Blockchain Guardrails Appendix.
 All owners of ada shall have the right to propose changes to the governance
 structure of the Cardano Blockchain ecosystem in accordance with the Guardrails.
 Owners of ada who use third-party custodians or other designees to hold their
-ada, may authorize, or may withhold authorization for, such third-parties to
+ada, may authorize or may withhold authorization for, such third-parties to
 vote on their behalf.
 
 ### Section 4
@@ -169,7 +169,7 @@ the Cardano Community to propose potential future on-chain governance actions
 and to allow community sentiment to be gauged without committing to any
 on-chain change to the Cardano Blockchain.
 Such "Info" actions have no on-chain effect other than to record such "Info"
-action on the Cardano Blockchain.
+actions on the Cardano Blockchain.
 In accordance with Article VII Section 4, "Info" actions shall also be used in
 connection with proposed Cardano Blockchain ecosystem budgets and Cardano
 Blockchain treasury withdrawals.
@@ -329,7 +329,7 @@ voting on behalf of such ada owner or its designee.
 ### Section 1
 
 SPOs shall have a specific role in approving critical on-chain governance
-actions which require additional oversight and independence, voting separately
+actions that require additional oversight and independence, voting separately
 and independently from DReps as set forth in the Cardano Blockchain Guardrails
 Appendix.
 SPOs shall participate in hard fork initiation processes as the operators of
@@ -338,7 +338,7 @@ the nodes that participate in Cardano Blockchain's consensus mechanism.
 ### Section 2
 
 SPOs shall act as a check on the power of the Constitutional Committee under
-exceptional circumstances by separately voting on "Motion of no-confidence" and
+exceptional circumstances by separately voting on "Motion of no confidence" and
 "Update committee/threshold and/or term" governance actions, and on
 "Parameter Update" governance actions that affect security-critical parameters
 set forth under Parameters that are Critical to the Operation of the Blockchain
@@ -398,7 +398,7 @@ the requirements of the Guardrails.
 
 ### Section 4
 
-No governance action, other than a "Motion of no-confidence," or "Update
+No governance action, other than a "Motion of no confidence," or "Update
 Constitutional Committee/threshold and/or term" may be implemented on-chain
 unless a requisite percentage of the members of the Constitutional Committee as
 specified by the Guardrails shall have first determined and affirmed through an
@@ -447,7 +447,7 @@ Committee upon the implementation of the governance action.
 Thereafter, an election shall be held as soon as practical to replace the
 member so removed.
 
-In the event of a "Motion of no-confidence" governance action to remove all
+In the event of a "Motion of no confidence" governance action to remove all
 members of the Constitutional Committee at the same time, that is approved by a
 requisite percentage as specified by the Guardrails of DReps and SPOs, upon
 implementation of the governance action, the Constitutional Committee shall be
@@ -465,7 +465,7 @@ the Constitutional Committee casting such a vote separately, shall set forth the
 basis for its decision with reference to specific Articles of this Constitution
 or provisions of the Cardano Blockchain Guardrails Appendix that are in
 conflict with a given proposal.
-Internal deliberation among members of the Constitutional Committee, prior to
+Internal deliberations among members of the Constitutional Committee, prior to
 casting votes, are not required to be publicly disclosed.
 
 The Constitutional Committee shall operate pursuant to a code of conduct
@@ -605,7 +605,7 @@ built-in mechanisms where possible, and that if not followed could cause a
 protocol failure, security breach or other undesirable outcome.
 
 **Benchmarking.** Benchmarking refers to careful system level performance
-evaluation that is designed to show *a-priori* that, for example, 95% of blocks
+evaluation that is designed to show *a priori* that, for example, 95% of blocks
 will be diffused across a global network of Cardano Blockchain nodes within the
 required 5s time interval in all cases.
 This may require construction of specific test workflows and execution on a
@@ -687,8 +687,8 @@ There are three different situations that apply to Guardrail Script usage.
 
 **Symbol and Explanation**
 
-- (y) The Guardrail Script can be used to enforce the Guardrail.
-- (x) The Guardrail Script cannot be used to enforce the Guardrail.
+- (y) The Guardrail Script can be used to enforce the Guardrail
+- (x) The Guardrail Script cannot be used to enforce the Guardrail
 - (~ - reason) The Guardrail Script cannot be used to enforce the Guardrail for
 the reason given, but future ledger changes could enable this.
 
@@ -758,7 +758,7 @@ of all active block production stake.
 This is enforced by the Guardrails on the stake pool voting threshold.
 
 PARAM-04a (x) At least 3 months **should** normally pass between the
-publication of an off chain proposal to change a critical protocol parameter
+publication of an off-chain proposal to change a critical protocol parameter
 and the submission of the corresponding on-chain governance action.
 This Guardrail may be relaxed in the event of a Severity 1 or Severity 2
 network issue following careful technical discussion and evaluation.
@@ -785,7 +785,7 @@ PARAM-05a (y) DReps **must** vote "yes" with a collective support of more than
 This is enforced by the Guardrails on the DRep voting thresholds.
 
 PARAM-06a (x) At least 3 months **should** normally pass between the
-publication of an off chain proposal to change a parameter that is critical to
+publication of an off-chain proposal to change a parameter that is critical to
 the governance system and the submission of the corresponding on-chain
 governance action.
 This Guardrail may be relaxed in the event of a Severity 1 or Severity 2
@@ -1341,7 +1341,7 @@ state
 - Primarily a security parameter, ensuring decentralization by stake pool
 division/replication
 
-- Has an economic effect as well as a security affect - economic advice is also
+- Has an economic effect as well as a security effect - economic advice is also
 required when changing this parameter
 
 - Large changes in this parameter will trigger mass redelegation events
@@ -1527,7 +1527,7 @@ GD-01 (y) *govDeposit* **must not** be negative
 
 GD-02 (y) *govDeposit* **must not** be lower than 1,000,000 (1 ada)
 
-GD-03 (y) *govDeposit* **must not** exceed 10,000,000,000,000 (10 Million ada)
+GD-03a (y) *govDeposit* **must not** exceed 10,000,000,000,000 (10 million ada)
 
 GD-04 (x - "should") *govDeposit* **should** be adjusted in line with fiat
 changes
@@ -1635,7 +1635,7 @@ VT-NC-01 (y) **No confidence** action thresholds **must** be in the range
 #### Governance Action Lifetime (govActionLifetime)
 
 The period after which a governance action will expire if it is not enacted -
-As a whole number of epochs
+as a whole number of epochs
 
 ##### GUARDRAILS
 
@@ -1932,9 +1932,8 @@ The Cardano Blockchain is presently a decentralized ecosystem of blockchain
 technology, smart contracts, and community governance.
 
 In approaching this Constitution, the Cardano Community recognizes that it must
-be remembered that this is not a constitution for only a blockchain but rather,
-it is a constitution for a blockchain ecosystem – a much more ambitious
-endeavor.
+be remembered that this is not a constitution for only a blockchain but rather
+a constitution for a blockchain ecosystem – a much more ambitious endeavor.
 Accordingly, how governance actions are approved, while extremely important, is
 not the sole focus of this Constitution.
 Rather, this Constitution provides the basis and fundamental framework through
