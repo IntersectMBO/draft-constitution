@@ -1803,7 +1803,7 @@ UPDATE-CC-01a (x) **Update Constitutional Committee and/or threshold** **and/or
 term** governance actions **must not** be ratified until ada holders have 
 ratified through an on-chain governance action this Constitution
 
-### 6. Guardrails and Guidelines on New Constitution or Guardrails Script Action
+### 6. Guardrails and Guidelines on New Constitution or Guardrails Script Actions
 
 New constitution or Guardrails Script actions change the hash of the on-chain 
 Constitution and the associated Guardrails Script.
