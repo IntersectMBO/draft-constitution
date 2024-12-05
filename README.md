@@ -2,11 +2,6 @@
 
 This repository holds copies of the Draft Cardano constitution, converted to different file formats.
 
-This repository **should not** be considered the source of truth for the draft constitution.
-
-For the latest version of the Draft Cardano Constitution please see
-- [Draft Cardano Constitution](https://2024constitutionalconsultation.docs.intersectmbo.org/cardanos-constitution/draft-cardano-constitution)
-
 For further information please see:
  - [Draft Cardano Constitution on Intersect knowledge base](https://docs.intersectmbo.org/cardano/cardano-governance/cardano-constitution/draft-cardano-constitution)
  - [Constitution Workshops on Intersect knowledge base](https://intersect.gitbook.io/constitution)
@@ -18,6 +13,12 @@ For further information please see:
   - [HTML](./2024-07-29/2024-07-29-draft-consitution-converted.html)
 - [2024-11-20](./2024-11-20/)
   - [Markdown](./2024-11-20/2024-11-20-draft-consitution-converted.md)
+- [2024-11-29](./2024-11-29/)
+  - [Markdown](./2024-11-29/2024-11-29-draft-constitution-converted.md)
+- [2024-12-03](./2024-12-03/)
+  - [Markdown](./2024-12-03/2024-12-03-draft-constitution-converted.md)
+- [2024-12-04](./2024-12-04/)
+  - [Markdown](./2024-12-04/2024-12-04-draft-constitution-converted.md)
 
 ### 🚨 **Disclaimer**
 
