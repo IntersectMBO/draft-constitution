@@ -364,7 +364,7 @@ on-chain governance process that ensures governance actions to be enacted
 on-chain are consistent with this Constitution.
 The Constitutional Committee shall comprise a set of owners of ada that is 
 collectively responsible for ensuring that on-chain governance actions prior to 
-enactment on chain, are constitutional.
+enactment on-chain, are constitutional.
 Except as otherwise provided in Section 4 of this Article VII, the 
 Constitutional Committee shall be limited to voting on the constitutionality of 
 governance actions to be enacted on-chain.
@@ -574,7 +574,7 @@ parameters are introduced.
 #### Amending, Adding or Deprecating Guardrails
 
 The Guardrails set forth in this Appendix may be amended from time to time 
-pursuant to an on chain governance action that satisfies the applicable voting 
+pursuant to an on-chain governance action that satisfies the applicable voting 
 threshold as set forth in this Appendix.
 Any such amendment to any Guardrails shall require and be deemed to be an 
 amendment to the Constitution itself, including any new Guardrails.
@@ -584,7 +584,7 @@ deprecated and a new label will be used in this Appendix.
 Similarly, if a Guardrail is completely deprecated, its label will never be 
 reused in the future.
 In all cases, the Guardrails that apply to a governance action will be those in 
-force at the time that the governance action is submitted on chain, regardless 
+force at the time that the governance action is submitted on-chain, regardless 
 of any later amendments.
 
 #### Terminology and Guidance
