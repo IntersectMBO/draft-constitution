@@ -19,6 +19,8 @@ For further information please see:
   - [Markdown](./2024-12-03/draft-constitution-converted.md)
 - [2024-12-04](./2024-12-04/)
   - [Markdown](./2024-12-04/draft-constitution-converted.md)
+- [2024-12-05](./2024-12-05/)
+  - [Markdown](./2024-12-05/draft-constitution-converted.md)
 
 ### 🚨 **Disclaimer**
 
