@@ -678,7 +678,7 @@ The Guardrails Script only affects two types of governance actions:
 - **Treasury Withdrawal** actions.
 
 The Guardrails Script is executed when either of these types of governance 
-action are submitted on-chain.
+action is submitted on-chain.
 This avoids scenarios where, for example, an erroneous script could prevent the 
 Cardano Blockchain from ever enacting a Hard Fork action, resulting in deadlock.
 There are three different situations that apply to Guardrail Script usage.
