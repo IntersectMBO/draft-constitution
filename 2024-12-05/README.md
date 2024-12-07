@@ -5,7 +5,8 @@ These resulting documents are from discussions on `2024-12-05` across the
 Cardano Constitutional Convention.
 
 Edits were made to the [2024-12-04 draft](../2024-12-04/) from delegate
-discussions in addition to a few technical fixes.
+discussions in addition to a few technical fixes, to reach this draft.
+Which was then endorsed via on-chain vote.
 
 ### Files
 
