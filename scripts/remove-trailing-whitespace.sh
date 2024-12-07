@@ -11,8 +11,8 @@ remove_trailing_whitespace() {
     exit 1
   fi
 
-  # Process the input file and remove trailing whitespace from each line
-  sed 's/[ \t]*$//' "$input_file" > "$output_file"
+  # Process the input file and remove single trailing white space
+  sed 's/[ \]*$//' "$input_file" > "$output_file"
 
   echo "Trailing whitespace has been removed and saved to $output_file."
 }
