@@ -10,7 +10,7 @@ Which was then endorsed via on-chain vote.
 
 ### Files
 
-- [Final raw document file](./cardano-constitution.txt)
+- [Final raw document file](./cardano-constitution-1.txt)
 
 - [Document converted to markdown (best for reading)](./draft-constitution-converted.md)
 
