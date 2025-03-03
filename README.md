@@ -1,5 +1,9 @@
 # Draft Cardano Constitution Files
 
+⚠️ This repository is now archived,
+the drafted constitution was ratified and enacted on Cardano mainnet,
+[please see IntersectMBO/cardano-constitution](https://github.com/IntersectMBO/cardano-constitution).
+
 This repository holds the
 [Delegate Endorsed Constitution document](./2024-12-05/cardano-constitution-1.txt)
 and iterations of the Draft Constitution.
@@ -10,19 +14,12 @@ Drafting took place within a word processing tool.
 A PDF was exported from the word processing tools,
 then it was converted to various files found in this repository.
 
-Markdown and text (`.txt`) files stored here aim to be
-[CIP-120 | Constitution Specification](https://github.com/Ryun1/CIPs/tree/cip-constitution-tech/CIP-0120)
-complaint.
-Some iterations of the document are less compliant than others.
-
-The Delegate Endorsed Constitution was approved by delegates at the Cardano
-Constitutional Convention.
+The [Delegate Endorsed Constitution](./2024-12-04/) was approved by delegates at
+the Cardano Constitutional Convention.
 
 For further information please see:
 
 - [Draft Cardano Constitution on Intersect knowledge base](https://docs.intersectmbo.org/cardano/cardano-governance/cardano-constitution/draft-cardano-constitution)
-
-- [Constitution Workshops on Intersect knowledge base](https://intersect.gitbook.io/constitution)
 
 ## Navigation
 
@@ -45,10 +42,3 @@ For further information please see:
   - [Markdown](./2024-12-03/draft-constitution-converted.md)
 - [2024-12-04 Draft](./2024-12-04/)
   - [Markdown](./2024-12-04/draft-constitution-converted.md)
-
-### 🚨 Issues
-
-If you spot typos/styling errors with the
-[Delegate Endorsed Constitution](./2024-12-05/cardano-constitution-1.txt).
-
-Please email [constitution@intersectmbo.org](constitution@intersectmbo.org).
